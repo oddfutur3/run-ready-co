@@ -272,27 +272,65 @@ export default function PerformanceProgram() {
               </div>
             </section>
 
-            <section className="relative mt-[150px]">
-              <div className=" px-[2.5em] max-w-[1657px] wrapper  !mx-auto w-[100%]  relative z-[2]  ">
-                <div className="flex flex-col lg:flex-row bg-black  justify-between items-center p-6 sm:p-[3em] gap-4 lg:gap-8">
-                  <div
-                    className={
-                      ppNeueMontreal.className +
-                      " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] ' text-white text-center lg:text-left "
-                    }
-                  >
-                 Starter Package - Limited Time Offer
-                 <div  className="mt-2 text-[16px] md:text-[20px] leading-[1.4] lg:text-[20px] lg:leading-[1.2]"> 
-                 Run better with expert guidance, graded footwear, and tailored exercises + extras.
-        </div>
+            <section className="relative mt-8">
+              <div className="px-[2.5em] max-w-[1657px] wrapper !mx-auto w-[100%] relative z-[2]">
+                {/* Header */}
+                <div className=" bg-black text-white text-left pl-4 py-2 font-bold">
+                  BEST VALUE
+                </div>
+
+                {/* Main Content */}
+                <div className="flex flex-col lg:flex-row justify-between items-stretch bg-white border border-black">
+                  {/* Left Section: Package Info */}
+                  <div className="py-6 px-6 lg:px-12 lg:w-1/3 lg:border-r lg:border-black flex flex-col justify-between">
+                    <div>
+                    <h3 className="text-black  font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
+                        Performance Program Starter Pack
+                      </h3>
+                      <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
+                      The perfect way to take your running to the next level.
+                      </p>
+                    </div>
+
+                    <div className="mt-6 flex items-center gap-5">
+                      <div className="text-[2.5rem] font-bold">$349</div>
+                      <Link
+                        href="https://checkout.runready.io/b/dR67tX2Iy7Ea6mQ5kl"
+                        target="_blank"
+                        className="bg-brand-yellow text-black py-2 px-4 w-full font-bold transition  text-center block"
+                      >
+                        Book Now
+                      </Link>
+                    </div>
                   </div>
 
-                  <Link
-                    href="/starter-package"
-                    className="bg-brand-yellow p-5 font-semibold text-center "
-                  >
-                    Reserve Now
-                  </Link>
+                  {/* Middle Section: What's Included */}
+                  <div className="py-6  px-6 lg:px-12 lg:w-1/3 lg:border-r lg:border-black">
+                    <h3 className="text-lg font-bold mb-3">What&apos;s Included</h3>
+                    <ul className="text-[14px] lg:text-[16px] space-y-2">
+                    <li className="border-b border-black pb-2">
+                    RunReady Performance Program</li>
+                    <li className="border-b border-black pb-2">
+                        3x Performance Program Sessions</li>
+                        <li className="border-b border-black pb-2">
+                        Fine-tune your movement and maximize your performance
+                        with expert guidance
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Right Section: Extra Perks */}
+                  <div className="py-6 px-6 lg:px-12 lg:w-1/3">
+                    <h3 className="text-lg font-bold mb-3">Extra Perks</h3>
+                    <ul className="text-[14px] lg:text-[16px] space-y-2">
+                    <li className="border-b border-black pb-2">
+                        Recovery ball + loop band</li>
+                        <li className="border-b border-black pb-2">
+                        $25 off your first footwear purchase</li>
+                        <li className="border-b border-black pb-2">
+                        RunReady Half Marathon Performance Plan</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </section>
