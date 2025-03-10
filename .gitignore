@@ -1,14 +1,23 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+raya-sandbox-febdef173437.json
+raya-production-firebase-adminsdk-fwcjc-fd9ade960d.json
+ui-debug.log
+.env
+.env.prod
+.env.local
+firebase-debug.log
+/utils/Exercises
+/root
+/cache
+
+utils/usersStatsPull
+utils/clubEventsPull
+
 # dependencies
 /node_modules
 /.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+.pnp.js
 
 # testing
 /coverage
@@ -28,10 +37,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# local env files
+.env*.local
 
 # vercel
 .vercel
