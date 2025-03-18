@@ -18,6 +18,8 @@ export async function middleware (request) {
   const isTT = request.nextUrl.pathname.startsWith("/terms-of-service")
   const isLP = request.nextUrl.pathname.startsWith("/landing-page")
   const isFAQ = request.nextUrl.pathname.startsWith("/FAQ")
+  const isFR = request.nextUrl.pathname.startsWith("/performance-program")
+
 
 
 
@@ -25,7 +27,7 @@ export async function middleware (request) {
   const uuidExp = /[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}/
   const isOnAssessResult = uuidExp.test(request.nextUrl.pathname)
 
-  if (!user && !isOnHome && !isOnLogin && !isOnOAuth && !isOnAssessResult && !isCareers && !isWhatToExpect && !isPP && !isVideo && !isPRIV && !isTT && !isLP && !isSP && !isFAQ)  {
+  if (!user && !isOnHome && !isOnLogin && !isOnOAuth && !isOnAssessResult && !isCareers && !isWhatToExpect && !isPP && !isVideo && !isPRIV && !isTT && !isLP && !isSP && !isFAQ && !isFR)  {
       return NextResponse.redirect(new URL("/", request.nextUrl))
   } else if (user && isOnLogin) {
     return NextResponse.redirect(new URL("/dashboard", request.nextUrl))
