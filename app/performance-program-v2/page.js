@@ -34,11 +34,13 @@ export default function RunReady() {
                 <div
                   className={
                     ppNeueMontreal.className +
-                    " text-[38px] lg:text-7xl xl:leading-none font-medium mb-6 lg:mb-6"
+                    " text-[38px] lg:text-6xl xl:leading-none font-medium mb-6 lg:mb-6"
                   }
                 >
-                  The most advanced running assessment. By expert
-                  physiotherapists.{" "}
+                  THE MOST ADVANCED RUNNING ASSESSMENT.
+                  <br/>
+                   BY EXPERT
+                  PHYSIOTHERAPISTS.{" "}
                 </div>
                 <span
                   className={
@@ -77,8 +79,8 @@ export default function RunReady() {
             <section className="wrapper   max-w-[1657px] mx-auto  ">
               <div className="w-full lg:w-[1022px] mx-auto flex flex-col text-center items-center">
                 <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
-                  Our team of expert physiotherapists are here to help you run
-                  healthy{" "}
+                  Our team of health professionals are here to help you run
+                  healthy.
                 </div>
 
                 <p className="my-10 text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
@@ -199,10 +201,10 @@ export default function RunReady() {
                         Exercise program
                       </li>
                       <li className="border-b border-black pb-2">
-                      Treadmill analysis
+                      Treadmill analysis  (+ Symmetry Score)
                       </li>
                       <li className="border-b border-black pb-2">
-                        Performance Score (+ Symmetry)
+                        Performance Score
                       </li>
                      
                     </ul>
