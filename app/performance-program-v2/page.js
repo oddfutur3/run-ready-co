@@ -448,68 +448,63 @@ export default function RunReady() {
               </div>
             </div> */}
    
-            <section
-              // style={{ margin: "0 auto" }}
-              className="wrapper wrapper-content mb-[150px] "
-            >
-              <div className=" flex wrapper-content mx-auto  justify-center">
-                <div className="text-black text-center flex flex-col  justify-center lg:w-[1022px] ">
-                  <div
-                    className={
-                      ppNeueMontreal.className +
-                      " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] "
-                    }
-                  >
-                    RunReady Studio in Kitsilano, Vancouver.
-                  </div>
-                  <p className="my-10 text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
-                    Visit us for advanced running assessments and running health
-                    services. We offer a dedicated assessment area, private
-                    lockers, and a water station to ensure a comfortable
-                    experience while you get the support you need to run better.
-                  </p>
+   <section className="wrapper wrapper-content mb-[150px]">
+          <div className="flex wrapper-content mx-auto justify-center">
+            <div className="text-black text-center flex flex-col justify-center max-w-[1657px]">
+              <div
+                className={
+                  ppNeueMontreal.className +
+                  " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem]"
+                }
+              >
+                RunReady Studio in Kitsilano, Vancouver.
+              </div>
+              <p className="my-10 wrapper text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
+                Visit us for advanced running assessments and running health
+                services. We offer a dedicated assessment area, private lockers,
+                and a water station to ensure a comfortable experience while you
+                get the support you need to run better.
+                <br/><br/>
+                RunReady Studio
+2033 W4th Avenue
+Vancouver, BC
+              </p>
 
-                  <div className=" mt-10 bg-white  flex flex-col w-[fit-content] mx-auto overflow-hidden border-1  border-black border ">
-                    <div className="">
-                      <img
-                        src="/images/location.jpg"
-                        className="h-[500px] object-cover object-center   border-black border-1 border-b"
-                      />
-                    </div>
-                    <div className="p-[1.5em]">
-                      <div className="  fold-bold text-2xl text-left">
-                        RunReady Studio
-                      </div>
-
-                      <Link
-                        href="https://maps.app.goo.gl/2MGWsqy1g2MWNYdd7"
-                        target="_blank"
-                        className="flex mt-5 "
-                        style={{ alignItems: "center" }}
-                      >
-                        {faLocationPin("h-[1rem] fill-black mr-5  ")}
-                        <div className="text-left">
-                          2033 W4th Avenue Vancouver, BC
-                        </div>
-                      </Link>
-
-                      <div
-                        className="flex   my-5"
-                        style={{ alignItems: "center" }}
-                      >
-                        {faShareNodes("h-[1rem] fill-black mr-5")}
-                        <div>(778) 312-1322</div>
-                      </div>
-
-                      <div className="flex  " style={{ alignItems: "center" }}>
-                        {faMagnifyingGlass("h-[1rem] fill-black mr-5")}
-                        <div>info@runready.co</div>
-                      </div>
-                    </div>
-                  </div>
+              {/* Photo Gallery Section */}
+              <div className="   grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">
+                <div className="relative">
+                  <img
+                    src="/images/rr-studio.jpg"
+                    alt="RunReady Studio Interior"
+                    className="w-full h-[300px] lg:h-[400px] object-cover border border-black"
+                  />
+                </div>
+                <div className="relative">
+                  <img
+                    src="/images/rr-keep-going.jpg"
+                    alt="Physiotherapy in Action"
+                    className="w-full h-[300px] lg:h-[400px] object-cover border border-black"
+                  />
+                </div>
+                <div className="relative">
+                  <img
+                    src="/images/rr-sign.jpg"
+                    alt="Treadmill Running Assessment"
+                    className="w-full h-[300px] lg:h-[400px] object-cover  border border-black"
+                  />
+                </div>
+                <div className="relative">
+                  <img
+                    src="/images/studio-wall.jpg"
+                    alt="RunReady Footwear Matching"
+                    className="w-full h-[300px] lg:h-[400px] object-cover  border border-black"
+                  />
                 </div>
               </div>
-            </section>
+            </div>
+          </div>
+        </section>
+
 
             <div className="footer-gradient transparent">
               <div className="text-center mb-8">
