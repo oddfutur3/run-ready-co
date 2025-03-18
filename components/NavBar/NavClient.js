@@ -5,12 +5,8 @@ import Link from "next/link";
 import {
   faBagShopping,
   faBars,
-  faCartShopping,
-  faHeart,
-  faMagnifyingGlass,
-  faPerson,
-  faQuestion,
-  faUser,
+  faChevronDown
+
 } from "@/graphics/faRegular";
 import { useContext, useEffect, useRef, useState } from "react";
 import { useMobileNav } from "./MobileNavProvider";
@@ -37,14 +33,8 @@ export default function NavClient() {
   const contextNavButton = useRef(null);
   const contextNavRef = useRef(null);
 
-  const router = useRouter();
-
-  const isMember = false;
-
-  const uuidExp = /^\/[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/
-
-
-
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const servicesRef = useRef(null);
 
 
   useEffect(() => {
@@ -53,22 +43,48 @@ export default function NavClient() {
     }
   }, [isContextNavOpen]);
 
+  let closeTimeout;
+
+  const handleMouseEnter = () => {
+    clearTimeout(closeTimeout);
+    setIsServicesOpen(true);
+  };
+  
+  const handleMouseLeave = () => {
+    closeTimeout = setTimeout(() => setIsServicesOpen(false), 150); // 150ms delay
+  };
+
   return (
     <div className="order-2 min-[430px]:order-3 gap-[1.0625rem] flex relative">
  
         <div className="flex " style={{ alignItems: "center" }}>
-          <Link
-            href="/performance-program"
-            className=" hidden xl:block   font-medium text-center mr-10"
-          >
-            Performance Program
-          </Link>
-          <Link
-            href="/what-to-expect"
-            className=" hidden xl:block  font-medium text-center mr-10"
-          >
-            What to Expect
-          </Link>
+        <div className="relative mr-10 "  ref={servicesRef}
+  onMouseEnter={handleMouseEnter}
+  onMouseLeave={handleMouseLeave}>
+            <button
+              className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  "
+            >
+              <div>Services</div>
+              <div>{faChevronDown("h-[1rem]")}</div>
+            </button>
+
+            {isServicesOpen && (
+              <div className="absolute bg-white w-[180px] border border-black mt-2  z-50">
+                <Link
+                  href="/performance-program"
+                  className="block px-3 py-2 hover:bg-gray-100"
+                >
+                  Performance Program
+                </Link>
+                <Link
+                  href="/what-to-expect"
+                  className="block px-3 py-2 hover:bg-gray-100"
+                >
+                  What to Expect
+                </Link>
+              </div>
+            )}
+          </div>
   {/* {   pathname === "/" &&(      <Link
             href="/login"
             className=" hidden md:block  font-medium text-center mr-5"

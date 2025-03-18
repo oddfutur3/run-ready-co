@@ -21,7 +21,8 @@ export default function NavBar() {
     "/privacy-policy",
     "/terms-of-service",
     "/landing-page",
-    "/FAQ"
+    "/FAQ",
+    "/free-rrpp"
   ];
 
   const isPathnameLanding = landingPages.includes(pathname);

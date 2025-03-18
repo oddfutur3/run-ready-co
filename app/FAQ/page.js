@@ -12,7 +12,7 @@ import ThreeTab from "@/components/ThreeTab";
 import CardGrid from "@/components/HoverCards";
 
 export const metadata = {
-  title: "RunReady - What To Expect",
+  title: "RunReady - FAQ",
 };
 
 export default function WhatToExpect() {
