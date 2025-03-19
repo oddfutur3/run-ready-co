@@ -35,7 +35,7 @@ export default function StarterPackage() {
                   <div
                     className={
                       ppNeueMontreal.className +
-                      " text-[38px] lg:text-7xl  xl:leading-none font-medium mb-6 lg:mb-6"
+                      " text-[38px] lg:text-5xl  xl:leading-none font-medium mb-6 lg:mb-6"
                     }
                   >
                     Get Ready for Your Best Run—Before Anyone Else

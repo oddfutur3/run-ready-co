@@ -4,6 +4,11 @@ import Footer from "@/components/Footer";
 
 import NavBar from "@/components/NavBar/NavBar";
 import { ppNeueMontreal } from "../fonts";
+import {
+  faLocationPin,
+  faMagnifyingGlass,
+  faShareNodes,
+} from "@/graphics/faRegular";
 
 export default function FreeRRPP() {
   return (
@@ -12,15 +17,18 @@ export default function FreeRRPP() {
         <NavBar />
 
         <div className="relative">
+          {/* Overlay for dark effect */}
+          <div className="absolute inset-0 bg-black bg-opacity-40 z-5"></div>
+
+          {/* Centered Text on Video */}
           <div
             className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
-                text-black flex flex-col min-w-[300px]
-                z-10"
+        text-black flex flex-col min-w-[300px] z-10"
           >
             <div
               className={
                 ppNeueMontreal.className +
-                " text-[38px] lg:text-7xl leading-none font-medium mb-6 lg:mb-6 text-white text-center"
+                " text-[38px] lg:text-5xl leading-none font-medium mb-6 lg:mb-6 text-white text-center"
               }
             >
               Try the most advanced physio-led running assessment
@@ -37,6 +45,8 @@ export default function FreeRRPP() {
               risk.
             </span>
           </div>
+
+          {/* Background Video */}
           <video
             autoPlay
             loop
@@ -206,9 +216,28 @@ export default function FreeRRPP() {
                 services. We offer a dedicated assessment area, private lockers,
                 and a water station to ensure a comfortable experience while you
                 get the support you need to run better.
-                <br/><br/>
-                RunReady Studio - 2033 W4th Avenue Vancouver, BC
               </p>
+
+              {/* Contact Info in One Line */}
+              <div className="flex flex-wrap items-center gap-6 text-[16px] md:text-[20px] text-black mx-auto mb-10">
+
+                {/* Phone */}
+                <div className="flex items-center lg:text-[16px] text-[14px]">
+                {faShareNodes("h-[1rem] fill-black mr-2")}
+                  <span>(778) 312-1322</span>
+                </div>
+
+                <div className="flex items-center lg:text-[16px] text-[14px]">
+                {faLocationPin("h-[1rem] fill-black mr-2")}
+                  <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
+                </div>
+
+                {/* Email */}
+                <div className="flex items-center lg:text-[16px] text-[14px]">
+                {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
+                  <span>info@runready.co</span>
+                </div>
+              </div>
 
               {/* Photo Gallery Section */}
               <div className="   grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">
@@ -257,96 +286,95 @@ export default function FreeRRPP() {
             </div>
           </div>
           <div className="wrapper">
-
-          <div className=" bg-white border border-black lg:w-[1022px] mx-auto p-6">
-            {[
-              {
-                question: "What is the RunReady Performance Program?",
-                answer: `It's the most advanced physio-led running assessment. In three easy steps:
+            <div className=" bg-white border border-black lg:w-[1022px] mx-auto p-6">
+              {[
+                {
+                  question: "What is the RunReady Performance Program?",
+                  answer: `It's the most advanced physio-led running assessment. In three easy steps:
 
                 • Assess how your body moves.
                 • Match you with the right footwear.
                 • Prescribe tailored exercises to improve comfort and performance.`,
-              },
-              {
-                question: "Who delivers the RunReady Performance Program?",
-                answer:
-                  "A licensed RunReady Physiotherapist leads your session, providing expert movement analysis and personalized recommendations.",
-              },
-              {
-                question: "Who is the RunReady Performance Program for?",
-                answer:
-                  "Anyone who wants to run more comfortably, move better, and reduce injury risk—whether you're new to running or experienced.",
-              },
-              {
-                question: "What’s included in the free session?",
-                answer: `• Performance Program: It’s a 60-minute movement-based assessment, footwear match, and personalized exercises.
+                },
+                {
+                  question: "Who delivers the RunReady Performance Program?",
+                  answer:
+                    "A licensed RunReady Physiotherapist leads your session, providing expert movement analysis and personalized recommendations.",
+                },
+                {
+                  question: "Who is the RunReady Performance Program for?",
+                  answer:
+                    "Anyone who wants to run more comfortably, move better, and reduce injury risk—whether you're new to running or experienced.",
+                },
+                {
+                  question: "What’s included in the free session?",
+                  answer: `• Performance Program: It’s a 60-minute movement-based assessment, footwear match, and personalized exercises.
                 • Performance Program+: It’s a 90-minute movement assessment and treadmill analysis for more detailed insights.`,
-              },
-              {
-                question: "How do I use my complimentary session?",
-                answer:
-                  "This card is valid for one free session and must be booked in advance. It cannot be transferred or exchanged for cash.",
-              },
-              {
-                question: "When does my card expire?",
-                answer:
-                  "The expiry date is listed on your card. Be sure to book before then.",
-              },
-              {
-                question: "Can I book follow-up sessions?",
-                answer:
-                  "If you decide to book another session, you’ll be charged the standard rate. You'll receive a receipt that you can submit to your insurance provider for physiotherapy coverage—check with them to confirm eligibility.",
-              },
-              {
-                question: "Will I be using a treadmill?",
-                answer:
-                  "Only if you’re booked for Performance Program+. The standard Performance Program session does not include a treadmill assessment.",
-              },
-              {
-                question: "Where is this offered?",
-                answer:
-                  "At RunReady Studio, 2033-W 4th Ave inside the RunAsYouAre shop.",
-              },
-              {
-                question: "Do I need a referral?",
-                answer: "No, you can book directly.",
-              },
-              {
-                question: "Is this a workout? Do I need to warm up?",
-                answer:
-                  "No, it’s an assessment, not a workout. You’ll move through different tests but won’t need to warm up beforehand.",
-              },
-              {
-                question: "What should I wear and bring?",
-                answer:
-                  "Wear fitted running gear and bring your current running shoes. You may go barefoot for some tests.",
-              },
-              {
-                question: "What happens after my session?",
-                answer:
-                  "You’ll get a Performance Score and a personalized Performance Blueprint with recommendations for footwear and exercises to improve your running.",
-              },
-            ].map((faq, index) => (
-              <div
-                key={index}
-                className="border-b border-black last:border-none w-full"
-              >
-                <details className="p-4">
-                  <summary className="cursor-pointer text-xl font-medium">
-                    {faq.question}
-                  </summary>
-                  <div className="mt-2 text-black">
-                    {faq.answer.split("\n").map((line, i) => (
-                      <p key={i} className="mb-2">
-                        {line}
-                      </p>
-                    ))}
-                  </div>
-                </details>
-              </div>
-            ))}
-          </div>
+                },
+                {
+                  question: "How do I use my complimentary session?",
+                  answer:
+                    "This card is valid for one free session and must be booked in advance. It cannot be transferred or exchanged for cash.",
+                },
+                {
+                  question: "When does my card expire?",
+                  answer:
+                    "The expiry date is listed on your card. Be sure to book before then.",
+                },
+                {
+                  question: "Can I book follow-up sessions?",
+                  answer:
+                    "If you decide to book another session, you’ll be charged the standard rate. You'll receive a receipt that you can submit to your insurance provider for physiotherapy coverage—check with them to confirm eligibility.",
+                },
+                {
+                  question: "Will I be using a treadmill?",
+                  answer:
+                    "Only if you’re booked for Performance Program+. The standard Performance Program session does not include a treadmill assessment.",
+                },
+                {
+                  question: "Where is this offered?",
+                  answer:
+                    "At RunReady Studio, 2033-W 4th Ave inside the RunAsYouAre shop.",
+                },
+                {
+                  question: "Do I need a referral?",
+                  answer: "No, you can book directly.",
+                },
+                {
+                  question: "Is this a workout? Do I need to warm up?",
+                  answer:
+                    "No, it’s an assessment, not a workout. You’ll move through different tests but won’t need to warm up beforehand.",
+                },
+                {
+                  question: "What should I wear and bring?",
+                  answer:
+                    "Wear fitted running gear and bring your current running shoes. You may go barefoot for some tests.",
+                },
+                {
+                  question: "What happens after my session?",
+                  answer:
+                    "You’ll get a Performance Score and a personalized Performance Blueprint with recommendations for footwear and exercises to improve your running.",
+                },
+              ].map((faq, index) => (
+                <div
+                  key={index}
+                  className="border-b border-black last:border-none w-full"
+                >
+                  <details className="p-4">
+                    <summary className="cursor-pointer text-xl font-medium">
+                      {faq.question}
+                    </summary>
+                    <div className="mt-2 text-black">
+                      {faq.answer.split("\n").map((line, i) => (
+                        <p key={i} className="mb-2">
+                          {line}
+                        </p>
+                      ))}
+                    </div>
+                  </details>
+                </div>
+              ))}
+            </div>
           </div>
           {/* <div className="mb-40"></div> */}
           <div className="mb-[150px] "></div>

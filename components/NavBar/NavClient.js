@@ -64,7 +64,7 @@ export default function NavClient() {
             <button
               className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  "
             >
-              <div>Services</div>
+              <div>Run Assessment</div>
               <div>{faChevronDown("h-[1rem]")}</div>
             </button>
 
