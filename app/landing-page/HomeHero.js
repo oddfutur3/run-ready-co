@@ -13,16 +13,16 @@ import NavClient from "@/components/NavBar/NavClient";
 export default function HomeHero() {
   return (
     <div className="flex flex-col">
-        <NavBar />
+      <NavBar />
       <div className="relative">
-        <div className="absolute max-[1520px]:left-[73px] max-[1520px]:top-[300px] min-[1521px]:left-[196px] min-[1521px]:top-[411px]  top-[230px] max-[640px]:top-[230px] text-black flex flex-col max-[1520px]:w-[519px] justify-center min-[1521px]:w-[689px]  max-[640px]:w-auto max-[640px]:pr-10 max-[760px]:left-[24px]    z-10">
+        <div className="absolute max-[1520px]:left-[73px] max-[1520px]:top-[300px] min-[1521px]:left-[196px] min-[1521px]:top-[411px]  top-[230px] max-[640px]:top-[230px] text-black flex flex-col max-[1520px]:w-[550px] justify-center min-[1521px]:w-[689px]  max-[640px]:w-auto max-[640px]:pr-10 max-[760px]:left-[24px]    z-10">
           <div
             className={
               ppNeueMontreal.className +
               " text-[38px] lg:text-5xl leading-none font-medium mb-6 lg:mb-6 text-white"
             }
           >
-            The future of running health starts here
+            All things running healthy
           </div>
           <span
             className={
@@ -30,10 +30,7 @@ export default function HomeHero() {
               " text-[16px] md:text-[20px]  leading-[1.4] lg:leading-[1.2] text-white"
             }
           >
-            RunReady Physiotherapists study running, develop health running
-            services, design exercise programs, and work with Footwear
-            Specialists to grade shoes for Absorb, Bounce, and Stability—helping
-            runners move better.
+          RunReady Physiotherapists study running, develop running health services, design exercise programs, and work with Footwear Specialists to grade shoes for Absorb, Bounce, and Stability—helping runners with comfort and performance.
           </span>
 
           <div className="mt-10 relative z-50">
@@ -55,79 +52,10 @@ export default function HomeHero() {
       </div>
 
       <div className="hero-gradient">
-        <section
-          className={
-            ppNeueMontreal.className +
-            " wrapper max-w-[1657px] mx-auto mb-[150px] mt-[50px]"
-          }
-        >
-          <div className="w-full lg:w-[910px] mx-auto flex flex-col text-center items-center">
-            <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] lg:text-[2.5rem]   leading-[1.28]  lg:leading-[1.25] font-medium my-10">
-              Turning research into results
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-[1.1rem] gap-y-[2rem] auto-cols-fr justify-between pb-0">
-            {/* Block 1 */}
-            <div className="text-no-underline w-inline-block">
-              <div className="box-border bg-white border border-black p-8 overflow-hidden h-full flex flex-col justify-center items-center text-center">
-                <div className="mb-6">
-                  <div className="text-black  text-[1.4rem] lg:text-[1.625rem] leading-[1.3] font-bold">
-                    Research & Development
-                  </div>
-                </div>
-                <div className="flex-grow flex items-center">
-                  <p className="text-black    text-[14px] lg:text-[16px]    ">
-                    RunReady Physiotherapists study how people run, build
-                    running health services, design exercise programs, and
-                    together with Footwear Specialists, grade footwear to help
-                    runners move better.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Block 2 */}
-            <div className="text-no-underline w-inline-block">
-              <div className="box-border bg-white border border-black p-8 overflow-hidden h-full flex flex-col justify-center items-center text-center">
-                <div className="mb-6">
-                  <div className="text-black text-[1.4rem] lg:text-[1.625rem] leading-[1.3] font-bold">
-                    RunReady Physiotherapists
-                  </div>
-                </div>
-                <div className="flex-grow flex items-center">
-                  <p className="text-black text-[14px] lg:text-[16px] ">
-                    Our Physiotherapists deliver expert assessments, precise
-                    footwear matching, and tailored exercise programs at the
-                    RunReady Studio in Vancouver, BC.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Block 3 */}
-            <div className="text-no-underline w-inline-block">
-              <div className="box-border bg-white border border-black p-8 overflow-hidden h-full flex flex-col justify-center items-center text-center">
-                <div className="mb-6">
-                  <div className="text-black text-[1.4rem] lg:text-[1.625rem] leading-[1.3] font-bold">
-                    Education & Certification
-                  </div>
-                </div>
-                <div className="flex-grow flex items-center">
-                  <p className="text-black   text-[14px] lg:text-[16px]">
-                    We create specialized courses and certify
-                    Physiotherapists—equipping them with the tools to provide
-                    expert running health care through the RunReady Performance
-                    Program.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* SECTION 4 */}
-        <ThreeTab />
+        <div className="mt-[50px] ">
+          {/* SECTION 4 */}
+          <ThreeTab />
+        </div>
 
         <section
           className={

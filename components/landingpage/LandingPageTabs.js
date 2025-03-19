@@ -10,7 +10,7 @@ const LandingPageTabs = () => {
   const cardContainerRef = useRef(null);
 
   const tabs = {
-    0: { name: "Launch Series", length: "130" },
+    0: { name: "Docu-Series / Blog / Research", length: "210" },
     // Add more tabs here if necessary
   };
   const scrollLeft = () => {
@@ -45,7 +45,7 @@ const LandingPageTabs = () => {
     <div className="wrapper overflow-x-hidden mb-[50px] ">
       <div className="wrapper-content">
         <div className=" text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] font-medium lg:w-[665px] mb-16">
-        Get an inside look at RunReady with our behind-the-scenes docu-series.
+        Explore our curated resources designed to deepen your knowledge of RunReady.
         </div>
         <div className="w-full h-[2rem] relative overflow-x-auto mb-6">
           <div className="absolute bottom-[17px] inline-flex gap-[3rem] text-text-contrast [&>*]:font-medium [&>*]:text-[0.875rem] [&>*]:leading-[1.2] [&>*]:tracking-[-1%]">
