@@ -15,6 +15,8 @@ export default function HomeHero() {
     <div className="flex flex-col">
       <NavBar />
       <div className="relative">
+      <div className="absolute inset-0 bg-black bg-opacity-40 z-5"></div>
+
         <div className="absolute max-[1520px]:left-[73px] max-[1520px]:top-[300px] min-[1521px]:left-[196px] min-[1521px]:top-[411px]  top-[230px] max-[640px]:top-[230px] text-black flex flex-col max-[1520px]:w-[550px] justify-center min-[1521px]:w-[689px]  max-[640px]:w-auto max-[640px]:pr-10 max-[760px]:left-[24px]    z-10">
           <div
             className={

@@ -105,7 +105,7 @@ const ThreeTab = () => {
             <div className="flex-col flex flex-1 justify-center md:items-center">
               <div className=" px-5">
                 <div>
-                  <div className="text-xs uppercase tracking-widest text-gray-500 mb-1 mt-10">
+                  <div className="text-xs font-bold   tracking-widest text-gray-400 mb-1 mt-10">
                   {content[tab].eyebrow}
                   </div>
                 </div>

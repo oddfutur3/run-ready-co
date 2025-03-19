@@ -221,23 +221,31 @@ export default function FreeRRPP() {
               {/* Contact Info in One Line */}
               <div className="flex flex-wrap items-center gap-6 text-[16px] md:text-[20px] text-black mx-auto mb-10">
 
-                {/* Phone */}
-                <div className="flex items-center lg:text-[16px] text-[14px]">
-                {faShareNodes("h-[1rem] fill-black mr-2")}
-                  <span>(778) 312-1322</span>
-                </div>
+{/* Phone */}
+<a href="tel:+17783121322" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
+  {faShareNodes("h-[1rem] fill-black mr-2")}
+  <span>(778) 312-1322</span>
+</a>
 
-                <div className="flex items-center lg:text-[16px] text-[14px]">
-                {faLocationPin("h-[1rem] fill-black mr-2")}
-                  <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
-                </div>
+{/* Address */}
+<a 
+  href="https://maps.app.goo.gl/T552YAw7An1eryj79" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+>
+  {faLocationPin("h-[1rem] fill-black mr-2")}
+  <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
+</a>
 
-                {/* Email */}
-                <div className="flex items-center lg:text-[16px] text-[14px]">
-                {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
-                  <span>info@runready.co</span>
-                </div>
-              </div>
+{/* Email */}
+<a href="mailto:info@runready.co" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
+  {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
+  <span>info@runready.co</span>
+</a>
+
+</div>
+
 
               {/* Photo Gallery Section */}
               <div className="   grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">

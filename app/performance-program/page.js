@@ -100,7 +100,7 @@ export default function RunReady() {
                     START HERE
                   </div>
                   <div className="flex flex-col flex-grow">
-                  <p className="text-xs uppercase tracking-widest text-gray-500 mb-2">
+                  <p className="text-xs font-bold tracking-widest text-gray-400 mb-1">
                   Performance Program (RRPP)
                     </p>
                     <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
@@ -163,7 +163,7 @@ export default function RunReady() {
                 <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10 xl:mt-0 mt-8">
                   <div className="flex flex-col flex-grow">
                     {/* Eyebrow Text */}
-                    <p className="text-xs uppercase tracking-widest text-gray-500 mb-2">
+                    <p className="text-xs font-bold tracking-widest text-gray-400 mb-1">
                       Performance Program+ (RRPP+)
                     </p>
 
@@ -235,14 +235,14 @@ export default function RunReady() {
                 {/* Massage Therapy */}
                 <div className="bg-white border border-black flex flex-col p-6 sm:p-8 md:p-10">
                   <div className="flex flex-col flex-grow">
-                  <p className="text-xs uppercase tracking-widest text-gray-500 mb-2">
+                  <p className="text-xs font-bold tracking-widest text-gray-400 mb-1">
                   Progress Session
                     </p>
                     <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                    RRPP Followup
+                    Performance Program Followup
                     </h3>
 
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left h-[143px]">
+                    <p className="text-[14px] lg:text-[16px] mb-4 text-left h-[110px]">
                       This follow-up session fine-tunes your movements with a
                       physiotherapist to improve your form for the best results.
                     </p>
@@ -495,21 +495,28 @@ export default function RunReady() {
                   <div className="flex flex-wrap items-center gap-6 text-[16px] md:text-[20px] text-black mx-auto mb-10">
 
 {/* Phone */}
-<div className="flex items-center lg:text-[16px] text-[14px]">
+<a href="tel:+17783121322" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
   {faShareNodes("h-[1rem] fill-black mr-2")}
   <span>(778) 312-1322</span>
-</div>
+</a>
 
-<div className="flex items-center lg:text-[16px] text-[14px]">
+{/* Address */}
+<a 
+  href="https://maps.app.goo.gl/T552YAw7An1eryj79" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+>
   {faLocationPin("h-[1rem] fill-black mr-2")}
   <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
-</div>
+</a>
 
 {/* Email */}
-<div className="flex items-center lg:text-[16px] text-[14px]">
+<a href="mailto:info@runready.co" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
   {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
   <span>info@runready.co</span>
-</div>
+</a>
+
 </div>
 
                   {/* Photo Gallery Section */}

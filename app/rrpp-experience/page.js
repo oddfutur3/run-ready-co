@@ -8,7 +8,7 @@ import Image from "next/image";
 import FreeRRPP from "./FreeRRPP";
 
 export const metadata = {
-  title: "RunReady - Free RRPP",
+  title: "RunReady - Complimentary Performance Program",
 };
 
 export default function FreeRRPPPage() {

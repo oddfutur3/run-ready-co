@@ -8,7 +8,7 @@ import Link from "next/link";
 
 
 export const metadata = {
-  title: "RunReady",
+  title: "RunReady - All things running healthy",
 };
 
 export default function Home() {
