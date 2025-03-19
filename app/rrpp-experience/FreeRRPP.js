@@ -92,7 +92,7 @@ export default function FreeRRPP() {
                         <h3
                           className={
                             ppNeueMontreal.className +
-                            " text-[16px]  lg:text-[18px] font-semibold mt-4"
+                            " text-[16px]  lg:text-[18px] font-semibold mt-4 md:mt-0"
                           }
                         >
                           {title}
@@ -207,9 +207,7 @@ export default function FreeRRPP() {
                 and a water station to ensure a comfortable experience while you
                 get the support you need to run better.
                 <br/><br/>
-                RunReady Studio
-2033 W4th Avenue
-Vancouver, BC
+                RunReady Studio - 2033 W4th Avenue Vancouver, BC
               </p>
 
               {/* Photo Gallery Section */}

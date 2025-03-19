@@ -18,7 +18,7 @@ export async function middleware (request) {
   const isTT = request.nextUrl.pathname.startsWith("/terms-of-service")
   const isLP = request.nextUrl.pathname.startsWith("/landing-page")
   const isFAQ = request.nextUrl.pathname.startsWith("/FAQ")
-  const isFR = request.nextUrl.pathname.startsWith("/free-rrpp")
+  const isFR = request.nextUrl.pathname.startsWith("/rrpp-experience")
 
 
 

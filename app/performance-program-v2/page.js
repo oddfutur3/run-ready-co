@@ -37,10 +37,10 @@ export default function RunReady() {
                     " text-[38px] lg:text-6xl xl:leading-none font-medium mb-6 lg:mb-6"
                   }
                 >
-                  THE MOST ADVANCED RUNNING ASSESSMENT.
+                  The Most Advanced Running Assessment.
                   <br/>
-                   BY EXPERT
-                  PHYSIOTHERAPISTS.{" "}
+                   By Expert
+                  Physiotherapists.{" "}
                 </div>
                 <span
                   className={
@@ -467,9 +467,7 @@ export default function RunReady() {
                 and a water station to ensure a comfortable experience while you
                 get the support you need to run better.
                 <br/><br/>
-                RunReady Studio
-2033 W4th Avenue
-Vancouver, BC
+                RunReady Studio - 2033 W4th Avenue Vancouver, BC
               </p>
 
               {/* Photo Gallery Section */}
