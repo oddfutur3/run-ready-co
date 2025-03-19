@@ -119,7 +119,7 @@ const ThreeTab = () => {
             </div>
           </div>
           <div className="flex justify-center flex-1 relative ">
-            <div className="img-container w-[100%] relative border border-1 border-black ">
+            <div className="img-container w-[100%] relative border-t border-b border-r  border-black ">
               <img
                 src={content[tab].src}
                 className="w-full h-[444px] object-cover"

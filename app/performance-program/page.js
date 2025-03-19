@@ -18,6 +18,10 @@ import { notFound } from "next/navigation";
 import ThreeTab from "@/components/ThreeTab";
 import CardGrid from "@/components/HoverCards";
 
+export const metadata = {
+  title: "RunReady - Performance Program",
+};
+
 export default function RunReady() {
   // notFound()
   return (
