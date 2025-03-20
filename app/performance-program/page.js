@@ -246,7 +246,7 @@ export default function RunReady() {
                   Progress Session
                     </p>
                     <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                    Performance Program Followup
+                    Performance Program Follow-up
                     </h3>
 
                     <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
