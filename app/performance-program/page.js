@@ -100,20 +100,20 @@ export default function RunReady() {
                     START HERE
                   </div>
                   <div className="flex flex-col flex-grow">
-                  <p className="text-xs font-bold tracking-widest text-gray-400 mb-1">
+                    <div className="lg:h-[280px]">
+
+                  <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                   Performance Program (RRPP)
                     </p>
                     <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
                       Movement Assessment
                     </h3>
 
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left h-[144px]">
-                      A movement assessment with a physiotherapist. You will
-                      receive scores that measure Absorb, Bounce, and Stability
-                      to match you with the right footwear to complement you
-                      needs, provide customized exercises.
+                    <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
+                    A movement assessment with a physiotherapist. You will receive scores that measure Absorb, Bounce, and Stability to match you with the proper footwear to complement your needs and a customized exercise program.
                     </p>
 
+                    </div>
                     <div>
                       <div className="flex justify-start mb-4">
                         <div className="text-center mr-10">
@@ -163,7 +163,9 @@ export default function RunReady() {
                 <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10 xl:mt-0 mt-8">
                   <div className="flex flex-col flex-grow">
                     {/* Eyebrow Text */}
-                    <p className="text-xs font-bold tracking-widest text-gray-400 mb-1">
+                    <div className="lg:h-[280px]">
+
+                    <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                       Performance Program+ (RRPP+)
                     </p>
 
@@ -173,12 +175,14 @@ export default function RunReady() {
                     </h3>
 
                     {/* Description */}
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left h-[110px]">
+                    <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
                       Everything from RRPP in addition to a treadmill analysis
                       with a physiotherapist. We analyze your running form to
                       measure Symmetry, allowing more details and precision in
                       footwear recommendations and exercise programs.
                     </p>
+
+                    </div>
 
                     {/* Session Details */}
                     <div>
@@ -235,17 +239,21 @@ export default function RunReady() {
                 {/* Massage Therapy */}
                 <div className="bg-white border border-black flex flex-col p-6 sm:p-8 md:p-10">
                   <div className="flex flex-col flex-grow">
-                  <p className="text-xs font-bold tracking-widest text-gray-400 mb-1">
+
+                  <div className="lg:h-[280px]">
+
+                  <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                   Progress Session
                     </p>
                     <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
                     Performance Program Followup
                     </h3>
 
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left h-[110px]">
+                    <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
                       This follow-up session fine-tunes your movements with a
                       physiotherapist to improve your form for the best results.
                     </p>
+                    </div>
 
                     <div>
                       <div className="flex justify-start mb-4">

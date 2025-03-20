@@ -64,148 +64,74 @@ In this episode, get a behind-the-scenes look at how we’ve crafted these exerc
       description: `Running better starts with understanding how your body moves. Episode 6 focuses on Assess, the first step of the RunReady Performance Program.
 RunReady Physiotherapists analyze movement to uncover the insights your body needs, whether it's shock absorption, energy return, or stability. This three-step process lays the foundation to match you with the right footwear and exercises, helping you run more comfortably and perform better.
 `,
-videoUrl:"7lJ_l_NbvfY"
+      videoUrl: "7lJ_l_NbvfY",
+    },
 
-      },
-
-      {
-        title: "Episode 07/10: Beyond the Sole",
-        location: "Florida, USA",
-        img: "/images/ep-7.png",
-        tags: ["Environment", "Coastal", "Restoration"],
-        description:
-          `Every great run starts beyond the sole. Episode 07 of the RunReady Performance Program takes you inside Match—the second step where graded footwear is matched to your unique movement. This process delivers recommendations that are precise, personal, and designed to help you run healthier and more comfortably.
+    {
+      title: "Episode 07/10: Beyond the Sole",
+      location: "Florida, USA",
+      img: "/images/ep-7.png",
+      tags: ["Environment", "Coastal", "Restoration"],
+      description: `Every great run starts beyond the sole. Episode 07 of the RunReady Performance Program takes you inside Match—the second step where graded footwear is matched to your unique movement. This process delivers recommendations that are precise, personal, and designed to help you run healthier and more comfortably.
 Grading nights bring runners into the process, allowing us to test and fine-tune our grades so every shoe recommendation performs exactly as intended.
 `,
-videoUrl:"4BZN5d6gaqw"
-
-      },
-      {
-        title: "Episode 08/10: Tailored for You",
-        location: "Florida, USA",
-        img: "/images/ep-8.png",
-        tags: ["Environment", "Coastal", "Restoration"],
-        description:
-          `The final step of the RunReady Performance Program is Prescribe—tailored exercises built to help your body handle running challenges, making every run feel smoother and more efficient.
+      videoUrl: "4BZN5d6gaqw",
+    },
+    {
+      title: "Episode 08/10: Tailored for You",
+      location: "Florida, USA",
+      img: "/images/ep-8.png",
+      tags: ["Environment", "Coastal", "Restoration"],
+      description: `The final step of the RunReady Performance Program is Prescribe—tailored exercises built to help your body handle running challenges, making every run feel smoother and more efficient.
 In Episode 08, RunReady physiotherapist Sean Sawer explains how foundational research and testing helped shape the Prescribe step. Learn how these exercises focus on improving your body's ability to absorb impact and bounce back, keeping you moving stronger with less effort.
 `,
-videoUrl:"AVD_yb703eg"
-
-      },
-      {
-        title: "Episode 09/10: Runner's High",
-        location: "Florida, USA",
-        img: "/images/ep-9.png",
-        tags: ["Environment", "Coastal", "Restoration"],
-        description:
-          `A few weeks back, we were at The Running Event in Austin—a big moment to share our vision for the future of RunReady. It was all about connecting with brands and showing how the RunReady Performance Program will help people run healthier, feel better, and perform their best. Episode 09 takes you behind the scenes of those conversations and gives you a look at what's next.
+      videoUrl: "AVD_yb703eg",
+    },
+    {
+      title: "Episode 09/10: Runner's High",
+      location: "Florida, USA",
+      img: "/images/ep-9.png",
+      tags: ["Environment", "Coastal", "Restoration"],
+      description: `A few weeks back, we were at The Running Event in Austin—a big moment to share our vision for the future of RunReady. It was all about connecting with brands and showing how the RunReady Performance Program will help people run healthier, feel better, and perform their best. Episode 09 takes you behind the scenes of those conversations and gives you a look at what's next.
 `,
-videoUrl:"V9IArtPSYIo"
+      videoUrl: "V9IArtPSYIo",
+    },
+    {
+      title: "Episode 10/10: The Path Forward",
+      location: "Florida, USA",
+      img: "/images/ep-10.png",
+      tags: ["Environment", "Coastal", "Restoration"],
+      description: `2024 set the stage. Now, in 2025, we’re taking the next step forward: helping people run healthier. Everywhere. The RunReady Performance Program is launching at RunAsYouAre. This first-of-its-kind system is built on three steps for better running: Assess, Match, and Prescribe. This is where running evolves. Where health and performance come together in ways that inspire, challenge, and push boundaries. Because better running doesn’t just happen—it’s built, step by step.`,
+      videoUrl: "Cd5Y4qH5-cA",
+    },
 
-      },
-      {
-        title: "Episode 10/10: The Path Forward",
-        location: "Florida, USA",
-        img: "/images/ep-10.png",
-        tags: ["Environment", "Coastal", "Restoration"],
-        description:
-          `2024 set the stage. Now, in 2025, we’re taking the next step forward: helping people run healthier. Everywhere. The RunReady Performance Program is launching at RunAsYouAre. This first-of-its-kind system is built on three steps for better running: Assess, Match, and Prescribe. This is where running evolves. Where health and performance come together in ways that inspire, challenge, and push boundaries. Because better running doesn’t just happen—it’s built, step by step.`,
-videoUrl:"Cd5Y4qH5-cA"
-
-      },
-      // {
-      //   title: "Episode 5",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-      // {
-      //   title: "Episode 6",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-      // {
-      //   title: "Episode 7",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-      // {
-      //   title: "Episode 8",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-      // {
-      //   title: "Episode 9",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-      // {
-      //   title: "Episode 10",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-      // {
-      //   title: "Episode 11",
-      //   location: "Florida, USA",
-      //   img: "https://via.placeholder.com/290x370",
-      //   tags: ["Environment", "Coastal", "Restoration"],
-      //   description:
-      //     "Description for Episode 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-      // },
-    ],
-    // 1: [
-    //   {
-    //     title: "Coral Project 1",
-    //     location: "Great Barrier Reef, Australia",
-    //     img: "https://via.placeholder.com/290x370",
-    //     tags: ["Marine", "Biodiversity", "Reef"],
-    //     description:
-    //       "This is a long description of the Coral Project 1. It covers the project objectives, impact, and how it's contributing to marine biodiversity in the Great Barrier Reef.",
-    //   },
-    //   {
-    //     title: "Coral Project 2",
-    //     location: "Maldives",
-    //     img: "https://via.placeholder.com/290x370",
-    //     tags: ["Marine", "Conservation", "Restoration"],
-    //     description:
-    //       "This is a long description of the Coral Project 2. It focuses on reef restoration and the engagement with local communities to protect marine habitats.",
-    //   },
-    // ],
-    // 2: [
-    //   {
-    //     title: "Forest Project 1",
-    //     location: "Amazon Rainforest, Brazil",
-    //     img: "https://via.placeholder.com/290x370",
-    //     tags: ["Forest", "Biodiversity", "Reforestation"],
-    //     description:
-    //       "This is a long description of the Forest Project 1. It covers reforestation efforts in the Amazon, aiming to restore the ecosystem and protect indigenous communities.",
-    //   },
-    // ],
-    // 3: [
-    //   {
-    //     title: "Grassland Project 1",
-    //     location: "Serengeti, Tanzania",
-    //     img: "https://via.placeholder.com/290x370",
-    //     tags: ["Grassland", "Ecosystem", "Conservation"],
-    //     description:
-    //       "This is a long description of the Grassland Project 1. It covers the project objectives, impact, and how it's contributing to the ecosystem in the Serengeti region.",
-    //   },
-    // ],
-  };
+  ],
+  1: [
+    {
+      title: "Coming Soon",
+    },
+  //   {
+  //     title: "Coral Project 2",
+  //     location: "Maldives",
+  //     img: "https://via.placeholder.com/290x370",
+  //     tags: ["Marine", "Conservation", "Restoration"],
+  //     description:
+  //       "This is a long description of the Coral Project 2. It focuses on reef restoration and the engagement with local communities to protect marine habitats.",
+  //   },
+  ],
+  2: [
+    {
+      title: "Coming Soon",
+    },
+  ],
+  // 3: [
+  //   {
+  //     title: "Grassland Project 1",
+  //     location: "Serengeti, Tanzania",
+  //     img: "https://via.placeholder.com/290x370",
+  //     tags: ["Grassland", "Ecosystem", "Conservation"],
+  //     description:
+  //       "This is a long description of the Grassland Project 1. It covers the project objectives, impact, and how it's contributing to the ecosystem in the Serengeti region.",
+  //   },
+  // ],
+};

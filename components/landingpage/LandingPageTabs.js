@@ -10,7 +10,10 @@ const LandingPageTabs = () => {
   const cardContainerRef = useRef(null);
 
   const tabs = {
-    0: { name: "Docu-Series / Blog / Research", length: "210" },
+    0: { name: "Docu-Series", length: "100" },
+    1: { name: "Blog", length: "100" },
+    2: { name: "Research", length: "100" },
+
     // Add more tabs here if necessary
   };
   const scrollLeft = () => {
@@ -95,51 +98,59 @@ const LandingPageTabs = () => {
         </div>
 
         <div
-          ref={cardContainerRef}
-          className="flex  gap-[1.5rem] overflow-x-auto scrollbar 
-          min-[768px]:!mr-[-4rem] 
-          min-[1655px]:!mr-[calc((1513px-100vw)/2)]
-          !mr-[-1.5rem]
-           pr-[1.5rem]"
-           
-          style={{ scrollBehavior: "smooth" }}
-        >
-          {cards[tab].map((card, index) => (
-            <div
-              key={index}
-              className="flex flex-shrink-0 w-full max-w-[670px] min-w-[670px] h-auto max-h-[380px] object-cover group hover:opacity-80 transition-opacity duration-300 border border-black  shadow-md relative"
-              onClick={() => openModal(card.videoUrl)}
-              style={{ cursor: "pointer" }}
-            >
-              {/* Image Container */}
-              <div className="relative w-[300px] h-[370px] flex-shrink-0">
-                {/* Image Thumbnail */}
-                <img
-                  src={card.img}
-                  alt={card.title}
-                  className="w-full h-full object-cover"
-                />
+  ref={cardContainerRef}
+  className="flex gap-[1.5rem] overflow-x-auto scrollbar 
+  min-[768px]:!mr-[-4rem] 
+  min-[1655px]:!mr-[calc((1513px-100vw)/2)]
+  !mr-[-1.5rem] pr-[1.5rem]"
+  style={{ scrollBehavior: "smooth" }}
+>
+  {cards[tab].map((card, index) => (
+  <div
+  key={index}
+  className={` 
+    ${card.title === "Coming Soon" ? "" : "flex flex-shrink-0 w-full max-w-[670px] min-w-[670px] h-auto max-h-[380px] object-cover group hover:opacity-80 transition-opacity duration-300 border border-black shadow-md relative"}`}
+  style={{ cursor: card.title === "Coming Soon" ? "default" : "pointer" }}
+  onClick={() => card.title !== "Coming Soon" && openModal(card.videoUrl)}
+>
+      {/* If card is "Coming Soon", show only this */}
+      {card.title === "Coming Soon" ? (
+      <div>
+        Coming Soon...
+      </div>
+      ) : (
+        <>
+          {/* Image Container */}
+          <div className="relative w-[300px] h-[370px] flex-shrink-0">
+            {/* Image Thumbnail */}
+            <img
+              src={card.img}
+              alt={card.title}
+              className="w-full h-full object-cover"
+            />
 
-                {/* Play Icon Overlay (Centered in the Image) */}
-                <div className="absolute inset-0 flex justify-center items-center pt-10">
-                  {faPlay("h-[4rem] fill-[#edfd35] ")}
-                </div>
-              </div>
-
-              <div className="min-w-[330px] px-4 pt-4 lg:px-6 lg:pt-6 relative bg-white ">
-                <div className="text-sm text-gray-600 caption">
-                  {tabs[tab].name}
-                </div>
-
-                <div className="my-5">
-                  <h3 className="text-xl font-semibold mb-1">{card.title}</h3>
-                </div>
-
-                <p className="text-sm overflow-auto max-h-[240px]">{card.description}</p>
-              </div>
+            {/* Play Icon Overlay (Centered in the Image) */}
+            <div className="absolute inset-0 flex justify-center items-center pt-10">
+              {faPlay("h-[4rem] fill-[#edfd35]")}
             </div>
-          ))}
-        </div>
+          </div>
+
+          {/* Card Details */}
+          <div className="min-w-[330px] px-4 pt-4 lg:px-6 lg:pt-6 relative bg-white">
+            <div className="text-sm text-gray-600 caption">{tabs[tab].name}</div>
+
+            <div className="my-5">
+              <h3 className="text-xl font-semibold mb-1">{card.title}</h3>
+            </div>
+
+            <p className="text-sm overflow-auto max-h-[240px]">{card.description}</p>
+          </div>
+        </>
+      )}
+    </div>
+  ))}
+</div>
+
       </div>
 
       {/* Modal Component */}

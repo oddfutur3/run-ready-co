@@ -19,7 +19,7 @@ const ThreeTab = () => {
     {
       eyebrow:"Match",
 
-      title: "You’re matched with the appropriate footwear for cushioning, responsiveness, and stability based on your Performance Score.",
+      title: "Using your Performance Score, you’re matched with the appropriate footwear for cushioning, responsiveness, and stability.",
 
       paragraph:
         "We’ve developed a footwear database to standardize the performance across the most popular brands to help runners without limiting them to only medically graded footwear.",
@@ -28,9 +28,9 @@ const ThreeTab = () => {
     {
       eyebrow:"Prescribe",
 
-      title: "Our team of physiotherapists built an exercise library with over 2000 instructional videos.",
+      title: "Receive an exercise program curated from our 2,000+ exercise library to improve your Absorb, Bounce and Stability scores.",
       paragraph:
-        " The exercises are uniquely programmed to improve Absorb, Bounce, and Stability based on your Performance Score.",
+        "Our methodology is focused on improving Absorb (shock absorption), Bounce (energy return), and Stability, helping you become more flexible, stronger, and adaptable on any surface.",
       src: "/images/RRWebsite-10.jpg",
     },
   ];
@@ -105,7 +105,7 @@ const ThreeTab = () => {
             <div className="flex-col flex flex-1 justify-center md:items-center">
               <div className=" px-5">
                 <div>
-                  <div className="text-xs font-bold   tracking-widest text-gray-400 mb-1 mt-10">
+                  <div className="text-xs uppercase tracking-widest text-gray-400 mb-1 mt-10">
                   {content[tab].eyebrow}
                   </div>
                 </div>

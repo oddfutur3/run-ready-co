@@ -36,7 +36,7 @@ export default function HomeHero() {
           </span>
 
           <div className="mt-10 relative z-50">
-            <Link href="/starter-package" className="btn-black">
+            <Link href="/performance-program" className="btn-black">
               Get Started Now
             </Link>
           </div>
