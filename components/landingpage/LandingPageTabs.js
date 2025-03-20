@@ -126,7 +126,7 @@ const LandingPageTabs = () => {
             <img
               src={card.img}
               alt={card.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover  border-r border-black"
             />
 
             {/* Play Icon Overlay (Centered in the Image) */}
