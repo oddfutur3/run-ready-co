@@ -9,6 +9,7 @@ import {
   faMagnifyingGlass,
   faShareNodes,
 } from "@/graphics/faRegular";
+import { faCheck } from "@/graphics/faSolid";
 
 export default function FreeRRPP() {
   return (
@@ -33,17 +34,6 @@ export default function FreeRRPP() {
             >
               Try the most advanced physio-led running assessment
             </div>
-            <span
-              className={
-                ppNeueMontreal.className +
-                " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2] text-white text-center"
-              }
-            >
-              RunReady Performance Program session assesses how you move,
-              matches you with the right footwear, and prescribes tailored
-              exercises—so you can run better, move easier, and reduce injury
-              risk.
-            </span>
           </div>
 
           {/* Background Video */}
@@ -52,14 +42,23 @@ export default function FreeRRPP() {
             loop
             muted
             playsInline
-            className="w-full h-[calc(100vh-80px)] object-cover border-black border-b pointer-events-none"
+            className="w-full h-[calc(50vh-80px)] object-cover border-black border-b pointer-events-none"
           >
             <source src="/videos/HDWebsite15.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
 
-        <section className=" wrapper wrapper-content ">
+        <section className=" wrapper wrapper-content mt-[150px] ">
+          <div className="w-full  lg:w-[1022px] mx-auto flex flex-col text-center items-center">
+            <p className=" wrapper text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
+              RunReady Performance Program session assesses how you move,
+              matches you with the right footwear, and prescribes tailored
+              exercises—so you can run better, move easier, and reduce injury
+              risk.
+            </p>
+          </div>
+
           <section className="pt-8 mt-[150px] border border-black bg-black mx-auto  max-w-[1022px]">
             <div className="border-b border-black">
               <h2
@@ -68,7 +67,7 @@ export default function FreeRRPP() {
                   " text-white  mx-8 text-2xl font-bold mb-6 "
                 }
               >
-                Claim your complimentary Performance Program session.
+                Top get started, follow the instructions below:
               </h2>
             </div>
             <div className="bg-white text-center">
@@ -136,7 +135,7 @@ export default function FreeRRPP() {
           </section>
         </section>
 
-        <section
+        {/* <section
           className={ppNeueMontreal.className + "   "}
           style={{ marginBottom: "150px", marginTop: "150px" }}
         >
@@ -174,7 +173,6 @@ export default function FreeRRPP() {
               <div key={index} className="text-no-underline w-full">
                 <div className="box-border bg-white border border-black p-8 h-full flex flex-col justify-center items-center text-center">
                   <div className="">
-                    {/* Replace with actual icon component */}
                     <div className="mb-4 text-3xl">
                       <Image
                         src={block.icon}
@@ -198,6 +196,141 @@ export default function FreeRRPP() {
               step-by-step plan to improve your running.
             </p>
           </div>
+        </section> */}
+
+        <section
+          className={ppNeueMontreal.className + "   "}
+          style={{ marginBottom: "150px", marginTop: "150px" }}
+        >
+          <div className="w-full  lg:w-[1022px] mx-auto flex flex-col text-center items-center">
+            <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
+              Claim you complimentary Performance Program session.
+            </div>
+
+            <p className="my-10 wrapper text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
+              Reach out to book your session today.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-[1.1rem] gap-y-[2rem] auto-cols-fr justify-between pb-0 wrapper max-w-[1022px] mx-auto">
+            {[
+              {
+                description: (
+                  <a
+                    href="tel:+17783121322"
+                    className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                  >
+                    <div className="mr-1">call:</div>{" "}
+                    <span>(778) 312-1322</span>
+                  </a>
+                ),
+              },
+              {
+                description: (
+                  <a
+                    href="mailto:info@runready.co"
+                    className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                  >
+                    <div className="mr-1">email:</div>
+                    <span>info@runready.co</span>
+                  </a>
+                ),
+              },
+            ].map((block, index) => (
+              <div key={index} className="text-no-underline w-full">
+                <div className="box-border bg-white border border-black py-4 h-full flex flex-col justify-center items-center text-center">
+                  <div className="">
+                    <h3 className="text-[16px]  lg:text-[18px]  ">
+                      {block.description}
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="bg-transparent mb-10 font-secondary ">
+          <div className="flex justify-center">
+            <div className="lg:w-[920px] text-center">
+              <div
+                className={
+                  ppNeueMontreal.className +
+                  " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] "
+                }
+              >
+                Performance Program, designed for you.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section
+          // style={{ margin: "0 auto" }}
+          className="wrapper wrapper-content mb-[150px] font-secondary"
+        >
+          <div
+            className={
+              ppNeueMontreal.className +
+              " flex flex-col md:flex-row items-stretch relative min-h-[200px] gap-12  max-w-[1022px] mx-auto scroll-mt-[305px]"
+            }
+          >
+            <div className="flex flex-1 relative ">
+              <div className="flex-col flex flex-1 justify-center md:items-center">
+                <div className="">
+                  <ul className={ppNeueMontreal.className}>
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-black last:border-0">
+                      <div className="flex-shrink-0 h-4 w-4">
+                        {faCheck("h-[1rem]")}
+                      </div>
+                      <div>
+                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-black">
+                          Everything you need in three steps:
+                        </span>
+                        <div className=" text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
+                          A movement assessment, footwear match, and exercise program in one session
+                        </div>
+                      </div>
+                    </li>
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-black last:border-0">
+                      <div className="flex-shrink-0 h-4 w-4">
+                        {faCheck("h-[1rem]")}
+                      </div>
+                      <div>
+                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-black">
+                          Tailored just for you:
+                        </span>
+                        <div className="   text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
+                          The service focuses on your unique movement ability and needs. This complete care approach ensures that every solution - from footwear to exercises - fits you perfectly.
+                        </div>
+                      </div>
+                    </li>
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-black last:border-0">
+                      <div className="flex-shrink-0 h-4 w-4">
+                        {faCheck("h-[1rem]")}
+                      </div>
+                      <div>
+                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-black">
+                          Expert-led, science-backed care:
+                        </span>
+                        <div className="  text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
+                          With Physiotherapy expertise and running science, this
+                          service provides personalized solutions based on the lastest research paired with your performance needs.
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="flex justify-center flex-1 relative ">
+              <div className="img-container relative">
+                <img
+                  src="/images/RRWebsite-21.jpg"
+                  className="w-[500px] h-[500px]   border border-1 border-black object-cover"
+                />
+              </div>
+            </div>
+          </div>
         </section>
 
         <section className="wrapper wrapper-content mb-[150px]">
@@ -220,32 +353,35 @@ export default function FreeRRPP() {
 
               {/* Contact Info in One Line */}
               <div className="flex flex-wrap items-center gap-6 text-[16px] md:text-[20px] text-black mx-auto mb-10">
+                {/* Phone */}
+                <a
+                  href="tel:+17783121322"
+                  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                >
+                  {faShareNodes("h-[1rem] fill-black mr-2")}
+                  <span>(778) 312-1322</span>
+                </a>
 
-{/* Phone */}
-<a href="tel:+17783121322" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
-  {faShareNodes("h-[1rem] fill-black mr-2")}
-  <span>(778) 312-1322</span>
-</a>
+                {/* Address */}
+                <a
+                  href="https://maps.app.goo.gl/T552YAw7An1eryj79"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                >
+                  {faLocationPin("h-[1rem] fill-black mr-2")}
+                  <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
+                </a>
 
-{/* Address */}
-<a 
-  href="https://maps.app.goo.gl/T552YAw7An1eryj79" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
->
-  {faLocationPin("h-[1rem] fill-black mr-2")}
-  <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
-</a>
-
-{/* Email */}
-<a href="mailto:info@runready.co" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
-  {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
-  <span>info@runready.co</span>
-</a>
-
-</div>
-
+                {/* Email */}
+                <a
+                  href="mailto:info@runready.co"
+                  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                >
+                  {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
+                  <span>info@runready.co</span>
+                </a>
+              </div>
 
               {/* Photo Gallery Section */}
               <div className="   grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">

@@ -82,6 +82,13 @@ export default function NavClient() {
                 >
                   What to Expect
                 </Link>
+                <Link
+                  href="https://www.runasyouare.co/"
+                  target="_blank"
+                  className="block px-3 py-2 hover:bg-gray-100"
+                >
+                  RunAsYouAre
+                </Link>
               </div>
             )}
           </div>
