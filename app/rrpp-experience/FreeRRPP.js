@@ -67,7 +67,7 @@ export default function FreeRRPP() {
                   " text-white  mx-8 text-2xl font-bold mb-6 "
                 }
               >
-                Top get started, follow the instructions below:
+                To get started, follow the instructions below:
               </h2>
             </div>
             <div className="bg-white text-center">
@@ -451,7 +451,7 @@ export default function FreeRRPP() {
                     "Anyone who wants to run more comfortably, move better, and reduce injury risk—whether you're new to running or experienced.",
                 },
                 {
-                  question: "What’s included in the free session?",
+                  question: "What’s included in the complimentary session?",
                   answer: `• Performance Program: It’s a 60-minute movement-based assessment, footwear match, and personalized exercises.
                 • Performance Program+: It’s a 90-minute movement assessment and treadmill analysis for more detailed insights.`,
                 },
