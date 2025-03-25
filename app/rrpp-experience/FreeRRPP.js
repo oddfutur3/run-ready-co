@@ -51,12 +51,12 @@ export default function FreeRRPP() {
 
         <section className=" wrapper wrapper-content mt-[150px] ">
           <div className="w-full  lg:w-[1022px] mx-auto flex flex-col text-center items-center">
-            <p className=" wrapper text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
-              RunReady Performance Program session assesses how you move,
+          <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
+          RunReady Performance Program session assesses how you move,
               matches you with the right footwear, and prescribes tailored
               exercises—so you can run better, move easier, and reduce injury
               risk.
-            </p>
+            </div>
           </div>
 
           <section className="pt-8 mt-[150px] border border-black bg-black mx-auto  max-w-[1022px]">
@@ -219,8 +219,8 @@ export default function FreeRRPP() {
                     href="tel:+17783121322"
                     className="flex items-center lg:text-[16px] text-[14px] hover:underline"
                   >
-                    <div className="mr-1">call:</div>{" "}
-                    <span>(778) 312-1322</span>
+                {faShareNodes("h-[1rem] fill-black mr-2")}
+                  <span>(778) 312-1322</span>
                   </a>
                 ),
               },
@@ -230,8 +230,8 @@ export default function FreeRRPP() {
                     href="mailto:info@runready.co"
                     className="flex items-center lg:text-[16px] text-[14px] hover:underline"
                   >
-                    <div className="mr-1">email:</div>
-                    <span>info@runready.co</span>
+                  {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
+                  <span>info@runready.co</span>
                   </a>
                 ),
               },
