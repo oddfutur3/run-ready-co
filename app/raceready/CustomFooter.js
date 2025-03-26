@@ -10,9 +10,10 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { createKlayEvent } from "@/serverActions/createKlayEvent";
 import { useState } from "react";
-import { LoadingButton } from "./LoadingButton";
+import { LoadingButton } from "@/components/LoadingButton";
 
-const Footer = () => {
+
+const CustomFooter = () => {
   const [inputEmail, setInputEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [isChecked, setIsChecked] = useState(false);
@@ -90,7 +91,7 @@ const Footer = () => {
   return (
     <section
       style={{ margin: "0 auto" }}
-      className=" w-full bg-transparent text-black  "
+      className=" w-full bg-white text-white  "
     >
       <div
         className={
@@ -98,7 +99,6 @@ const Footer = () => {
         }
       >
         <div className="wrapper-content">
-
           <div className="flex flex-col lg:flex-row justify-between mb-[90px] lg:gap-12">
             <div className="">
               <form className="flex flex-col w-full lg:max-w-[440px]">
@@ -177,8 +177,6 @@ const Footer = () => {
               </form>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-14 lg:flex lg:gap-[70px] mt-20 lg:mt-0">
-     
-
               <div className="lg:ml-10">
                 <p className="mb-7 lg:mr-10    text-black text-[14px] leading-[1.15] font-semibold">
                   Learn More
@@ -303,4 +301,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default CustomFooter;

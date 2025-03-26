@@ -72,6 +72,10 @@ body {
 .hero-gradient {
   background: radial-gradient(120% 150% at 0% 0%, #e7fc4b 10%, #e7fc4b 16%, #fff 63%, #fff 100%);
 }
+
+.promo-gradient {
+  background: radial-gradient(120% 150% at 0% 0%, #000 10%, #000 16%, #e7fc4b 63%, #e7fc4b 100%);
+}
 .footer-gradient {
   background: radial-gradient(120% 150% at 100% 100%, 
     rgba(231, 252, 75, 0.3) 10%,  /* Light yellow with 30% opacity */
@@ -195,6 +199,10 @@ img {
 
 .btn-black {
   @apply hover:bg-opacity-[0.8] bg-black !font-secondary caption  text-white-100 px-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem];
+}
+
+.btn-yellow {
+  @apply hover:bg-opacity-[0.8] bg-[#e7fc4b] !font-secondary caption  text-black px-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem];
 }
 
 .btn-red {

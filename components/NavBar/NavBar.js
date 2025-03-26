@@ -22,7 +22,8 @@ export default function NavBar() {
     "/terms-of-service",
     "/landing-page",
     "/FAQ",
-    "/rrpp-experience"
+    "/rrpp-experience",
+    "/raceready",
   ];
 
   const isPathnameLanding = landingPages.includes(pathname);
