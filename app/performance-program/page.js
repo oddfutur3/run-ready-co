@@ -51,7 +51,7 @@ export default function RunReady() {
                     " text-[16px] md:text-[20px] leading-[1.4]  lg:leading-[1.2]"
                   }
                 >
-                  RunReady Performance Program session assesses how you move,
+                  RunReady Performance Program assesses how you move,
                   matches you with the right footwear, and prescribes tailored
                   exercises—so you can run better, move easier, and reduce
                   injury risk.

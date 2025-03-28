@@ -530,7 +530,7 @@ export default function RaceReady() {
                 {
                   question: "What payment methods do you accept?",
                   answer:
-                    "We accept major credit and debit cards. You will need to provide a credit card on file when booking.",
+                    "We accept all major credit and debit cards. Full payment upfront is required, and receipts after each session will be provided for reimbursements",
                 },
               ].map((faq, index) => (
                 <div
