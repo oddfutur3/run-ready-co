@@ -51,8 +51,8 @@ export default function RunReady() {
                     " text-[16px] md:text-[20px] leading-[1.4]  lg:leading-[1.2]"
                   }
                 >
-                  RunReady Performance Program assesses how you move,
-                  matches you with the right footwear, and prescribes tailored
+                  RunReady Performance Program assesses how you move, matches
+                  you with the right footwear, and prescribes tailored
                   exercises—so you can run better, move easier, and reduce
                   injury risk.
                 </span>
@@ -92,208 +92,172 @@ export default function RunReady() {
                   and affordable for you.
                 </p>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-3 gap-8 mt-20">
+              <div className="grid grid-cols-1 xl:grid-cols-3 mt-20 gap-8">
                 {/* First Session */}
-
-                <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10   xl:mt-0  mt-8">
-                  <div className="absolute -top-10 left-[-1px] border border-black  right-[-1px] bg-black text-white text-center py-2 font-bold xl:mt-0 ">
-                    START HERE
+                <div className="col-span-1 xl:col-span-2 relative">
+                  <div className="absolute -top-10 left-0 right-0 bg-black text-white text-center py-2 font-bold border border-black z-10">
+                    YOUR FIRST SESSION
                   </div>
-                  <div className="flex flex-col flex-grow">
-                    <div className="lg:h-[280px]">
-
-                  <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
-                  Performance Program (RRPP)
-                    </p>
-                    <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                      Movement Assessment
-                    </h3>
-
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
-                    A movement assessment with a physiotherapist. You will receive scores that measure Absorb, Bounce, and Stability to match you with the proper footwear to complement your needs and a customized exercise program.
-                    </p>
-
-                    </div>
-                    <div>
-                      <div className="flex justify-start mb-4">
-                        <div className="text-center mr-10">
-                          <p className="text-[1.5rem] lg:text-[2.5rem] font-bold">
-                            60
-                          </p>
-                          <p className="text-xs md:text-sm text-gray-400">
-                            Minutes
-                          </p>
-                        </div>
-                        <div className="text-center">
-                          <p className="text-[1.5rem] lg:text-[2.5rem] font-bold">
-                            $179
-                          </p>
-                          <p className="text-xs md:text-sm text-gray-400">
-                            Session
-                          </p>
-                        </div>
-                      </div>
-                      <Link
-                        href="https://runready.janeapp.com/#/discipline/1/treatment/9"
-                        target="_blank"
-                        className="bg-brand-yellow text-black py-2 px-4 w-full font-bold transition mb-4 mt-auto text-center block"
-                      >
-                        Book Now
-                      </Link>
-                    </div>
-
-                    <ul className="text-[14px] lg:text-[16px] space-y-2">
-                      <li className="border-b border-black pb-2">
-                        Movement assessment
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Footwear matching
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Exercise program
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Performance Score
-                      </li>
-                    </ul>
+                  <div className="absolute top-[50%] left-[47.3%]  bg-black text-white text-center py-2 font-bold border border-black z-10 w-[50px]">
+                    OR
                   </div>
-                </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2  relative">
+                    <div className="bg-white border-b border-l border-black flex flex-col p-6 sm:p-8 md:p-10 ">
+                      <div className="lg:h-[280px]">
+                        <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
+                          Performance Program (RRPP)
+                        </p>
+                        <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
+                          Movement <br /> Assessment
+                        </h3>
+                        <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
+                          60 MIN | $179 SESSION
+                        </p>
 
-                {/* Physiotherapy & Chiropractics */}
-                <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10 xl:mt-0 mt-8">
-                  <div className="flex flex-col flex-grow">
-                    {/* Eyebrow Text */}
-                    <div className="lg:h-[280px]">
-
-                    <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
-                      Performance Program+ (RRPP+)
-                    </p>
-
-                    {/* Title */}
-                    <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                      Movement + Treadmill Assessment
-                    </h3>
-
-                    {/* Description */}
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
-                      Everything from RRPP in addition to a treadmill analysis
-                      with a physiotherapist. We analyze your running form to
-                      measure Symmetry, allowing more details and precision in
-                      footwear recommendations and exercise programs.
-                    </p>
-
-                    </div>
-
-                    {/* Session Details */}
-                    <div>
-                      <div className="flex justify-start mb-4">
-                        <div className="text-center mr-10">
-                          <p className="text-[1.5rem] lg:text-[2.5rem] font-bold">
-                            90
-                          </p>
-                          <p className="text-xs md:text-sm text-gray-400">
-                            Minutes
-                          </p>
-                        </div>
-                        <div className="text-center">
-                          <p className="text-[1.5rem] lg:text-[2.5rem] font-bold">
-                            $249
-                          </p>
-                          <p className="text-xs md:text-sm text-gray-400">
-                            Session
-                          </p>
-                        </div>
+                        <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
+                          A movement assessment with a physiotherapist. You will
+                          receive scores that measure Absorb, Bounce, and
+                          Stability to match you with the proper footwear to
+                          complement your needs and a customized exercise
+                          program.
+                        </p>
                       </div>
 
-                      {/* Booking Button */}
-                      <Link
-                        href="https://runready.janeapp.com/#/discipline/1/treatment/10"
-                        target="_blank"
-                        className="bg-brand-yellow text-black py-2 px-4 w-full font-bold transition mb-4 mt-auto text-center block"
-                      >
-                        Book Now
-                      </Link>
-                    </div>
+                      <ul className="text-[14px] lg:text-[16px] space-y-2">
+                        <li className="border-b border-black pb-2 flex items-center">
+                          {faCheck("h-[1rem] mr-2")} Movement assessment
+                        </li>
+                        <li className="border-b border-black pb-2 flex items-center">
+                          {faCheck("h-[1rem] mr-2")} Footwear matching
+                        </li>
+                        <li className="border-b border-black pb-2 flex items-center">
+                          {faCheck("h-[1rem] mr-2")} Exercise program
+                        </li>
+                        <li className="border-b border-black pb-2 flex items-center">
+                          {faCheck("h-[1rem] mr-2")} Performance Score
+                        </li>
+                      </ul>
 
-                    {/* Features List */}
-                    <ul className="text-[14px] lg:text-[16px] space-y-2">
-                      <li className="border-b border-black pb-2">
-                        Movement assessment
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Footwear matching
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Exercise program
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Treadmill analysis (+ Symmetry Score)
-                      </li>
-                      <li className="border-b border-black pb-2">
-                        Performance Score
-                      </li>
-                    </ul>
+                      {/* CTA pinned to bottom */}
+                      <div className="mt-auto pt-6">
+                        <Link
+                          href="https://runready.janeapp.com/#/discipline/1/treatment/9"
+                          target="_blank"
+                          className="bg-brand-yellow text-black x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem]; w-full  transition text-center block  hover:opacity-[80%] uppercase"
+                        >
+                          Book a Session
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10 xl:mt-0 mt-8">
+                      <div className="flex flex-col flex-grow">
+                        {/* Eyebrow Text */}
+                        <div className="lg:h-[280px]">
+                          <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
+                            Performance Program plus (RRPP+)
+                          </p>
+
+                          {/* Title */}
+                          <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
+                            Movement + Treadmill Assessment
+                          </h3>
+                          <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
+                            90 MIN | $249 SESSION
+                          </p>
+
+                          {/* Description */}
+                          <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
+                            Everything from RRPP in addition to a treadmill
+                            analysis with a physiotherapist. We analyze your
+                            running form to measure Symmetry, allowing more
+                            details and precision in footwear recommendations
+                            and exercise programs.
+                          </p>
+                        </div>
+
+                        {/* Session Details */}
+
+                        {/* Features List */}
+                        <ul className="text-[14px] lg:text-[16px] space-y-2">
+                          <li className="border-b border-black pb-2 flex items-center">
+                            {faCheck("h-[1rem] mr-2")} Movement assessment
+                          </li>
+                          <li className="border-b border-black pb-2 flex items-center">
+                            {faCheck("h-[1rem] mr-2")} Footwear matching
+                          </li>
+                          <li className="border-b border-black pb-2 flex items-center">
+                            {faCheck("h-[1rem] mr-2")} Exercise program
+                          </li>
+                          <li className="border-b border-black pb-2 flex items-center">
+                            {faCheck("h-[1rem] mr-2")} Treadmill analysis
+                          </li>
+                          <li className="border-b border-black pb-2 flex items-center">
+                            {faCheck("h-[1rem] mr-2")} Performance Score
+                          </li>
+                        </ul>
+
+                        {/* CTA pinned to bottom */}
+                        <div className="mt-auto pt-6">
+                          <Link
+                            href="https://runready.janeapp.com/#/discipline/1/treatment/10"
+                            target="_blank"
+                            className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem];transition text-center block  hover:opacity-[80%] uppercase"
+                          >
+                            Book a Session
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
                 {/* Massage Therapy */}
-                <div className="bg-white border border-black flex flex-col p-6 sm:p-8 md:p-10">
+                <div
+                  className="bg-white border border-black flex flex-col p-6 sm:p-8 md:p-10 h-[]
+                "
+                >
                   <div className="flex flex-col flex-grow">
+                    <div className="lg:h-[280px]">
+                      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
+                        Progress Session
+                      </p>
+                      <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
+                        Performance Program Follow-up
+                      </h3>
+                      <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
+                        30 MIN | $99 SESSION
+                      </p>
 
-                  <div className="lg:h-[280px]">
-
-                  <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
-                  Progress Session
-                    </p>
-                    <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                    Performance Program Follow-up
-                    </h3>
-
-                    <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
-                      This follow-up session fine-tunes your movements with a
-                      physiotherapist to improve your form for the best results.
-                    </p>
-                    </div>
-
-                    <div>
-                      <div className="flex justify-start mb-4">
-                        <div className="text-center mr-10">
-                          <p className="text-[1.5rem] lg:text-[2.5rem] font-bold">
-                            30
-                          </p>
-                          <p className="text-xs md:text-sm text-gray-400">
-                            Minutes
-                          </p>
-                        </div>
-                        <div className="text-center">
-                          <p className="text-[1.5rem] lg:text-[2.5rem] font-bold">
-                            $99
-                          </p>
-                          <p className="text-xs md:text-sm text-gray-400">
-                            Session
-                          </p>
-                        </div>
-                      </div>
-                      <Link
-                        href="https://runready.janeapp.com/#/discipline/1/treatment/11"
-                        target="_blank"
-                        className="bg-brand-yellow text-black py-2 px-4 w-full font-bold transition mb-4 mt-auto text-center block"
-                      >
-                        Book Now
-                      </Link>
+                      <p className="text-[14px] lg:text-[16px] mb-4 text-left ">
+                        This follow-up session fine-tunes your movements with a
+                        physiotherapist to improve your form for the best
+                        results.
+                      </p>
                     </div>
 
                     <ul className="text-[14px] lg:text-[16px] space-y-2">
-                      <li className="border-b border-black pb-2">
-                        Active physiotherapy
+                      <li className="border-b border-black pb-2 flex items-center">
+                        {faCheck("h-[1rem] mr-2")} Active physiotherapy
                       </li>
-                      <li className="border-b border-black pb-2">
-                        Expert guidance to perfect your form
+                      <li className="border-b border-black pb-2 flex items-center">
+                        {faCheck("h-[1rem] mr-2")} Expert guidance to perfect
+                        your form
                       </li>
-                      <li className="border-b border-black pb-2">
-                        Exercise program
+                      <li className="border-b border-black pb-2 flex items-center">
+                        {faCheck("h-[1rem] mr-2")} Exercise program
                       </li>
                     </ul>
+
+                    {/* CTA pinned to bottom */}
+                    <div className="mt-auto pt-6">
+                      <Link
+                        href="https://runready.janeapp.com/#/discipline/1/treatment/11"
+                        target="_blank"
+                        className="bg-brand-yellow text-black x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem]; w-full   transition text-center block  hover:opacity-[80%] uppercase"
+                      >
+                        Book a Session
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -498,34 +462,39 @@ export default function RunReady() {
                     services. We offer a dedicated assessment area, private
                     lockers, and a water station to ensure a comfortable
                     experience while you get the support you need to run better.
-                
                   </p>
                   <div className="flex flex-wrap items-center gap-6 text-[16px] md:text-[20px] text-black mx-auto mb-10">
+                    {/* Phone */}
+                    <a
+                      href="tel:+17783121322"
+                      className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                    >
+                      {faShareNodes("h-[1rem] fill-black mr-2")}
+                      <span>(778) 312-1322</span>
+                    </a>
 
-{/* Phone */}
-<a href="tel:+17783121322" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
-  {faShareNodes("h-[1rem] fill-black mr-2")}
-  <span>(778) 312-1322</span>
-</a>
+                    {/* Address */}
+                    <a
+                      href="https://maps.app.goo.gl/T552YAw7An1eryj79"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                    >
+                      {faLocationPin("h-[1rem] fill-black mr-2")}
+                      <span>
+                        RunReady Studio - 2033 W4th Avenue Vancouver, BC
+                      </span>
+                    </a>
 
-{/* Address */}
-<a 
-  href="https://maps.app.goo.gl/T552YAw7An1eryj79" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="flex items-center lg:text-[16px] text-[14px] hover:underline"
->
-  {faLocationPin("h-[1rem] fill-black mr-2")}
-  <span>RunReady Studio - 2033 W4th Avenue Vancouver, BC</span>
-</a>
-
-{/* Email */}
-<a href="mailto:info@runready.co" className="flex items-center lg:text-[16px] text-[14px] hover:underline">
-  {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
-  <span>info@runready.co</span>
-</a>
-
-</div>
+                    {/* Email */}
+                    <a
+                      href="mailto:info@runready.co"
+                      className="flex items-center lg:text-[16px] text-[14px] hover:underline"
+                    >
+                      {faMagnifyingGlass("h-[1rem] fill-black mr-2")}
+                      <span>info@runready.co</span>
+                    </a>
+                  </div>
 
                   {/* Photo Gallery Section */}
                   <div className="   grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">
