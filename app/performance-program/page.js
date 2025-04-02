@@ -80,7 +80,7 @@ export default function RunReady() {
             <div className=" mb-[100px]"></div>
 
             <section className="wrapper   max-w-[1657px] mx-auto  ">
-              <div className="w-full lg:w-[1022px] mx-auto flex flex-col text-center items-center">
+              <div className="w-full  mx-auto flex flex-col text-center items-center">
                 <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
                   Our team of health professionals are here to help you run
                   healthy.
@@ -98,11 +98,11 @@ export default function RunReady() {
                   <div className="absolute -top-10 left-0 right-0 bg-black text-white text-center py-2 font-bold border border-black z-10">
                     YOUR FIRST SESSION
                   </div>
-                  <div className="absolute top-[50%] left-[47.3%]  bg-black text-white text-center py-2 font-bold border border-black z-10 w-[50px]">
-                    OR
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2  relative">
-                    <div className="bg-white border-b border-l border-black flex flex-col p-6 sm:p-8 md:p-10 ">
+                  <div className="grid grid-cols-1 lg:grid-cols-2  ">
+                    <div className="bg-white lg:border-b  border-r  lg:border-r-0 border-l border-black flex flex-col p-6 sm:p-8 md:p-10 relative ">
+                    <div className="absolute lg:bottom-[45%] lg:-right-6  right-[47%]     -bottom-3   bg-black text-white text-center lg:py-2 font-bold border border-black z-10 w-[50px]">
+                      OR
+                    </div>
                       <div className="lg:h-[280px]">
                         <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                           Performance Program (RRPP)
@@ -149,7 +149,7 @@ export default function RunReady() {
                         </Link>
                       </div>
                     </div>
-                    <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10 xl:mt-0 mt-8">
+                    <div className="bg-white border border-black flex flex-col relative p-6 sm:p-8 md:p-10 xl:mt-0 ">
                       <div className="flex flex-col flex-grow">
                         {/* Eyebrow Text */}
                         <div className="lg:h-[280px]">
@@ -584,7 +584,7 @@ export default function RunReady() {
                   {
                     question: "Where is this offered?",
                     answer:
-                      "At RunReady Studio, 2033-W 4th Ave inside the RunAsYouAre shop.",
+                      "At RunReady Studio, 2033 West 4th Ave inside the RunAsYouAre shop.",
                   },
                   {
                     question: "Do I need a referral?",
