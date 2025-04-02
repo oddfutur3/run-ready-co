@@ -100,9 +100,9 @@ export default function RunReady() {
                   </div>
                   <div className="grid grid-cols-1 lg:grid-cols-2  ">
                     <div className="bg-white lg:border-b  border-r  lg:border-r-0 border-l border-black flex flex-col p-6 sm:p-8 md:p-10 relative ">
-                    <div className="absolute lg:bottom-[45%] lg:-right-6  right-[47%]     -bottom-3   bg-black text-white text-center lg:py-2 font-bold border border-black z-10 w-[50px]">
-                      OR
-                    </div>
+                      <div className="absolute lg:bottom-[45%] lg:-right-6  right-[47%]     -bottom-3   bg-black text-white text-center lg:py-2 font-bold border border-black z-10 w-[50px]">
+                        OR
+                      </div>
                       <div className="lg:h-[280px]">
                         <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                           Performance Program (RRPP)
@@ -144,7 +144,7 @@ export default function RunReady() {
                           href="https://runready.janeapp.com/#/discipline/1/treatment/9"
                           target="_blank"
                           className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition text-center block  hover:bg-black hover:text-brand-yellow uppercase"
-                          >
+                        >
                           Book a Session
                         </Link>
                       </div>
@@ -159,7 +159,7 @@ export default function RunReady() {
 
                           {/* Title */}
                           <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                            Movement + <br/> Treadmill Assessment
+                            Movement + <br /> Treadmill Assessment
                           </h3>
                           <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                             90 MIN | $249 SESSION
@@ -222,7 +222,7 @@ export default function RunReady() {
                         Progress Session
                       </p>
                       <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                        Performance <br/> Program Follow-up
+                        Performance <br /> Program Follow-up
                       </h3>
                       <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                         30 MIN | $99 SESSION
@@ -254,7 +254,7 @@ export default function RunReady() {
                         href="https://runready.janeapp.com/#/discipline/1/treatment/11"
                         target="_blank"
                         className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition text-center block  hover:bg-black hover:text-brand-yellow uppercase"
-                        >
+                      >
                         Book a Session
                       </Link>
                     </div>
@@ -497,33 +497,37 @@ export default function RunReady() {
                   </div>
 
                   {/* Photo Gallery Section */}
-                  <div className="   grid grid-cols-1  md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">
-                    <div className="relative">
-                      <img
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 mx-auto w-full max-w-[1657px]">
+                    <div className="relative w-full h-[300px] lg:h-[400px] border border-black">
+                      <Image
                         src="/images/rr-studio.jpg"
                         alt="RunReady Studio Interior"
-                        className="w-full h-[300px] lg:h-[400px] object-cover border border-black"
+                        fill
+                        className="object-cover"
                       />
                     </div>
-                    <div className="relative">
-                      <img
+                    <div className="relative w-full h-[300px] lg:h-[400px] border border-black">
+                      <Image
                         src="/images/rr-keep-going.jpg"
                         alt="Physiotherapy in Action"
-                        className="w-full h-[300px] lg:h-[400px] object-cover border border-black"
+                        fill
+                        className="object-cover"
                       />
                     </div>
-                    <div className="relative">
-                      <img
+                    <div className="relative w-full h-[300px] lg:h-[400px] border border-black">
+                      <Image
                         src="/images/rr-sign.jpg"
                         alt="Treadmill Running Assessment"
-                        className="w-full h-[300px] lg:h-[400px] object-cover  border border-black"
+                        fill
+                        className="object-cover"
                       />
                     </div>
-                    <div className="relative">
-                      <img
+                    <div className="relative w-full h-[300px] lg:h-[400px] border border-black">
+                      <Image
                         src="/images/studio-wall.jpg"
                         alt="RunReady Footwear Matching"
-                        className="w-full h-[300px] lg:h-[400px] object-cover  border border-black"
+                        fill
+                        className="object-cover"
                       />
                     </div>
                   </div>
