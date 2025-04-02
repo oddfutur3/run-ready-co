@@ -158,7 +158,7 @@ const Footer = () => {
                   <LoadingButton
                     action={handleSub}
                     wrapperClass="  w-min mt-8"
-                    buttonClass="hover:bg-opacity-[0.8] bg-black !font-secondary caption text-white-100 px-[1.5rem] py-[0.75rem]"
+                    buttonClass="hover:text-black hover:bg-white  border border-black transition bg-black !font-secondary caption text-white-100 px-[1.5rem] py-[0.75rem]"
                     disabled={
                       submitted ||
                       !inputEmail ||

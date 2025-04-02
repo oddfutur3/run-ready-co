@@ -198,7 +198,11 @@ img {
 
 
 .btn-black {
-  @apply hover:bg-opacity-[0.8] bg-black !font-secondary caption  text-white-100 px-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem];
+  @apply hover:text-black hover:bg-white-100 border border-black-100  bg-black !font-secondary caption  text-white-100 px-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition;
+}
+
+.btn-yellow-inverse {
+  @apply hover:text-brand-yellow   hover:bg-black-100  bg-brand-yellow !font-secondary caption  text-black-100 px-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition;
 }
 
 .btn-yellow {

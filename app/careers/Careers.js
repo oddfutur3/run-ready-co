@@ -484,7 +484,7 @@ export default function Careers() {
                 run healthy across the globe
               </div>
               <Link
-                className="bg-brand-yellow p-5 font-semibold text-center "
+                className="btn-yellow-inverse border border-brand-yellow p-5 font-semibold text-center "
                 href="https://secure.collage.co/jobs/runasyouare
 "
                 target="_blank"
