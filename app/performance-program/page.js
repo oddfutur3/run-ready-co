@@ -143,8 +143,8 @@ export default function RunReady() {
                         <Link
                           href="https://runready.janeapp.com/#/discipline/1/treatment/9"
                           target="_blank"
-                          className="bg-brand-yellow text-black x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem]; w-full  transition text-center block  hover:opacity-[80%] uppercase"
-                        >
+                          className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition text-center block  hover:bg-black hover:text-brand-yellow uppercase"
+                          >
                           Book a Session
                         </Link>
                       </div>
@@ -159,7 +159,7 @@ export default function RunReady() {
 
                           {/* Title */}
                           <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                            Movement + Treadmill Assessment
+                            Movement + <br/> Treadmill Assessment
                           </h3>
                           <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                             90 MIN | $249 SESSION
@@ -201,7 +201,7 @@ export default function RunReady() {
                           <Link
                             href="https://runready.janeapp.com/#/discipline/1/treatment/10"
                             target="_blank"
-                            className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem];transition text-center block  hover:opacity-[80%] uppercase"
+                            className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition text-center block  hover:bg-black hover:text-brand-yellow uppercase"
                           >
                             Book a Session
                           </Link>
@@ -222,7 +222,7 @@ export default function RunReady() {
                         Progress Session
                       </p>
                       <h3 className="text-black font-bold text-[1.4rem] lg:text-[1.625rem] leading-[1.3] mb-4">
-                        Performance Program Follow-up
+                        Performance <br/> Program Follow-up
                       </h3>
                       <p className="text-xs uppercase tracking-widest text-gray-400 mb-1">
                         30 MIN | $99 SESSION
@@ -253,8 +253,8 @@ export default function RunReady() {
                       <Link
                         href="https://runready.janeapp.com/#/discipline/1/treatment/11"
                         target="_blank"
-                        className="bg-brand-yellow text-black x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem]; w-full   transition text-center block  hover:opacity-[80%] uppercase"
-                      >
+                        className="bg-brand-yellow text-black  w-full x-[1.5rem] py-[0.75rem] lg:px-[2.25rem] lg:py-[1rem] transition text-center block  hover:bg-black hover:text-brand-yellow uppercase"
+                        >
                         Book a Session
                       </Link>
                     </div>
