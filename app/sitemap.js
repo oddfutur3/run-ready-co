@@ -1,4 +1,44 @@
-async function getYouTubeVideoEntries(siteUrl) {
+export async function GET() {
+    const siteUrl = 'https://runready.co';
+  
+    const pages = [
+      '', // homepage
+      'performance-program',
+      'what-to-expect',
+      'careers',
+      'FAQ',
+      'starter-package',
+      'rrpp-experience',
+      'raceready'
+    ];
+  
+    const urls = pages.map((page) => {
+      return `
+        <url>
+          <loc>${siteUrl}/${page}</loc>
+          <changefreq>monthly</changefreq>
+          <priority>0.8</priority>
+        </url>
+      `;
+    });
+  
+    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+    <urlset 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+    >
+      ${urls.join('')}
+      ${await getYouTubeVideoEntries(siteUrl)}
+    </urlset>`;
+  
+    return new Response(sitemap, {
+      headers: {
+        'Content-Type': 'application/xml',
+      },
+    });
+  }
+
+  function getYouTubeVideoEntries(siteUrl) {
     const videos = [
         {
           id: "TXruquAvLN0",
@@ -82,46 +122,3 @@ async function getYouTubeVideoEntries(siteUrl) {
     </url>
   `).join('');
 }
-
-
-
-export async function GET() {
-    const siteUrl = 'https://runready.co';
-  
-    const pages = [
-      '', // homepage
-      'performance-program',
-      'what-to-expect',
-      'careers',
-      'FAQ',
-      'starter-package',
-      'rrpp-experience',
-      'raceready'
-    ];
-  
-    const urls = pages.map((page) => {
-      return `
-        <url>
-          <loc>${siteUrl}/${page}</loc>
-          <changefreq>monthly</changefreq>
-          <priority>0.8</priority>
-        </url>
-      `;
-    });
-  
-    const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-    <urlset 
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
-    >
-      ${urls.join('')}
-      ${await getYouTubeVideoEntries(siteUrl)}
-    </urlset>`;
-  
-    return new Response(sitemap, {
-      headers: {
-        'Content-Type': 'application/xml',
-      },
-    });
-  }
-
