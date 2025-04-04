@@ -38,7 +38,7 @@ export async function GET() {
     });
   }
 
-  function getYouTubeVideoEntries(siteUrl) {
+  const getYouTubeVideoEntries = (siteUrl) => {
     const videos = [
         {
           id: "TXruquAvLN0",
