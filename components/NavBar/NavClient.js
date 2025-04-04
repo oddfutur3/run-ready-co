@@ -99,7 +99,7 @@ export default function NavClient() {
             Login
           </Link>)} */}
           <Link
-            className="btn-yellow-inverse"
+            className="btn-yellow-inverse-2"
             href="https://runready.janeapp.com"
             target="_blank"
           >
