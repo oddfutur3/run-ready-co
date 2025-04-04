@@ -111,7 +111,7 @@ export async function GET() {
 
   return videos.map(video => `
     <url>
-      <loc>${siteUrl}/events</loc>
+      <loc>${siteUrl}/</loc>
       <video:video>
         <video:thumbnail_loc>https://img.youtube.com/vi/${video.id}/default.jpg</video:thumbnail_loc>
         <video:title><![CDATA[${video.title}]]></video:title>
