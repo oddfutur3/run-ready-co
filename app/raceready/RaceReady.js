@@ -17,21 +17,28 @@ import { faCheck } from "@/graphics/faSolid";
 export default function RaceReady() {
   return (
     <div className="flex flex-col">
-      <div className="bg-black">
+      <div className="bg-[#ADDAD9]">
         <NavBar />
+      <div
+          style={{ alignItems: "center", backgroundImage: "url('/images/rrbg.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat" }}
+      >
 
         <section
-          className="wrapper flex flex-col-reverse lg:flex-row lg:h-[87vh] max-w-[1657px] mx-auto "
-          style={{ alignItems: "center" }}
-        >
-          <div className="text-white flex flex-col w-full lg:w-4/5 justify-center text-center lg:text-left lg:pr-[9rem] pr-5">
+          className="wrapper flex flex-col-reverse lg:flex-row lg:h-[91vh] max-w-[1657px] mx-auto "
+          style={{ alignItems: "center",
+          }}
+          >
+          <div className="text-black flex flex-col w-full lg:w-4/5 justify-center text-center lg:text-left lg:pr-[9rem] pr-5">
             <p className="text-xs uppercase tracking-widest  mb-1">RaceReady</p>
             <div
               className={
                 ppNeueMontreal.className +
-                " text-[38px] text-[#e7fc4b] lg:text-5xl xl:leading-none font-medium mb-6 lg:mb-6"
+                " text-[38px] text-[#492AFF] lg:text-5xl xl:leading-none font-bold mb-6 lg:mb-6 uppercase italic font-bold"
               }
-            >
+              >
              Train smart for race day
             </div>
             <span
@@ -39,43 +46,52 @@ export default function RaceReady() {
                 ppNeueMontreal.className +
                 " text-[16px] md:text-[20px] leading-[1.4]  lg:leading-[1.2]"
               }
-            >
+              >
              8-week small group training led by RunReady physiotherapists. Build strength, mobility, and adaptability—just in time for the Vancouver Half.
             </span>
             {/* <div className="mt-10">
                   <Link
-                    href="https://runready.janeapp.com/"
-                    target="_blank"
-                    className="btn-black"
+                  href="https://runready.janeapp.com/"
+                  target="_blank"
+                  className="btn-black"
                   >
-                    Get started today
+                  Get started today
                   </Link>
-                </div> */}
+                  </div> */}
           </div>
           <div className="flex justify-center lg:justify-end my-10 lg:my-0 w-full lg:w-auto">
             <div className="relative xl:w-[663px]  max-w-md md:max-w-none">
               <img
                 src="/images/RRWebsite-9.jpg"
-                className="md:w-[850px] h-auto   md:h-[75vh] border border-white object-cover"
+                className="md:w-[850px] h-auto   md:h-[75vh] border border-black object-cover"
                 alt="Run Ready Hero"
-              />
+                />
             </div>
           </div>
         </section>
+                </div>
+        <div
+              style={{ 
+                alignItems: "center", backgroundImage: "url('/images/raceready-pattern-background-1.svg')",
+                             backgroundSize: "cover",
+                             backgroundPosition: "center",
+                             backgroundRepeat: "no-repeat" 
+                          }}
+             >
 
-        <section className="bg-transparent mb-10 font-secondary mt-[100px]">
+        <section className=" mb-10 font-secondary pt-[100px]">
           <div className="flex justify-center">
             <div className="lg:w-[920px] text-center">
+                <p className="text-xs uppercase  tracking-widest text-black ">
+                  Limited Time Offer
+                </p>
               <div
                 className={
                   ppNeueMontreal.className +
-                  " text-[1.5rem] lg:text-[2.5rem] text-[#e7fc4b]  "
-                }
-              >
-                <p className="text-xs uppercase tracking-widest text-white ">
-                  Limited Time Offer
-                </p>
-                Everything you need, nothing you don&apos;t.
+                  " text-[1.5rem] lg:text-[2.5rem] text-[#492AFF] uppercase italic   "
+                } style={{lineHeight:"normal"}}
+                >
+                Everything you need, <br/> nothing you don&apos;t.
               </div>
             </div>
           </div>
@@ -83,25 +99,25 @@ export default function RaceReady() {
 
         <section
           className={
-            ppNeueMontreal.className + " wrapper wrapper-content mb-[150px] "
+            ppNeueMontreal.className + " wrapper wrapper-content mb-[75px] "
           }
-        >
+          >
           <div
             className={
               ppNeueMontreal.className +
               " flex flex-col-reverse md:flex-row items-stretch relative min-h-[200px] gap-12 max-w-[1022px] mx-auto scroll-mt-[305px]"
             }
-          >
+            >
             <div className="flex flex-1 relative ">
               <div className="flex-col flex flex-1 justify-center md:items-center">
                 <div className="">
                   <ul>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-white last:border-0">
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-white")}
+                        {faCheck("h-[1rem] fill-black")}
                       </div>
                       <div>
-                        <span className="font-medium  text-[16px] lg:text-[18px] leading-[1.15] text-white">
+                        <span className="font-medium  text-[16px] lg:text-[18px] leading-[1.15] text-black">
                         8 weekly physio-led, group training classes <br/> (April 29-June 17)
                         </span>
                         {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
@@ -109,15 +125,15 @@ export default function RaceReady() {
                             patterns and needs. This complete care approach
                             ensures that every solution—from footwear to
                             exercises—fits you perfectly.
-                          </div> */}
+                            </div> */}
                       </div>
                     </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-white last:border-0">
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-white")}
+                        {faCheck("h-[1rem] fill-black")}
                       </div>
                       <div>
-                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-white">
+                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                         Strength + mobility training to reduce injury
                         </span>
                         {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
@@ -125,66 +141,66 @@ export default function RaceReady() {
                             exercise program in one session. Conveniently
                             available at RunAsYouAre and through your account
                             dashboard.
-                          </div> */}
+                            </div> */}
                       </div>
                     </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-white last:border-0">
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-white")}
+                        {faCheck("h-[1rem] fill-black")}
                       </div>
                       <div>
-                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-white">
+                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                         Limited spots. Small group. Sharper results.
                         </span>
                         {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
                             With physiotherapy expertise and running science,
                             this service provides personalized solutions based
                             on your movement and performance needs.
-                          </div> */}
+                            </div> */}
                       </div>
                     </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-white last:border-0">
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-white")}
+                        {faCheck("h-[1rem] fill-black")}
                       </div>
                       <div>
-                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-white">
+                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                         Test top running shoes in exclusive demo runs
                         </span>
                         {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
                             With physiotherapy expertise and running science,
                             this service provides personalized solutions based
                             on your movement and performance needs.
-                          </div> */}
+                            </div> */}
                       </div>
                     </li>
                   </ul>
-                  <div className="text-white font-semibold text-[16px] lg:text-[18px]">
+                  <div className="text-black font-semibold text-[16px] lg:text-[18px]">
                   Just $50/session. $400 total. Covered by most insurance.
                   Free starter kit included
                   </div>
-                  {/* <ul className="text-white list-disc pl-2 mt-2 text-[14px] lg:text-[16px] leading-[1.6]">
+                  {/* <ul className="text-black list-disc pl-2 mt-2 text-[14px] lg:text-[16px] leading-[1.6]">
                     <li className="pl-2">
-                      8 Weekly Small Group Training Sessions (Tuesdays, April 29
-                      – June 17, 2025)
+                    8 Weekly Small Group Training Sessions (Tuesdays, April 29
+                    – June 17, 2025)
                     </li>
                     <li className="pl-2">
-                      Strength & Mobility work to prevent injuries and boost
-                      efficiency
+                    Strength & Mobility work to prevent injuries and boost
+                    efficiency
                     </li>
                     <li className="pl-2">
-                      Footwear Demo Runs with top tier running brands
+                    Footwear Demo Runs with top tier running brands
                     </li>
                     <li className="pl-2">
-                      Exclusive Perks (Post-run drinks, surprise activations)
+                    Exclusive Perks (Post-run drinks, surprise activations)
                     </li>
-                  </ul> */}
+                    </ul> */}
                   <div className="mt-10">
                     <Link
                       href="https://checkout.runready.io/b/dR67tX2Iy7Ea6mQ5kl"
                       target="_blank"
                       className="btn-yellow block w-[fit-content]"
-                    >
+                      >
                       Register Now
                     </Link>
                   </div>
@@ -195,8 +211,8 @@ export default function RaceReady() {
               <div className="img-container relative ">
                 <img
                   src="/images/RRWebsite-2.jpg"
-                  className="w-[500px] h-[500px]  border border-white object-cover"
-                />
+                  className="w-[500px] h-[500px]  border border-black object-cover"
+                  />
               </div>
             </div>
           </div>
@@ -204,32 +220,45 @@ export default function RaceReady() {
 
         <section
           className={ppNeueMontreal.className + " wrapper  "}
-          style={{ marginBottom: "150px", marginTop: "150px" }}
-        >
+          style={{ paddingBottom: "75px",
+            
+          }}
+          >
           <div className="w-full   mx-auto flex flex-col text-center items-center">
-            <div className="w-3/4 lg:w-full text-[#e7fc4b] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
-              <p className="text-xs uppercase tracking-widest text-white ">
+              <p className="text-xs uppercase tracking-widest text-black ">
               Why it works
               </p>
-              Every session builds a stronger run
+            <div className="w-3/4 lg:w-full text-[#492AFF] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium uppercase italic">
+              Every session builds <br/> a stronger run
             </div>
 
-            <p className="mt-10 wrapper text-white text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
+            <p className="mt-10 wrapper text-black text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
+            >
             Each class focuses on how your body handles impact, pushes off the ground, and stays stable—three key parts of running better. You’ll build strength and control step by step, so you feel more ready (and less likely to get hurt) by race day.
             </p>
           </div>
         </section>
-        <section className="wrapper mb-[150px]  text-white  ">
+          </div>
+        <section className="wrapper pb-[75px] pt-[75px]  text-black  "
+        
+        
+        style={{ 
+          alignItems: "center", backgroundImage: "url('/images/rr-brand-bg.png')",
+                       backgroundSize: "cover",
+                       backgroundPosition: "center",
+                       backgroundRepeat: "no-repeat" 
+                    }}>
           <div className="wrapper-content flex flex-col items-center justify-center">
             <div
               className={
                 ppNeueMontreal.className + " lg:w-[1022px] text-center mb-10"
               }
+          
             >
-              <p className="text-xs uppercase tracking-widest text-white ">
-              Why it works
+              <p className="text-xs uppercase tracking-widest text-black ">
+              Brand Partners
               </p>
-              <div className="text-[1.5rem]  text-[#e7fc4b] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] font-medium mb-10 lg:mb-6">
+              <div className="text-[1.5rem]  text-[#492AFF] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] font-medium mb-10 lg:mb-6 uppercase italic">
               Backed by leaders in running
               </div>
               {/* <div className="text-[16px] md:text-[20px]">
@@ -239,7 +268,7 @@ export default function RaceReady() {
                 world&apos;s leading brands.
               </div> */}
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-white">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-[#492AFF]">
               <div className="flex justify-center">
                 <img
                   src="/images/partner-logos/adidas_mountain_logo.svg"
@@ -303,22 +332,29 @@ export default function RaceReady() {
             </div>
             <div
               className={
-                ppNeueMontreal.className + " lg:w-[920px] lg:text-center mt-10"
+                ppNeueMontreal.className + " lg:w-[920px] lg:text-center "
               }
             ></div>
           </div>
         </section>
-
-        <section className="bg-transparent mb-10 font-secondary ">
+             <div
+              style={{ 
+                alignItems: "center", backgroundImage: "url('/images/raceready-pattern-background-1.svg')",
+                             backgroundSize: "cover",
+                             backgroundPosition: "center",
+                             backgroundRepeat: "no-repeat" 
+                          }}
+             >
+        <section className="bg-transparent  pt-[75px] font-secondary ">
           <div className="flex justify-center">
             <div className="lg:w-[920px] text-center">
               <div
                 className={
                   ppNeueMontreal.className +
-                  " text-[1.5rem] text-[#e7fc4b] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] "
+                  " text-[1.5rem] text-[#492AFF] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] uppercase italic mb-10"
                 }
               >
-                <p className="text-xs uppercase tracking-widest text-white ">
+                <p className="text-xs uppercase tracking-widest text-black ">
                 The Schedule
                 </p>
                 8 workouts. 1 goal.
@@ -327,7 +363,7 @@ export default function RaceReady() {
           </div>
         </section>
 
-        <section className="wrapper wrapper-content mb-[150px] font-secondary">
+        <section className="wrapper wrapper-content  font-secondary">
           <div
             className={
               ppNeueMontreal.className +
@@ -337,12 +373,12 @@ export default function RaceReady() {
             <div className="flex flex-1 relative">
               <div className="flex-col flex flex-1 justify-center md:items-center">
                 <div>
-                  <section className="border border-white bg-black w-full">
-                    {/* <div className="border-b border-white">
+                  <section className="border border-black bg-black w-full">
+                    {/* <div className="border-b border-black">
                       <div
                         className={
                           ppNeueMontreal.className +
-                          " text-white mx-4 font-bold py-2"
+                          " text-black mx-4 font-bold py-2"
                         }
                       >
                         Training Schedule
@@ -350,10 +386,10 @@ export default function RaceReady() {
                     </div> */}
                     <div className="bg-white overflow-x-auto">
                       <table className="min-w-full text-left text-sm">
-                        <thead className="bg-black text-white uppercase tracking-wider text-xs">
+                        <thead className="bg-[#e7fc4b] text-black uppercase tracking-wider text-xs border-b border-black">
                           <tr>
-                            <th className="py-3 px-4 border-r border-white">Week</th>
-                            <th className="py-3 px-4 border-r border-white">Date</th>
+                            <th className="py-3 px-4 border-r border-black">Week</th>
+                            <th className="py-3 px-4 border-r border-black">Date</th>
                             <th className="py-3 px-4">Session Focus</th>
                           </tr>
                         </thead>
@@ -412,7 +448,7 @@ export default function RaceReady() {
                                 className="border-b border-gray-300 hover:bg-gray-100 transition"
                               >
                                 <td className="pr-2 flex-shrink-0">
-                                  <span className="ml-4 w-5 h-5 flex items-center justify-center bg-grey-400 text-white rounded-full">
+                                  <span className="ml-4 w-5 h-5 flex items-center justify-center bg-grey-400 text-black rounded-full">
                                     {step}
                                   </span>
                                 </td>
@@ -431,28 +467,28 @@ export default function RaceReady() {
                   </section>
                 </div>
             <ul className={ppNeueMontreal.className}>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-white last:border-0">
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
-                        {faLocationPin("h-[1rem] fill-white")}
+                        {faLocationPin("h-[1rem] fill-black")}
                       </div>
                       <div>
-                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-white">
+                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-black">
                           Location:
                         </span>
-                        <div className=" text-white text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
+                        <div className=" text-black text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
                           RunAsYouAre at 2033 West 4th Avenue in Vancouver, BC{" "}
                         </div>
                       </div>
                     </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-white last:border-0">
+                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
-                        {faClock("h-[1rem] fill-white")}
+                        {faClock("h-[1rem] fill-black")}
                       </div>
                       <div>
-                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-white">
+                        <span className="font-medium text-[16px]  lg:text-[18px] leading-[1.15] text-black">
                           Time:
                         </span>
-                        <div className=" text-white  text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
+                        <div className=" text-black  text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
                           7:00pm - 8:00pm <br/>
                           *Shoe Demo Night 7:00pm-8:30pm
 
@@ -467,7 +503,7 @@ export default function RaceReady() {
               <div className="img-container relative">
                 <img
                   src="/images/RRWebsite-21.jpg"
-                  className="w-[500px] h-[500px] border border-1 border-white object-cover"
+                  className="w-[500px] h-[500px] border border-1 border-black object-cover"
                 />
               </div>
             </div>
@@ -476,37 +512,46 @@ export default function RaceReady() {
 
 
 
+
         <section
-          className={ppNeueMontreal.className + " wrapper  "}
-          style={{ marginBottom: "150px", marginTop: "150px" }}
-        >
+          className={ppNeueMontreal.className + " wrapper   "}
+          style={{ paddingBottom: "100px", paddingTop: "75px" }}
+          >
           <div className="w-full   mx-auto flex flex-col text-center items-center">
-            <div className="w-3/4 lg:w-full text-[#e7fc4b] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
-              <p className="text-xs uppercase tracking-widest text-white ">
+              <p className="text-xs uppercase tracking-widest text-black ">
                 What to expect
               </p>
-              Every session builds on the last.
+            <div className="w-3/4 lg:w-full text-[#492AFF] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium uppercase italic">
+              Every session  <br/> builds on the last.
             </div>
 
-            <p className="mt-10 wrapper text-white text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
+            <p className="mt-10 wrapper text-black text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
             You&apos;ll progress through training that improves Absorb (shock absorption), Bounce (energy return), and Stability (balance + control)—the foundation of every strong run.
             </p>
           </div>
         </section>
+          </div> 
 
-        <div className=" transparent">
+        <div className=" pt-[100px]  "
+        style={{
+          backgroundImage: "url('/images/rr-faq-bg.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat" 
+        }}
+        >
           <div className="text-center mb-8">
             <div
               className={
                 ppNeueMontreal.className +
-                " text-[#e7fc4b] text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] mb-10"
+                " text-[#492AFF] text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] mb-10 uppercase italic"
               }
             >
               FAQ
             </div>
           </div>
           <div className="wrapper">
-            <div className="bg-white border border-white lg:w-[1022px] mx-auto p-6">
+            <div className="bg-white border border-black lg:w-[1022px] mx-auto p-6">
               {/* Section: General */}
               <h2 className="text-2xl font-semibold mb-4">General</h2>
               {[
