@@ -212,9 +212,9 @@ export default function RaceReady() {
         >
           <div className="w-full   mx-auto flex flex-col text-center items-center">
             <div className="w-3/4 lg:w-full text-[#e7fc4b] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
-            <p className="text-xs uppercase tracking-widest text-white ">
+              <p className="text-xs uppercase tracking-widest text-white ">
                 What to expect
-                </p>
+              </p>
               Every Session Has A Purpose.
             </div>
 
@@ -235,8 +235,8 @@ export default function RaceReady() {
                   " text-[1.5rem] text-[#e7fc4b] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] "
                 }
               >
-                      <p className="text-xs uppercase tracking-widest text-white ">
-                      Schedule
+                <p className="text-xs uppercase tracking-widest text-white ">
+                  Schedule
                 </p>
                 Weekly Sessions To Create Lasting Change.
               </div>
@@ -244,121 +244,110 @@ export default function RaceReady() {
           </div>
         </section>
 
-        <section
-          // style={{ margin: "0 auto" }}
-          className="wrapper wrapper-content mb-[150px] font-secondary"
-        >
+        <section className="wrapper wrapper-content mb-[150px] font-secondary">
           <div
             className={
               ppNeueMontreal.className +
-              " flex flex-col md:flex-row items-stretch relative min-h-[200px] gap-12  max-w-[1022px] mx-auto scroll-mt-[305px]"
+              " flex flex-col lg:flex-row items-stretch relative min-h-[200px] gap-12  max-w-[1022px] mx-auto scroll-mt-[305px]"
             }
           >
-            <div className="flex flex-1 relative ">
+            <div className="flex flex-1 relative">
               <div className="flex-col flex flex-1 justify-center md:items-center">
-                <div className="">
-                  <section className=" border border-white bg-black">
-                    <div className="border-b border-black">
+                <div>
+                  <section className="border border-white bg-black w-full">
+                    {/* <div className="border-b border-white">
                       <div
                         className={
                           ppNeueMontreal.className +
-                          " text-white  mx-4  font-bold py-2 "
+                          " text-white mx-4 font-bold py-2"
                         }
                       >
-                        Dates
+                        Training Schedule
                       </div>
-                    </div>
-                    <div className="bg-white text-center">
-                      <ul className="text-left">
-                        {[
-                          {
-                            step: "1",
-                            description: "April 29, 2025",
-                          },
-                          {
-                            step: "2",
-                            description: "May 6, 2025",
-                          },
-                          {
-                            step: "3",
-                            description: "May 13, 2025",
-                          },
-                          {
-                            step: "4",
-                            description: "May 20, 2025",
-                          },
-                          {
-                            step: "5",
-                            description: "May 27, 2025",
-                          },
-                          {
-                            step: "6",
-                            description: "June 3, 2025",
-                          },
-                          {
-                            step: "7",
-                            description: "June 10, 2025",
-                          },
-                          {
-                            step: "8",
-                            description: "June 17, 2025",
-                          },
-                        ].map(
-                          (
-                            { step, title, description, list, extra },
-                            index,
-                            array
-                          ) => (
-                            <li
-                              key={index}
-                              className={`flex flex-col sm:flex-row items-center py-2 transition duration-300 hover:bg-gray-100 ${
-                                index !== array.length - 1
-                                  ? "border-b border-black"
-                                  : ""
-                              }`}
-                            >
-                              <div className="pr-2  flex-shrink-0">
-                                <span className="ml-4 w-5 h-5  flex items-center justify-center bg-grey-400 text-white   rounded-full">
-                                  {step}
-                                </span>
-                              </div>
-                              <div className="px-4 text-center sm:text-left">
-                                <h3
-                                  className={
-                                    ppNeueMontreal.className +
-                                    " text-lg sm:text-xl font-semibold"
-                                  }
-                                >
-                                  {title}
-                                </h3>
-                                <p
-                                  className={
-                                    ppNeueMontreal.className +
-                                    " text-gray-600 text-sm sm:text-base"
-                                  }
-                                >
+                    </div> */}
+                    <div className="bg-white overflow-x-auto">
+                      <table className="min-w-full text-left text-sm">
+                        <thead className="bg-black text-white uppercase tracking-wider text-xs">
+                          <tr>
+                            <th className="py-3 px-4 border-r border-white">Week</th>
+                            <th className="py-3 px-4 border-r border-white">Date</th>
+                            <th className="py-3 px-4">Session Focus</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {[
+                            {
+                              step: "1",
+                              description: "April 29",
+                              sessionFocus: "Absorb Focus 1",
+                            },
+                            {
+                              step: "2",
+                              description: "May 6",
+                              sessionFocus: "Bounce Focus 1",
+                            },
+                            {
+                              step: "3",
+                              description: "May 13*",
+                              sessionFocus: (<>
+                              Absorb Focus 2 + <br/> Demo w Asics (Gel Nimbus) or Nike (Invincible)
+                              </>
+                            ),
+                            },
+                            {
+                              step: "4",
+                              description: "May 20",
+                              sessionFocus: "Bounce Focus 2",
+                            },
+                            {
+                              step: "5",
+                              description: "May 27",
+                              sessionFocus: "Absorb Focus 3",
+                            },
+                            {
+                              step: "6",
+                              description: "June 3",
+                              sessionFocus: (<>
+                              Bounce Focus 3 + <br/> Demo by On CloudMonsterHyper
+                              </>
+                              ),
+                            },
+                            {
+                              step: "7",
+                              description: "June 10*",
+                              sessionFocus: "Absorb Focus 4",
+                            },
+                            {
+                              step: "8",
+                              description: "June 17",
+                              sessionFocus: "Bounce Focus 4",
+                            },
+                          ].map(
+                            ({ step, description, sessionFocus }, index) => (
+                              <tr
+                                key={index}
+                                className="border-b border-gray-300 hover:bg-gray-100 transition"
+                              >
+                                <td className="pr-2 flex-shrink-0">
+                                  <span className="ml-4 w-5 h-5 flex items-center justify-center bg-grey-400 text-white rounded-full">
+                                    {step}
+                                  </span>
+                                </td>
+                                <td className="py-3 px-4 text-gray-700">
                                   {description}
-                                </p>
-                                {list && (
-                                  <ul className="list-disc list-inside text-left pl-5 text-sm">
-                                    {list.map((item, i) => (
-                                      <li key={i}>{item}</li>
-                                    ))}
-                                  </ul>
-                                )}
-                                {extra && (
-                                  <p className="text-gray-600 text-sm sm:text-base">
-                                    {extra}
-                                  </p>
-                                )}
-                              </div>
-                            </li>
-                          )
-                        )}
-                      </ul>
+                                </td>
+                                <td className="py-3 px-4 text-gray-700">
+                                  {sessionFocus}
+                                </td>
+                              </tr>
+                            )
+                          )}
+                        </tbody>
+                      </table>
                     </div>
                   </section>
-                  <ul className={ppNeueMontreal.className}>
+                </div>
+            <ul className={ppNeueMontreal.className}>
                     <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-white last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
                         {faLocationPin("h-[1rem] fill-white")}
@@ -381,19 +370,21 @@ export default function RaceReady() {
                           Time:
                         </span>
                         <div className=" text-white  text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
-                          7:00pm - 8:00pm
+                          7:00pm - 8:00pm <br/>
+                          *Shoe Demo Night 7:00pm-8:30pm
+
                         </div>
                       </div>
                     </li>
                   </ul>
-                </div>
               </div>
             </div>
-            <div className="flex justify-center flex-1 relative ">
+
+            <div className="flex justify-center flex-1 relative">
               <div className="img-container relative">
                 <img
                   src="/images/RRWebsite-21.jpg"
-                  className="w-[500px] h-[500px]   border border-1 border-white object-cover"
+                  className="w-[500px] h-[500px] border border-1 border-white object-cover"
                 />
               </div>
             </div>
