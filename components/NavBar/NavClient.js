@@ -46,7 +46,7 @@ export default function NavClient() {
   return (
     <div className="order-2 min-[430px]:order-3 gap-[1.0625rem] flex relative">
               <div
-          className="relative mr-10 hidden xl:block "
+          className="relative  hidden xl:block "
           ref={servicesRef}
           onMouseEnter={() => handleEnter("services")}
           onMouseLeave={handleLeave}
