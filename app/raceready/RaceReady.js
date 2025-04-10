@@ -19,167 +19,176 @@ export default function RaceReady() {
     <div className="flex flex-col">
       <div className="bg-[#ADDAD9]">
         <NavBar />
-      <div
-          style={{ alignItems: "center", backgroundImage: "url('/images/rrbg.jpg')",
+        <div
+          style={{
+            alignItems: "center",
+            backgroundImage: "url('/images/RR_WebRes-1.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundRepeat: "no-repeat" }}
-      >
-
-        <section
-          className="wrapper flex flex-col-reverse lg:flex-row lg:h-[91vh] max-w-[1657px] mx-auto "
-          style={{ alignItems: "center",
+            backgroundRepeat: "no-repeat",
           }}
-          >
-          <div className="text-black flex flex-col w-full lg:w-4/5 justify-center text-center lg:text-left lg:pr-[9rem] pr-5">
-            <p className="text-xs uppercase tracking-widest  mb-1">RaceReady</p>
-            <div
-              className={
-                ppNeueMontreal.className +
-                " text-[38px] text-[#492AFF] lg:text-5xl xl:leading-none font-bold mb-6 lg:mb-6 uppercase italic font-bold"
-              }
-              >
-             Train smart for race day
-            </div>
-            <span
-              className={
-                ppNeueMontreal.className +
-                " text-[16px] md:text-[20px] leading-[1.4]  lg:leading-[1.2]"
-              }
-              >
-             8-week small group training led by RunReady physiotherapists. Build strength, mobility, and adaptability—just in time for the Vancouver Half.
-            </span>
-            {/* <div className="mt-10">
-                  <Link
-                  href="https://runready.janeapp.com/"
-                  target="_blank"
-                  className="btn-black"
-                  >
-                  Get started today
-                  </Link>
-                  </div> */}
-          </div>
-          <div className="flex justify-center lg:justify-end my-10 lg:my-0 w-full lg:w-auto">
-            <div className="relative xl:w-[663px]  max-w-md md:max-w-none">
-              <img
-                src="/images/RRWebsite-9.jpg"
-                className="md:w-[850px] h-auto   md:h-[75vh] border border-black object-cover"
-                alt="Run Ready Hero"
-                />
-            </div>
-          </div>
-        </section>
-                </div>
-        <div
-              style={{ 
-                alignItems: "center", backgroundImage: "url('/images/raceready-pattern-background-1.svg')",
-                             backgroundSize: "cover",
-                             backgroundPosition: "center",
-                             backgroundRepeat: "no-repeat" 
-                          }}
-             >
+          className="relative"
+        >
+          <div className="absolute inset-0 bg-black bg-opacity-40 z-5"></div>
 
-        <section className=" mb-10 font-secondary pt-[100px]">
-          <div className="flex justify-center">
-            <div className="lg:w-[920px] text-center">
-                <p className="text-xs uppercase  tracking-widest text-black ">
-                  Limited Time Offer
-                </p>
+          <section className="wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-[91vh] max-w-[1657px] mx-auto text-center">
+            <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10">
+              <img
+                src="/images/white_raceready_wordmark.svg"
+                className="h-[75px]"
+              />
               <div
                 className={
                   ppNeueMontreal.className +
-                  " text-[1.5rem] lg:text-[2.5rem] text-[#492AFF] uppercase italic   "
-                } style={{lineHeight:"normal"}}
+                  " text-[38px] text-[#492AFF] lg:text-4xl xl:leading-none font-bold mb-6 uppercase "
+                }
+              >
+                <span className=" text-5xl  lg:text-7xl text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] italic ">
+                  Train smart
+                </span>
+                <br />
+                <span className="mt-3 inline-block">for race day</span>
+              </div>
+              <span
+                className={
+                  ppNeueMontreal.className +
+                  " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
+                }
+              >
+                8-week small group training led by RunReady physiotherapists.
+                Build strength, mobility, and adaptability—just in time for the
+                Vancouver Half.
+              </span>
+              {/* 
+    <div className="mt-10">
+      <Link
+        href="https://runready.janeapp.com/"
+        target="_blank"
+        className="btn-black"
+      >
+        Get started today
+      </Link>
+    </div> 
+    */}
+            </div>
+          </section>
+        </div>
+        <div
+          style={{
+            alignItems: "center",
+            backgroundImage:
+              "url('/images/raceready-pattern-background-1.svg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <section className=" mb-10 font-secondary pt-[100px]">
+            <div className="flex justify-center">
+              <div className="lg:w-[920px] text-center">
+                <p className="text-xs uppercase font-medium  tracking-widest text-black ">
+                  Limited Time Offer
+                </p>
+                <div
+                  className={
+                    ppNeueMontreal.className +
+                    " text-[1.5rem] lg:text-[2.5rem] text-[#492AFF] uppercase italic   "
+                  }
+                  style={{ lineHeight: "normal" }}
                 >
-                Everything you need, <br/> nothing you don&apos;t.
+                  Everything you need, <br /> nothing you don&apos;t.
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section
-          className={
-            ppNeueMontreal.className + " wrapper wrapper-content mb-[75px] "
-          }
-          >
-          <div
+          <section
             className={
-              ppNeueMontreal.className +
-              " flex flex-col-reverse md:flex-row items-stretch relative min-h-[200px] gap-12 max-w-[1022px] mx-auto scroll-mt-[305px]"
+              ppNeueMontreal.className + " wrapper wrapper-content mb-[75px] "
             }
+          >
+            <div
+              className={
+                ppNeueMontreal.className +
+                " flex flex-col-reverse md:flex-row items-stretch relative min-h-[200px] gap-12 max-w-[1022px] mx-auto scroll-mt-[305px]"
+              }
             >
-            <div className="flex flex-1 relative ">
-              <div className="flex-col flex flex-1 justify-center md:items-center">
-                <div className="">
-                  <ul>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                      <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-black")}
-                      </div>
-                      <div>
-                        <span className="font-medium  text-[16px] lg:text-[18px] leading-[1.15] text-black">
-                        8 weekly physio-led, group training classes <br/> (April 29-June 17)
-                        </span>
-                        {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
+              <div className="flex flex-1 relative ">
+                <div className="flex-col flex flex-1 justify-center md:items-center">
+                  <div className="">
+                    <ul>
+                      <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
+                        <div className="flex-shrink-0 h-4 w-4">
+                          {faCheck("h-[1rem] fill-black")}
+                        </div>
+                        <div>
+                          <span className="font-medium  text-[16px] lg:text-[18px] leading-[1.15] text-black">
+                            8 weekly physio-led, group training classes <br />{" "}
+                            (April 29 - June 17)
+                          </span>
+                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
                             This service focuses on your unique movement
                             patterns and needs. This complete care approach
                             ensures that every solution—from footwear to
                             exercises—fits you perfectly.
                             </div> */}
-                      </div>
-                    </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                      <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-black")}
-                      </div>
-                      <div>
-                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
-                        Strength + mobility training to reduce injury
-                        </span>
-                        {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
+                        </div>
+                      </li>
+                      <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
+                        <div className="flex-shrink-0 h-4 w-4">
+                          {faCheck("h-[1rem] fill-black")}
+                        </div>
+                        <div>
+                          <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
+                            Strength + mobility training to reduce injury
+                          </span>
+                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
                             Get a movement assessment, footwear match, and
                             exercise program in one session. Conveniently
                             available at RunAsYouAre and through your account
                             dashboard.
                             </div> */}
-                      </div>
-                    </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                      <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-black")}
-                      </div>
-                      <div>
-                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
-                        Limited spots. Small group. Sharper results.
-                        </span>
-                        {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
+                        </div>
+                      </li>
+                      <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
+                        <div className="flex-shrink-0 h-4 w-4">
+                          {faCheck("h-[1rem] fill-black")}
+                        </div>
+                        <div>
+                          <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
+                            Small group. Sharper results.
+                          </span>
+                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
                             With physiotherapy expertise and running science,
                             this service provides personalized solutions based
                             on your movement and performance needs.
                             </div> */}
-                      </div>
-                    </li>
-                    <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                      <div className="flex-shrink-0 h-4 w-4">
-                        {faCheck("h-[1rem] fill-black")}
-                      </div>
-                      <div>
-                        <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
-                        Test top running shoes in exclusive demo runs
-                        </span>
-                        {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
+                        </div>
+                      </li>
+                      <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
+                        <div className="flex-shrink-0 h-4 w-4">
+                          {faCheck("h-[1rem] fill-black")}
+                        </div>
+                        <div>
+                          <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
+                            Test top running shoes in exclusive demo runs
+                          </span>
+                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
                             With physiotherapy expertise and running science,
                             this service provides personalized solutions based
                             on your movement and performance needs.
                             </div> */}
-                      </div>
-                    </li>
-                  </ul>
-                  <div className="text-black font-semibold text-[16px] lg:text-[18px]">
-                  Just $50/session. $400 total. Covered by most insurance.
-                  Free starter kit included
-                  </div>
-                  {/* <ul className="text-black list-disc pl-2 mt-2 text-[14px] lg:text-[16px] leading-[1.6]">
+                        </div>
+                      </li>
+                    </ul>
+                    <div className="text-black font-semibold text-[16px] lg:text-[18px]">
+                      Just $50/session. $400 total. <br /> Covered by most
+                      insurance providers. <br />
+                      <span className="font-normal italic">
+                        Free starter kit included
+                      </span>
+                    </div>
+                    {/* <ul className="text-black list-disc pl-2 mt-2 text-[14px] lg:text-[16px] leading-[1.6]">
                     <li className="pl-2">
                     8 Weekly Small Group Training Sessions (Tuesdays, April 29
                     – June 17, 2025)
@@ -195,71 +204,77 @@ export default function RaceReady() {
                     Exclusive Perks (Post-run drinks, surprise activations)
                     </li>
                     </ul> */}
-                  <div className="mt-10">
-                    <Link
-                      href="https://checkout.runready.io/b/dR67tX2Iy7Ea6mQ5kl"
-                      target="_blank"
-                      className="btn-yellow block w-[fit-content]"
+                    <div className="mt-10">
+                      <Link
+                        href="https://checkout.runready.io/b/7sI4hL6YO9Mih1ufZ1"
+                        target="_blank"
+                        className="btn-yellow block w-[fit-content]"
                       >
-                      Register Now
-                    </Link>
+                        Register Now
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-center flex-1 relative items-center">
+                <div className="img-container relative ">
+                  <img
+                    src="/images/RR_WebRes-6.jpg"
+                    className="w-[500px] h-[500px]  border border-black object-cover"
+                  />
+                  <div className="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white text-sm px-3 py-1 rounded">
+                    <span className="font-semibold">
+                  Physio Group Class Leaders 
+                    </span>
+                  <br/>
+                  Dani, Kendra and Sean
                   </div>
                 </div>
               </div>
             </div>
-            <div className="flex justify-center flex-1 relative items-center">
-              <div className="img-container relative ">
-                <img
-                  src="/images/RRWebsite-2.jpg"
-                  className="w-[500px] h-[500px]  border border-black object-cover"
-                  />
-              </div>
-            </div>
-          </div>
-        </section>
+          </section>
 
-        <section
-          className={ppNeueMontreal.className + " wrapper  "}
-          style={{ paddingBottom: "75px",
-            
-          }}
+          <section
+            className={ppNeueMontreal.className + " wrapper  "}
+            style={{ paddingBottom: "75px" }}
           >
-          <div className="w-full   mx-auto flex flex-col text-center items-center">
-              <p className="text-xs uppercase tracking-widest text-black ">
-              Why it works
+            <div className="w-full   mx-auto flex flex-col text-center items-center">
+              <p className="text-xs font-medium uppercase tracking-widest text-black ">
+                What to Expect
               </p>
-            <div className="w-3/4 lg:w-full text-[#492AFF] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium uppercase italic">
-              Every session builds <br/> a stronger run
-            </div>
+              <div className="w-3/4 lg:w-full text-[#492AFF] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium uppercase italic">
+                Training that moves <br /> you forward
+              </div>
 
-            <p className="mt-10 wrapper text-black text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
-            >
-            Each class focuses on how your body handles impact, pushes off the ground, and stays stable—three key parts of running better. You’ll build strength and control step by step, so you feel more ready (and less likely to get hurt) by race day.
-            </p>
-          </div>
-        </section>
-          </div>
-        <section className="wrapper pb-[75px] pt-[75px]  text-black  "
-        
-        
-        style={{ 
-          alignItems: "center", backgroundImage: "url('/images/rr-brand-bg.png')",
-                       backgroundSize: "cover",
-                       backgroundPosition: "center",
-                       backgroundRepeat: "no-repeat" 
-                    }}>
+              <p className="mt-10 wrapper text-black text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
+                Each week targets how you land (Absorb), push off (Bounce), and
+                stay balanced (Stability), helping you put less stress on your
+                joints, run with more energy, and stay steady while you run.
+              </p>
+            </div>
+          </section>
+        </div>
+        <section
+          className="wrapper pb-[75px] pt-[75px]  text-black  "
+          style={{
+            alignItems: "center",
+            backgroundImage: "url('/images/rr-brand-bg.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
           <div className="wrapper-content flex flex-col items-center justify-center">
             <div
               className={
                 ppNeueMontreal.className + " lg:w-[1022px] text-center mb-10"
               }
-          
             >
-              <p className="text-xs uppercase tracking-widest text-black ">
-              Brand Partners
+              <p className="text-xs font-medium uppercase tracking-widest text-black ">
+                Brand Partners
               </p>
               <div className="text-[1.5rem]  text-[#492AFF] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] font-medium mb-10 lg:mb-6 uppercase italic">
-              Backed by leaders in running
+                Access perks by top brands
               </div>
               {/* <div className="text-[16px] md:text-[20px]">
                 RunReady grades footwear based on Absorb, Bounce, and
@@ -268,66 +283,36 @@ export default function RaceReady() {
                 world&apos;s leading brands.
               </div> */}
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-[#492AFF]">
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/adidas_mountain_logo.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/Altra-Logo.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>{" "}
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/Asics_Logo_Black.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>{" "}
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/nike-swoosh-logo.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>{" "}
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/Norda_Horz_Logo_Black.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>{" "}
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/On_Logo_Black.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>{" "}
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/Puma_Logo_Black.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>{" "}
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/salomon.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
-              </div>
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/Saucony-brandmark-black.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-cotain"
-                />
-              </div>
-              <div className="flex justify-center">
-                <img
-                  src="/images/partner-logos/TNF_Logo_b.svg"
-                  className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                />
+            <div className="grid grid-cols-2  md:grid-cols-4 justify-around gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-[#492AFF]">
+              {/* Top Row Logos */}
+              {[
+                "/images/partner-logos/On_Logo_Black.svg",
+                "/images/partner-logos/Asics_Logo_Black.svg",
+                "/images/partner-logos/Stance_logo.svg",
+                "/images/partner-logos/JuiceTruck_Logo.svg",
+              ].map((src, i) => (
+                <div key={i} className="flex justify-center">
+                  <img
+                    src={src}
+                    className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
+                  />
+                </div>
+              ))}
+
+              {/* Bottom Row Logos - wrapped and centered */}
+              <div className="col-span-full    flex justify-center  gap-x-10  md:gap-x-20">
+                {[
+                  "/images/partner-logos/Formula_Fig_logo.svg",
+                  "/images/partner-logos/human_logo.svg",
+                  "/images/partner-logos/SuperBoltLab_logo.svg",
+                ].map((src, i) => (
+                  <div key={i} className="flex justify-center">
+                    <img
+                      src={src}
+                      className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
             <div
@@ -337,44 +322,46 @@ export default function RaceReady() {
             ></div>
           </div>
         </section>
-             <div
-              style={{ 
-                alignItems: "center", backgroundImage: "url('/images/raceready-pattern-background-1.svg')",
-                             backgroundSize: "cover",
-                             backgroundPosition: "center",
-                             backgroundRepeat: "no-repeat" 
-                          }}
-             >
-        <section className="bg-transparent  pt-[75px] font-secondary ">
-          <div className="flex justify-center">
-            <div className="lg:w-[920px] text-center">
-              <div
-                className={
-                  ppNeueMontreal.className +
-                  " text-[1.5rem] text-[#492AFF] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] uppercase italic mb-10"
-                }
-              >
-                <p className="text-xs uppercase tracking-widest text-black ">
-                The Schedule
-                </p>
-                8 workouts. 1 goal.
+        <div
+          style={{
+            alignItems: "center",
+            backgroundImage:
+              "url('/images/raceready-pattern-background-1.svg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <section className="bg-transparent  pt-[75px] font-secondary ">
+            <div className="flex justify-center">
+              <div className="lg:w-[920px] text-center">
+                <div
+                  className={
+                    ppNeueMontreal.className +
+                    " text-[1.5rem] text-[#492AFF] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] uppercase italic mb-10"
+                  }
+                >
+                  <p className="text-xs uppercase tracking-widest text-black ">
+                    The Schedule
+                  </p>
+                  8 workouts. 1 goal.
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
 
-        <section className="wrapper wrapper-content  font-secondary">
-          <div
-            className={
-              ppNeueMontreal.className +
-              " flex flex-col lg:flex-row items-stretch relative min-h-[200px] gap-12  max-w-[1022px] mx-auto scroll-mt-[305px]"
-            }
-          >
-            <div className="flex flex-1 relative">
-              <div className="flex-col flex flex-1 justify-center md:items-center">
-                <div>
-                  <section className="border border-black bg-black w-full">
-                    {/* <div className="border-b border-black">
+          <section className="wrapper wrapper-content  font-secondary pb-[75px]">
+            <div
+              className={
+                ppNeueMontreal.className +
+                " flex flex-col lg:flex-row items-stretch relative min-h-[200px] gap-10  max-w-[1022px] mx-auto scroll-mt-[305px]"
+              }
+            >
+              <div className="flex flex-1 relative">
+                <div className="flex-col flex flex-1 justify-center md:items-center">
+                  <div>
+                    <section className="border border-black bg-black w-full">
+                      {/* <div className="border-b border-black">
                       <div
                         className={
                           ppNeueMontreal.className +
@@ -384,89 +371,103 @@ export default function RaceReady() {
                         Training Schedule
                       </div>
                     </div> */}
-                    <div className="bg-white overflow-x-auto">
-                      <table className="min-w-full text-left text-sm">
-                        <thead className="bg-[#e7fc4b] text-black uppercase tracking-wider text-xs border-b border-black">
-                          <tr>
-                            <th className="py-3 px-4 border-r border-black">Week</th>
-                            <th className="py-3 px-4 border-r border-black">Date</th>
-                            <th className="py-3 px-4">Session Focus</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {[
-                            {
-                              step: "1",
-                              description: "April 29",
-                              sessionFocus: "Absorb Focus 1",
-                            },
-                            {
-                              step: "2",
-                              description: "May 6",
-                              sessionFocus: "Bounce Focus 1",
-                            },
-                            {
-                              step: "3",
-                              description: "May 13*",
-                              sessionFocus: (<>
-                              Absorb Focus 2 + <br/> Demo w Asics (Gel Nimbus) or Nike (Invincible)
-                              </>
-                            ),
-                            },
-                            {
-                              step: "4",
-                              description: "May 20",
-                              sessionFocus: "Bounce Focus 2",
-                            },
-                            {
-                              step: "5",
-                              description: "May 27",
-                              sessionFocus: "Absorb Focus 3",
-                            },
-                            {
-                              step: "6",
-                              description: "June 3",
-                              sessionFocus: (<>
-                              Bounce Focus 3 + <br/> Demo by On CloudMonsterHyper
-                              </>
-                              ),
-                            },
-                            {
-                              step: "7",
-                              description: "June 10*",
-                              sessionFocus: "Absorb Focus 4",
-                            },
-                            {
-                              step: "8",
-                              description: "June 17",
-                              sessionFocus: "Bounce Focus 4",
-                            },
-                          ].map(
-                            ({ step, description, sessionFocus }, index) => (
-                              <tr
-                                key={index}
-                                className="border-b border-gray-300 hover:bg-gray-100 transition"
-                              >
-                                <td className="pr-2 flex-shrink-0">
-                                  <span className="ml-4 w-5 h-5 flex items-center justify-center bg-grey-400 text-black rounded-full">
-                                    {step}
-                                  </span>
-                                </td>
-                                <td className="py-3 px-4 text-gray-700">
-                                  {description}
-                                </td>
-                                <td className="py-3 px-4 text-gray-700">
-                                  {sessionFocus}
-                                </td>
-                              </tr>
-                            )
-                          )}
-                        </tbody>
-                      </table>
-                    </div>
-                  </section>
-                </div>
-            <ul className={ppNeueMontreal.className}>
+                      <div className="bg-white overflow-x-auto">
+                        <table className="min-w-full text-left text-sm">
+                          <thead className="bg-[#e7fc4b] text-black uppercase tracking-wider text-xs border-b border-black">
+                            <tr>
+                              <th className="py-3 px-4 border-r border-black">
+                                Week
+                              </th>
+                              <th className="py-3 px-4 border-r border-black">
+                                Date
+                              </th>
+                              <th className="py-3 px-4">Session Focus</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {[
+                              {
+                                step: "1",
+                                description: "April 29",
+                                sessionFocus:
+                                  "Learn how to land softer and protect your joints while running",
+                              },
+                              {
+                                step: "2",
+                                description: "May 6",
+                                sessionFocus:
+                                  "Build more strength to push off better",
+                              },
+                              {
+                                step: "3",
+                                description: "May 13*",
+                                sessionFocus: (
+                                  <>
+                                    Improve how your body handles impact +{" "}
+                                    <br /> try new footwear from ASICS
+                                  </>
+                                ),
+                              },
+                              {
+                                step: "4",
+                                description: "May 20",
+                                sessionFocus:
+                                  "Train your legs to feel lighter and bounce back faster between steps",
+                              },
+                              {
+                                step: "5",
+                                description: "May 27",
+                                sessionFocus:
+                                  "Strengthen how you land to stay more stable and in control",
+                              },
+                              {
+                                step: "6",
+                                description: "June 3",
+                                sessionFocus: (
+                                  <>
+                                    Boost power and speed off the ground + test
+                                    shoes from On Running
+                                  </>
+                                ),
+                              },
+                              {
+                                step: "7",
+                                description: "June 10*",
+                                sessionFocus:
+                                  "Improve control and form so you stay strong as you get tired",
+                              },
+                              {
+                                step: "8",
+                                description: "June 17",
+                                sessionFocus:
+                                  "Sharpen your final push—feel quicker and lighter at the end of your run",
+                              },
+                            ].map(
+                              ({ step, description, sessionFocus }, index) => (
+                                <tr
+                                  key={index}
+                                  className="border-b border-gray-300 hover:bg-gray-100 transition"
+                                >
+                                  <td className="pr-2 flex-shrink-0">
+                                    <span className="ml-4 w-5 h-5 flex items-center justify-center bg-grey-400 text-black rounded-full">
+                                      {step}
+                                    </span>
+                                  </td>
+                                  <td className="py-3 px-1 text-gray-700">
+                                    {description}
+                                  </td>
+                                  <td className="py-3 px-4 text-gray-700">
+                                    {sessionFocus}
+                                  </td>
+                                </tr>
+                              )
+                            )}
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                  <ul className={ppNeueMontreal.className}>
                     <li className="text-subtitle2 flex py-6 gap-4 items-center border-b  border-black last:border-0">
                       <div className="flex-shrink-0 h-4 w-4">
                         {faLocationPin("h-[1rem] fill-black")}
@@ -489,31 +490,28 @@ export default function RaceReady() {
                           Time:
                         </span>
                         <div className=" text-black  text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
-                          7:00pm - 8:00pm <br/>
-                          *Shoe Demo Night 7:00pm-8:30pm
-
+                          7:00pm - 8:00pm <br />
+                          7:00pm - 8:30pm{"  "}
+                          <span className="ml-2">*shoe demo night</span>
                         </div>
                       </div>
                     </li>
                   </ul>
+                </div>
+              </div>
+
+              <div className="flex justify-center flex-1 relative">
+                <div className="img-container relative">
+                  <img
+                    src="/images/RR_WebRes-5.jpg"
+                    className="w-[500px] h-[542px] border border-1 border-black object-cover"
+                  />
+                </div>
               </div>
             </div>
+          </section>
 
-            <div className="flex justify-center flex-1 relative">
-              <div className="img-container relative">
-                <img
-                  src="/images/RRWebsite-21.jpg"
-                  className="w-[500px] h-[500px] border border-1 border-black object-cover"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-
-        <section
+          {/* <section
           className={ppNeueMontreal.className + " wrapper   "}
           style={{ paddingBottom: "100px", paddingTop: "75px" }}
           >
@@ -529,16 +527,17 @@ export default function RaceReady() {
             You&apos;ll progress through training that improves Absorb (shock absorption), Bounce (energy return), and Stability (balance + control)—the foundation of every strong run.
             </p>
           </div>
-        </section>
-          </div> 
+        </section> */}
+        </div>
 
-        <div className=" pt-[100px]  "
-        style={{
-          backgroundImage: "url('/images/rr-faq-bg.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat" 
-        }}
+        <div
+          className=" pt-[75px]  "
+          style={{
+            backgroundImage: "url('/images/rr-faq-bg.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
         >
           <div className="text-center mb-8">
             <div
@@ -690,7 +689,6 @@ export default function RaceReady() {
                   </details>
                 </div>
               ))}
-              
 
               {/* Section: Footwear & Perks */}
               <h2 className="text-2xl font-semibold mt-8 mb-4">
@@ -732,18 +730,17 @@ export default function RaceReady() {
                 </div>
               ))}
 
-
-
-                          {/* Section: Choosing the Right Program
- */}
-                          <h2 className="text-2xl font-semibold mt-8 mb-4">Choosing the Right Program
-                          </h2>
+              {/* Section: Choosing the Right Program
+               */}
+              <h2 className="text-2xl font-semibold mt-8 mb-4">
+                Choosing the Right Program
+              </h2>
               {[
                 {
                   question:
                     "What’s the difference between race ready and the RunReady Performance Program?",
                   answer:
-                    "Race ready is a group training program designed to help you get stronger, move better, and stay injury-free in the lead-up to race day. It follows a weekly class format with up to 20 people, guided by a licensed physiotherapist. The RunReady Performance Program is a one-on-one assessment that looks at how your body moves, then matches you with the right footwear and a personalized exercise plan. If you want a consistent, community-based program to build up to a race, choose race ready. If you’re looking for a deep, personalized plan based on your unique movement, go with the Performance Program.",
+                    "race ready is a group training program designed to help you get stronger, move better, and stay injury-free in the lead-up to race day. It follows a weekly class format with up to 20 people, guided by a licensed physiotherapist. The RunReady Performance Program is a one-on-one assessment that looks at how your body moves, then matches you with the right footwear and a personalized exercise plan. If you want a consistent, community-based program to build up to a race, choose race ready. If you’re looking for a deep, personalized plan based on your unique movement, go with the Performance Program.",
                 },
               ].map((faq, index) => (
                 <div
@@ -764,7 +761,6 @@ export default function RaceReady() {
                   </details>
                 </div>
               ))}
-            
             </div>
           </div>
           {/* <div className="mb-40"></div> */}
