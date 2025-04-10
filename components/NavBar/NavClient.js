@@ -88,7 +88,7 @@ export default function NavClient() {
           onMouseLeave={handleLeave}
         >
           <button className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  ">
-            <div>Group Phyiso</div>
+            <div>Group Physio</div>
             <div>{faChevronDown("h-[1rem]")}</div>
           </button>
 

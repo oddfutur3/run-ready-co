@@ -25,7 +25,7 @@ export default function MobileMenu({ activePath }) {
       ],
     },
     {
-      title: "Group Phyiso",
+      title: "Group Physio",
       children: [
         { title: "Race Ready", pathname: "/raceready" },
       ],
