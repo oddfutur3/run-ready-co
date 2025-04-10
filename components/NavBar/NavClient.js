@@ -45,38 +45,7 @@ export default function NavClient() {
 
   return (
     <div className="order-2 min-[430px]:order-3 gap-[1.0625rem] flex relative">
-      <div className="flex " style={{ alignItems: "center" }}>
-                <div
-          className="relative mr-10 hidden xl:block "
-          ref={groupRef}
-          onMouseEnter={() => handleEnter("group")}
-          onMouseLeave={handleLeave}
-        >
-          <button className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  ">
-            <div>Group Phyiso</div>
-            <div>{faChevronDown("h-[1rem]")}</div>
-          </button>
-
-          {openDropdown === "group" && (
-            <div className="absolute bg-white w-[180px] border border-black mt-2  z-50">
-              <Link
-                href="/raceready"
-                className="block px-3 py-2 hover:bg-gray-100"
-              >
-                race ready
-              </Link>
-           
-              {/* <Link
-                  href="https://www.runasyouare.co/"
-                  target="_blank"
-                  className="block px-3 py-2 hover:bg-gray-100"
-                >
-                  RunAsYouAre
-                </Link> */}
-            </div>
-          )}
-        </div>
-        <div
+              <div
           className="relative mr-10 hidden xl:block "
           ref={servicesRef}
           onMouseEnter={() => handleEnter("services")}
@@ -111,6 +80,38 @@ export default function NavClient() {
             </div>
           )}
         </div>
+      <div className="flex " style={{ alignItems: "center" }}>
+                <div
+          className="relative mr-10 hidden xl:block "
+          ref={groupRef}
+          onMouseEnter={() => handleEnter("group")}
+          onMouseLeave={handleLeave}
+        >
+          <button className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  ">
+            <div>Group Phyiso</div>
+            <div>{faChevronDown("h-[1rem]")}</div>
+          </button>
+
+          {openDropdown === "group" && (
+            <div className="absolute bg-white w-[180px] border border-black mt-2  z-50">
+              <Link
+                href="/raceready"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                race ready
+              </Link>
+           
+              {/* <Link
+                  href="https://www.runasyouare.co/"
+                  target="_blank"
+                  className="block px-3 py-2 hover:bg-gray-100"
+                >
+                  RunAsYouAre
+                </Link> */}
+            </div>
+          )}
+        </div>
+
 
         {pathname === "/raceready" ? (
   <Link
