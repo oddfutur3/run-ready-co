@@ -207,7 +207,7 @@ export default function RaceReady() {
                     </ul> */}
                     <div className="mt-10">
                       <Link
-                        href="https://checkout.runready.io/b/7sI4hL6YO9Mih1ufZ1"
+                        href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
                         target="_blank"
                         className="btn-yellow block w-[fit-content]"
                       >
@@ -353,9 +353,9 @@ export default function RaceReady() {
                   }
                 >
                   <p className="text-xs uppercase tracking-widest text-black ">
-                    The Schedule
+                  Your weekly plan
                   </p>
-                  8 workouts. 1 goal.
+                  8 workouts to run stronger
                 </div>
               </div>
             </div>

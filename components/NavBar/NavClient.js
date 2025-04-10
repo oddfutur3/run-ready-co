@@ -115,7 +115,7 @@ export default function NavClient() {
         {pathname === "/raceready" ? (
   <Link
     className="btn-yellow-inverse-2"
-    href="https://checkout.runready.io/b/7sI4hL6YO9Mih1ufZ1"
+    href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
     target="_blank"
   >
     Register Now
