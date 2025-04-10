@@ -236,7 +236,7 @@ export default function RaceReady() {
           </section>
 
           <section
-            className={ppNeueMontreal.className + " wrapper  "}
+            className={ppNeueMontreal.className + " wrapper  lg:w-[1222px] mx-auto "}
             style={{ paddingBottom: "75px" }}
           >
             <div className="w-full   mx-auto flex flex-col text-center items-center">
@@ -346,15 +346,15 @@ export default function RaceReady() {
           <section className="bg-transparent  pt-[75px] font-secondary ">
             <div className="flex justify-center">
               <div className="lg:w-[920px] text-center">
+                  <p className="text-xs uppercase font-medium tracking-widest text-black ">
+                  Your weekly plan
+                  </p>
                 <div
                   className={
                     ppNeueMontreal.className +
                     " text-[1.5rem] text-[#492AFF] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] uppercase italic mb-10"
                   }
                 >
-                  <p className="text-xs uppercase tracking-widest text-black ">
-                  Your weekly plan
-                  </p>
                   8 workouts to run stronger
                 </div>
               </div>
@@ -557,7 +557,7 @@ export default function RaceReady() {
                 " text-[#492AFF] text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] mb-10 uppercase italic"
               }
             >
-              FAQ
+              frequently Asked Questions
             </div>
           </div>
           <div className="wrapper">
