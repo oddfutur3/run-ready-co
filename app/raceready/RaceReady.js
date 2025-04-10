@@ -22,7 +22,7 @@ export default function RaceReady() {
         <div
           style={{
             alignItems: "center",
-            backgroundImage: "url('/images/RR_WebRes-1.jpg')",
+            backgroundImage: "url('/images/RacereadyHero.png')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -182,7 +182,8 @@ export default function RaceReady() {
                       </li>
                     </ul>
                     <div className="text-black font-semibold text-[16px] lg:text-[18px]">
-                      Just $50/session. $400 total. <br /> Covered by most
+                      Just $49/session. $399 total.
+                      <br /> Covered by most
                       insurance providers. <br />
                       <span className="font-normal italic">
                         Free starter kit included
@@ -300,22 +301,32 @@ export default function RaceReady() {
               ))}
 
               {/* Bottom Row Logos - wrapped and centered */}
-              <div className="col-span-full    flex justify-center  gap-x-10  md:gap-x-20">
-                {[
-                  "/images/partner-logos/Formula_Fig_logo.svg",
-                  "/images/partner-logos/human_logo.svg",
-                  "/images/partner-logos/SuperBoltLab_logo.svg",
-                ].map((src, i) => (
-                  <div key={i} className="flex justify-center">
-                    <img
-                      src={src}
-                      className="h-[36px] w-[100px] lg:w-[156px] lg:h-[84px] object-contain"
-                    />
-                  </div>
-                ))}
-              </div>
+              <div className="col-span-full flex justify-center gap-x-10 md:gap-x-40">
+  {[
+    "/images/partner-logos/Formula_Fig_logo.svg",
+    "/images/partner-logos/human_logo.svg",
+    "/images/partner-logos/SuperBoltLab_logo.svg",
+  ].map((src, i) => {
+    const isBig =
+      src.includes("Formula_Fig") || src.includes("SuperBoltLab");
+
+    return (
+      <div key={i} className="flex justify-center">
+        <img
+          src={src}
+          className={`object-contain ${
+            isBig
+              ? "h-[48px] w-[120px] lg:h-[100px] lg:w-[200px]"
+              : "h-[36px] w-[100px] lg:h-[84px] lg:w-[156px]"
+          }`}
+        />
+      </div>
+    );
+  })}
+</div>
             </div>
             <div
+                id="schedule"
               className={
                 ppNeueMontreal.className + " lg:w-[920px] lg:text-center "
               }
@@ -453,7 +464,7 @@ export default function RaceReady() {
                                       {step}
                                     </span>
                                   </td>
-                                  <td className="py-3 px-1 text-gray-700">
+                                  <td className="py-3 px-1 text-gray-700 font-semibold">
                                     {description}
                                   </td>
                                   <td className="py-3 px-4 text-gray-700">

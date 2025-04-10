@@ -2,114 +2,134 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {
-  faBagShopping,
-  faBars,
-  faChevronDown
-
-} from "@/graphics/faRegular";
+import { faBagShopping, faBars, faChevronDown } from "@/graphics/faRegular";
 import { useContext, useEffect, useRef, useState } from "react";
 import { useMobileNav } from "./MobileNavProvider";
 import MobileMenu from "./MobileMenu";
 import { usePathname, useRouter } from "next/navigation";
 import { VScrollContext } from "../VScrollContext";
+import { useHoverDropdown } from "@/utils/useHoverDropdown";
 
 export function RunReady() {
-
   return (
-    <Link
-      href="/"
-      className="hover:text-[#1d2530]"
-    >
+    <Link href="/" className="hover:text-[#1d2530]">
       RunReady
     </Link>
   );
 }
 
 export default function NavClient() {
-
   const pathname = usePathname();
   const [isContextNavOpen, toggleContextNav] = useState(false);
   const contextNavButton = useRef(null);
   const contextNavRef = useRef(null);
 
-  const [isServicesOpen, setIsServicesOpen] = useState(false);
+  // const { handleEnter, handleLeave } = useHoverDropdown();
+
+  const [openDropdown, setOpenDropdown] = useState(null); // "group" | "services" | null
+  const timeoutRef = useRef(null);
   const servicesRef = useRef(null);
+  const groupRef = useRef(null);
 
-
-  useEffect(() => {
-    if (isContextNavOpen) {
-      contextNavRef.current.focus();
-    }
-  }, [isContextNavOpen]);
-
-  let closeTimeout;
-
-  const handleMouseEnter = () => {
-    clearTimeout(closeTimeout);
-    setIsServicesOpen(true);
+  const handleEnter = (key) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    setOpenDropdown(key);
   };
   
-  const handleMouseLeave = () => {
-    closeTimeout = setTimeout(() => setIsServicesOpen(false), 150); // 150ms delay
+  const handleLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150);
   };
+
 
   return (
     <div className="order-2 min-[430px]:order-3 gap-[1.0625rem] flex relative">
- 
-        <div className="flex " style={{ alignItems: "center" }}>
-        <div className="relative mr-10 "  ref={servicesRef}
-  onMouseEnter={handleMouseEnter}
-  onMouseLeave={handleMouseLeave}>
-            <button
-              className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  "
-            >
-              <div>Run Assessment</div>
-              <div>{faChevronDown("h-[1rem]")}</div>
-            </button>
+      <div className="flex " style={{ alignItems: "center" }}>
+                <div
+          className="relative mr-10 hidden xl:block "
+          ref={groupRef}
+          onMouseEnter={() => handleEnter("group")}
+          onMouseLeave={handleLeave}
+        >
+          <button className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  ">
+            <div>Group Phyiso</div>
+            <div>{faChevronDown("h-[1rem]")}</div>
+          </button>
 
-            {isServicesOpen && (
-              <div className="absolute bg-white w-[180px] border border-black mt-2  z-50">
-                <Link
-                  href="/performance-program"
-                  className="block px-3 py-2 hover:bg-gray-100"
-                >
-                  Performance Program
-                </Link>
-                <Link
-                  href="/what-to-expect"
-                  className="block px-3 py-2 hover:bg-gray-100"
-                >
-                  What to Expect
-                </Link>
-                {/* <Link
+          {openDropdown === "group" && (
+            <div className="absolute bg-white w-[180px] border border-black mt-2  z-50">
+              <Link
+                href="/raceready"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                race ready
+              </Link>
+           
+              {/* <Link
                   href="https://www.runasyouare.co/"
                   target="_blank"
                   className="block px-3 py-2 hover:bg-gray-100"
                 >
                   RunAsYouAre
                 </Link> */}
-              </div>
-            )}
-          </div>
-  {/* {   pathname === "/" &&(      <Link
-            href="/login"
-            className=" hidden md:block  font-medium text-center mr-5"
-          >
-            Login
-          </Link>)} */}
-          <Link
-            className="btn-yellow-inverse-2"
-            href="https://runready.janeapp.com"
-            target="_blank"
-          >
-            Book Now
-          </Link>
+            </div>
+          )}
         </div>
-      
-    
+        <div
+          className="relative mr-10 hidden xl:block "
+          ref={servicesRef}
+          onMouseEnter={() => handleEnter("services")}
+          onMouseLeave={handleLeave}
+        >
+          <button className="hidden font-medium text-center xl:flex   items-center gap-5 py-3 px-3  ">
+            <div>Run Assessment</div>
+            <div>{faChevronDown("h-[1rem]")}</div>
+          </button>
 
-     
+          {openDropdown === "services" && (
+            <div className="absolute bg-white w-[180px] border border-black mt-2  z-50">
+              <Link
+                href="/performance-program"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                Performance Program
+              </Link>
+              <Link
+                href="/what-to-expect"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                What to Expect
+              </Link>
+              {/* <Link
+                  href="https://www.runasyouare.co/"
+                  target="_blank"
+                  className="block px-3 py-2 hover:bg-gray-100"
+                >
+                  RunAsYouAre
+                </Link> */}
+            </div>
+          )}
+        </div>
+
+        {pathname === "/raceready" ? (
+  <Link
+    className="btn-yellow-inverse-2"
+    href="https://checkout.runready.io/b/7sI4hL6YO9Mih1ufZ1"
+    target="_blank"
+  >
+    Register Now
+  </Link>
+) : (
+  <Link
+    className="btn-yellow-inverse-2"
+    href="https://runready.janeapp.com"
+    target="_blank"
+  >
+    Book Now
+  </Link>
+)}
+      </div>
     </div>
   );
 }
@@ -125,7 +145,6 @@ export function MobileNavButton() {
         toggleMobileNav(!isMobileNavOpen);
       }}
       className="order-1 xl:hidden flex items-center justify-start w-[2rem] h-[2rem]  relative  min-[430px]:right-[0rem] md:right-[0rem] mr-2 "
-
     >
       {faBars("h-[1.5rem]")}
     </button>

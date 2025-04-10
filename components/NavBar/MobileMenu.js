@@ -16,12 +16,25 @@ export default function MobileMenu({ activePath }) {
 
 
   // If on "what-to-expect" page, modify the menu
-  const menu = {
-      "Performance Program": { pathname: "/performance-program" },
-      "What to Expect": { pathname: "/what-to-expect" },
-      Careers: { pathname: "/careers" },
-    };
-  
+  const menu = [
+    {
+      title: "Run Assessment",
+      children: [
+        { title: "Performance Program", pathname: "/performance-program" },
+        { title: "What to Expect", pathname: "/what-to-expect" },
+      ],
+    },
+    {
+      title: "Group Phyiso",
+      children: [
+        { title: "Race Ready", pathname: "/raceready" },
+      ],
+    },
+    {
+      title: "Careers",
+      pathname: "/careers",
+    },
+  ];
 
   return (
     <>
@@ -40,33 +53,68 @@ export default function MobileMenu({ activePath }) {
         className="h-[2rem] object-cover mb-[2rem] min-[430px]:hidden"
       /> */}
       <div className="space-y-[2.5rem]  ">
-        <ul className="space-y-[0.5rem] text-[0.875rem] text-dark-500 leading-[1.6] [&>li>*]:p-[0.5rem] [&>li>*]:flex [&>li>*]:items-center [&>li>*]:gap-[0.5rem] [&>*]:border [&>*]:border-transparent mt-5 ">
-          {Object.keys(menu).map((key, i) => (
-            <li
-              key={i}
-              className={
-                pathNameFull === menu[key].pathname ||
-                activePath === menu[key].pathname
-                  ? "bg-black-100 text-brand-yellow"
-                  : "hover:bg-[#F4F4F4] hover:animate-bg-fade-grey"
-              }
-            >
-              <Link
-                href={menu[key].pathname}
-                className="font-semibold"
-                onClick={() => {
-                  toggleVScroll(false);
-                  toggleMobileNav(false);
-                }}
+      <ul className="space-y-4 text-sm text-dark-500 mt-5">
+  {menu.map((item, i) => {
+    if (item.children) {
+      return (
+        <li key={i}>
+          {/* Section Label */}
+          <div className="text-xs font-bold uppercase tracking-wide text-gray-600 px-1 mb-1">
+            {item.title}
+          </div>
+
+          {/* Submenu Items */}
+          <ul className="space-y-1 pl-4">
+            {item.children.map((child, j) => (
+              <li
+                key={j}
+                className={`border border-transparent rounded-sm ${
+                  pathNameFull === child.pathname || activePath === child.pathname
+                    ? "bg-black-100 text-brand-yellow"
+                    : "hover:bg-[#F4F4F4] hover:animate-bg-fade-grey"
+                }`}
               >
-                <div className="flex items-center gap-2">
-                  {menu[key].icon}
-                  <span>{key}</span>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
+                <Link
+                  href={child.pathname}
+                  className="block py-2 px-3 font-medium"
+                  onClick={() => {
+                    toggleVScroll(false);
+                    toggleMobileNav(false);
+                  }}
+                >
+                  {child.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </li>
+      );
+    }
+
+    // Regular top-level link
+    return (
+      <li
+        key={i}
+        className={`border border-transparent rounded-sm ${
+          pathNameFull === item.pathname || activePath === item.pathname
+            ? "bg-black-100 text-brand-yellow"
+            : "hover:bg-[#F4F4F4] hover:animate-bg-fade-grey"
+        }`}
+      >
+        <Link
+          href={item.pathname}
+          className="block py-2 px-3 font-medium"
+          onClick={() => {
+            toggleVScroll(false);
+            toggleMobileNav(false);
+          }}
+        >
+          {item.title}
+        </Link>
+      </li>
+    );
+  })}
+</ul>
       </div>
     </nav>
         <div className="fixed inset-0 z-20 flex justify-start">
