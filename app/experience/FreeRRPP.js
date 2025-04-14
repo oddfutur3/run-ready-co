@@ -258,7 +258,7 @@ export default function FreeRRPP() {
                   " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] "
                 }
               >
-                Performance Program, designed for you.
+              Run better, built around you.
               </div>
             </div>
           </div>
