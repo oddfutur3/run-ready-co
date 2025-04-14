@@ -67,7 +67,7 @@ export default function FreeRRPP() {
                   " text-white  mx-8 text-2xl font-bold mb-6 "
                 }
               >
-                To get started, follow the instructions below:
+               Got your exclusive offer card? Let&apos;s get you booked.
               </h2>
             </div>
             <div className="bg-white text-center">
@@ -76,11 +76,11 @@ export default function FreeRRPP() {
                   {
                     step: "1",
                     title:
-                      "Call the RunReady Studio to book your session and mention you have an exclusive complimentary offer.",
+                      "Call the RunReady Studio to book your session and mention your exclusive complimentary offer.",
                   },
                   {
                     step: "2",
-                    title: "Present your promotion card when you arrive.",
+                    title: "Bring your card with you and present it when you arrive.",
                   },
                 ].map(
                   ({ step, title, description, list, extra }, index, array) => (
