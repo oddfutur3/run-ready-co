@@ -32,7 +32,7 @@ export default function FreeRRPP() {
                 " text-[38px] lg:text-5xl leading-none font-medium mb-6 lg:mb-6 text-white text-center"
               }
             >
-              Try the most advanced physio-led running assessment
+              Try the most advanced physio-led running assessment.
             </div>
           </div>
 
@@ -76,11 +76,11 @@ export default function FreeRRPP() {
                   {
                     step: "1",
                     title:
-                      "Call the RunReady Studio to book your session and mention you have an exclusive offer.",
+                      "Call the RunReady Studio to book your session and mention you have an exclusive complimentary offer.",
                   },
                   {
                     step: "2",
-                    title: "Present your complimentary card when you arrive.",
+                    title: "Present your promotion card when you arrive.",
                   },
                 ].map(
                   ({ step, title, description, list, extra }, index, array) => (
@@ -313,8 +313,7 @@ export default function FreeRRPP() {
                           Expert-led, science-backed care:
                         </span>
                         <div className="  text-[14px] lg:text-[16px] leading-[2] md:leading-[1.3]">
-                          With Physiotherapy expertise and running science, this
-                          service provides personalized solutions based on the lastest research paired with your performance needs.
+                        Backed by physiotherapy expertise and running science, this service is built on the latest research and tailored to your performance needs.
                         </div>
                       </div>
                     </li>
