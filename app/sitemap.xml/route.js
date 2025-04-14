@@ -8,7 +8,7 @@ export async function GET() {
       'careers',
       'FAQ',
       'starter-package',
-      'rrpp-experience',
+      'experience',
       'raceready'
     ];
   

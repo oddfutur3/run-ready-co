@@ -22,7 +22,7 @@ export default function NavBar() {
     "/terms-of-service",
     "/landing-page",
     "/FAQ",
-    "/rrpp-experience",
+    "/experience",
     "/raceready",
   ];
 

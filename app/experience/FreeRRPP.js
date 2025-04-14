@@ -42,7 +42,7 @@ export default function FreeRRPP() {
             loop
             muted
             playsInline
-            className="w-full h-[calc(50vh-80px)] object-cover border-black border-b pointer-events-none"
+            className="w-full h-[calc(65vh-80px)] object-cover border-black border-b pointer-events-none"
           >
             <source src="/videos/HDWebsite15.mp4" type="video/mp4" />
             Your browser does not support the video tag.
@@ -51,7 +51,7 @@ export default function FreeRRPP() {
 
         <section className=" wrapper wrapper-content mt-[150px] ">
           <div className="w-full  lg:w-[1022px] mx-auto flex flex-col text-center items-center">
-          <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
+          <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28]  lg:leading-[1.25] font-medium">
           RunReady Performance Program session assesses how you move,
               matches you with the right footwear, and prescribes tailored
               exercises—so you can run better, move easier, and reduce injury
@@ -216,11 +216,11 @@ export default function FreeRRPP() {
               {
                 description: (
                   <a
-                    href="tel:+17783121322"
+                    href="tel:+17783123343"
                     className="flex items-center lg:text-[16px] text-[14px] hover:underline"
                   >
                 {faShareNodes("h-[1rem] fill-black mr-2")}
-                  <span>(778) 312-1322</span>
+                  <span>778-312-3343</span>
                   </a>
                 ),
               },
