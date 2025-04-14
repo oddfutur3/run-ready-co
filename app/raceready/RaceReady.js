@@ -433,7 +433,7 @@ export default function RaceReady() {
                               },
                               {
                                 step: "6",
-                                description: "June 3",
+                                description: "June 3*",
                                 sessionFocus: (
                                   <>
                                     Boost power and speed off the ground + test
@@ -443,7 +443,7 @@ export default function RaceReady() {
                               },
                               {
                                 step: "7",
-                                description: "June 10*",
+                                description: "June 10",
                                 sessionFocus:
                                   "Improve control and form so you stay strong as you get tired",
                               },
