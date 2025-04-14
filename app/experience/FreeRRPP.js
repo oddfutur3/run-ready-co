@@ -204,7 +204,7 @@ export default function FreeRRPP() {
         >
           <div className="w-full  lg:w-[1022px] mx-auto flex flex-col text-center items-center">
             <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
-              Claim you complimentary Performance Program session.
+              Claim your complimentary Performance Program session.
             </div>
 
             <p className="my-10 wrapper text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
@@ -220,7 +220,7 @@ export default function FreeRRPP() {
                     className="flex items-center lg:text-[16px] text-[14px] hover:underline"
                   >
                 {faShareNodes("h-[1rem] fill-black mr-2")}
-                  <span>778-312-3343</span>
+                  <span>(778) 312-3343</span>
                   </a>
                 ),
               },
@@ -355,11 +355,11 @@ export default function FreeRRPP() {
               <div className="flex flex-wrap items-center gap-6 text-[16px] md:text-[20px] text-black mx-auto mb-10">
                 {/* Phone */}
                 <a
-                  href="tel:+17783121322"
+                  href="tel:+17783123343"
                   className="flex items-center lg:text-[16px] text-[14px] hover:underline"
                 >
                   {faShareNodes("h-[1rem] fill-black mr-2")}
-                  <span>(778) 312-1322</span>
+                  <span>(778) 312-3343</span>
                 </a>
 
                 {/* Address */}
@@ -426,7 +426,7 @@ export default function FreeRRPP() {
                 " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] tracking-[-0.05rem] mb-10"
               }
             >
-              FAQ
+              Frequently Asked Questions
             </div>
           </div>
           <div className="wrapper">
