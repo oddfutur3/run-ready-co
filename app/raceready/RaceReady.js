@@ -522,23 +522,6 @@ export default function RaceReady() {
             </div>
           </section>
 
-          {/* <section
-          className={ppNeueMontreal.className + " wrapper   "}
-          style={{ paddingBottom: "100px", paddingTop: "75px" }}
-          >
-          <div className="w-full   mx-auto flex flex-col text-center items-center">
-              <p className="text-xs uppercase tracking-widest text-black ">
-                What to expect
-              </p>
-            <div className="w-3/4 lg:w-full text-[#492AFF] text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium uppercase italic">
-              Every session  <br/> builds on the last.
-            </div>
-
-            <p className="mt-10 wrapper text-black text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]">
-            You&apos;ll progress through training that improves Absorb (shock absorption), Bounce (energy return), and Stability (balance + control)—the foundation of every strong run.
-            </p>
-          </div>
-        </section> */}
         </div>
 
         <div
@@ -549,8 +532,11 @@ export default function RaceReady() {
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
           }}
-        >
-          <div className="text-center mb-8">
+          >
+          <div 
+          id="faq"
+            className="text-center mb-8" 
+          >
             <div
               className={
                 ppNeueMontreal.className +
