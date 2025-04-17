@@ -7,7 +7,7 @@ import { ppNeueMontreal } from "@/app/fonts";
 import Line from "@/components/Line";
 
 export const metadata = {
-  title: "RunAsYouAre - Aire Libre Interview",
+  title: "RunAsYouAre - raceready Q&A",
 };
 
 export default async function RaceReadyQNA() {
@@ -17,7 +17,7 @@ export default async function RaceReadyQNA() {
         <div className="relative">
           <div className="absolute inset-0 bg-black opacity-50 z-10 pointer-events-none"></div>
           <Image
-            src="/images/RacereadyHero.png"
+            src="/images/RR_Blog_Hero.jpg"
             fill={true}
             alt="hero image"
             className="object-cover z-0 object-bottom"
@@ -57,38 +57,28 @@ export default async function RaceReadyQNA() {
               <div>{/* <NavClient /> */}</div>
             </nav>
 
-            <div
-              className="absolute bottom-[10%] md:bottom-[7rem] left-1/2 -translate-x-1/2  rounded-lg z-20 w-[95%] max-w-[47.0625rem]"
-              style={{
-                textAlign: "center",
-              }}
-            >
+            <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10 mt-40">
+           
               <div
                 className={
-                  "  text-white text-[55px] leading-[1.2] tracking-[-1.26px]"
+                  ppNeueMontreal.className +
+                  " text-[38px] text-[#492AFF] lg:text-4xl xl:leading-none font-bold mb-6 uppercase "
                 }
               >
-                Inside race ready: A conversation with the physios behind the
-                class
+                <span className=" text-5xl  lg:text-7xl text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] italic ">
+                Where Physio Meets 
+                </span>
+                <br />
+                <span className="mt-3 inline-block">the Finish Line</span>
               </div>
               <span
                 className={
                   ppNeueMontreal.className +
-                  " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2] text-white"
+                  " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
                 }
               >
-                A conversation with RunReady physiotherapists Dani, Sean, and
-                Kendra on how race ready helps you train smarter.
+                A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how this class helps you move better, stay injury-free, and feel more ready on race day.
               </span>
-              {/* <div
-                className={
-                  ppNeueMontreal.className +
-                  " text-white font-bold text-center mt-2"
-                }
-                style={{ fontSize: "18px" }}
-              >
-                Interview by: Rob Smith
-              </div> */}
             </div>
           </section>
         </div>
@@ -387,7 +377,7 @@ export default async function RaceReadyQNA() {
               target="_blank"
               className={
                 ppNeueMontreal.className +
-                " text-[20px] font-bold inline-block text-center   min-w-[11.5rem] px-[1.25rem] py-[0.65rem] lg:py-[0.875rem] lg:px-[1.75rem] bg-[#492AFF] text-white  btn-hover-bg-opacity"
+                " btn-yellow-inverse-2 mt-10 inline-block"
               }
             >
               Resigter Now
@@ -416,7 +406,7 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.5rem]">
           <div className="relative  aspect-[0.8]">
             <Image
-              src="/images/RacereadyHero.png"
+              src="/images/RR_Blog_WebRes-5.jpg"
               fill={true}
               alt="hero image"
               sizes="(max-width: 1080px) 100vw, 50vw"
@@ -426,7 +416,7 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RacereadyHero.png"
+              src="/images/RR_Blog_WebRes-2.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 50vw"
               alt="hero image"
@@ -437,8 +427,8 @@ export default async function RaceReadyQNA() {
 
         <div className="relative h-[100vh]">
           <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RR_Blog_WebRes-3.jpg"
+              fill={true}
             sizes="(max-width: 1080px) 100vw, 100vw"
             alt="hero image"
             className="object-cover"
@@ -448,7 +438,7 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[1.5rem]">
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RacereadyHero.png"
+              src="/images/RR_Blog_WebRes-4.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 33vw"
               alt="hero image"
@@ -458,7 +448,7 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RacereadyHero.png"
+              src="/images/RR_Blog_WebRes-6.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 33vw"
               alt="hero image"
@@ -468,7 +458,7 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RacereadyHero.png"
+              src="/images/RR_Blog_WebRes-5.jpg"
               fill={true}
               alt="hero image"
               sizes="(max-width: 1080px) 100vw, 33vw"
@@ -477,20 +467,20 @@ export default async function RaceReadyQNA() {
           </div>
         </div>
 
-        <div className="relative h-[80vh]">
+        {/* <div className="relative h-[80vh]">
           <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RR_Blog_WebRes-1.jpg"
+              fill={true}
             sizes="(max-width: 1080px) 100vw, 100vw"
             alt="hero image"
             className="object-cover"
           />
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.5rem]">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.5rem]">
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RacereadyHero.png"
+              src="/images/RR_Blog_WebRes-1.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 50vw"
               alt="hero image"
@@ -507,8 +497,8 @@ export default async function RaceReadyQNA() {
               className="object-cover"
             />
           </div>
-        </div>
-
+        </div> */}
+{/* 
         <div className="relative h-[100vh]">
           <Image
             src="/images/RacereadyHero.png"
@@ -517,7 +507,7 @@ export default async function RaceReadyQNA() {
             sizes="(max-width: 1080px) 100vw, 100vw"
             className="object-cover"
           />
-        </div>
+        </div> */}
 
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-[1.5rem]">
           <div className="relative aspect-[1.5]">

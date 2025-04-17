@@ -231,8 +231,17 @@ export default function RaceReady() {
                   Dani, Kendra and Sean
                   </div>
                 </div>
+                <div className="absolute left-2 bottom-[-2rem]">
+                    <Link
+                      href="/raceready/qna"
+                      className="text-black underline text-sm font-medium hover:text-[#492AFF]"
+                    >
+                      Get to know your Physios
+                    </Link>
+                  </div>
               </div>
             </div>
+
           </section>
 
           <section
