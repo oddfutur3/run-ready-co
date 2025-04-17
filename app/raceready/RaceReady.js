@@ -228,17 +228,23 @@ export default function RaceReady() {
                   Physio Group Class Leaders 
                     </span>
                   <br/>
-                  Dani, Kendra and Sean
+                  Dani, Kendra and Sean<br/>
+                  <Link
+                      href="/raceready/qna"
+                      className="text-white underline text-sm font-medium "
+                    >
+                      Read More
+                    </Link>
                   </div>
                 </div>
-                <div className="absolute left-2 bottom-[-2rem]">
+                {/* <div className="absolute left-2 bottom-[-2rem]">
                     <Link
                       href="/raceready/qna"
                       className="text-black underline text-sm font-medium hover:text-[#492AFF]"
                     >
                       Get to know your Physios
                     </Link>
-                  </div>
+                  </div> */}
               </div>
             </div>
 

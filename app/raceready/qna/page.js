@@ -380,7 +380,7 @@ export default async function RaceReadyQNA() {
                 " btn-yellow-inverse-2 mt-10 inline-block"
               }
             >
-              Resigter Now
+              Join race ready now
             </a>
           </div>
         </section>
@@ -406,7 +406,7 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.5rem]">
           <div className="relative  aspect-[0.8]">
             <Image
-              src="/images/RR_Blog_WebRes-5.jpg"
+              src="/images/RR_Blog_WebRes-2.jpg"
               fill={true}
               alt="hero image"
               sizes="(max-width: 1080px) 100vw, 50vw"
@@ -416,7 +416,7 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RR_Blog_WebRes-2.jpg"
+              src="/images/RR_Blog_WebRes-4.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 50vw"
               alt="hero image"
@@ -438,7 +438,7 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[1.5rem]">
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RR_Blog_WebRes-4.jpg"
+              src="/images/RR_Blog_WebRes-6.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 33vw"
               alt="hero image"
@@ -448,7 +448,7 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-              src="/images/RR_Blog_WebRes-6.jpg"
+              src="/images/RR_Blog_WebRes-7.jpg"
               fill={true}
               sizes="(max-width: 1080px) 100vw, 33vw"
               alt="hero image"
