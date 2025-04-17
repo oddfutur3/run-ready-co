@@ -38,7 +38,7 @@ export default async function RaceReadyQNA() {
                 >
                   <img
                     src="/images/RunReady_Logo_White.svg"                    
-                    className="md:h-[3rem] "
+                    className="md:h-[3rem] h-[1.5rem] "
                     fill="#1B3A89"
                   />
                 </Link>
@@ -50,7 +50,7 @@ export default async function RaceReadyQNA() {
                 >
                   <img
                     src="/images/white_raceready_wordmark.svg"
-                    className="md:h-[5rem] h-[4rem] object-contain "
+                    className="md:h-[5rem] h-[2.5rem] object-contain "
                   />
                 </a>
               </div>
@@ -60,7 +60,7 @@ export default async function RaceReadyQNA() {
             </nav>
 
             <div
-              className="absolute bottom-[10%] md:bottom-[7rem] left-1/2 -translate-x-1/2 p-10 rounded-lg z-20"
+              className="absolute bottom-[10%] md:bottom-[7rem] left-1/2 -translate-x-1/2  rounded-lg z-20 w-[95%]"
               style={{
                 textAlign: "center",
               }}
