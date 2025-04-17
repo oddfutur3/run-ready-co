@@ -77,8 +77,8 @@ export default async function RaceReadyQNA() {
                   " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
                 }
               >
-                A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how this class helps you move better, stay injury-free, and feel more ready on race day.
-              </span>
+A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how their race ready group classes helps you move better and stay injury-free.
+</span>
             </div>
           </section>
         </div>
@@ -98,10 +98,7 @@ export default async function RaceReadyQNA() {
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              RunReady and the physiotherapists behind the RunReady Performance
-              Program are introducing race ready, an 8-week group class built
-              for anyone preparing for a race and wanting to feel stronger, more
-              balanced, and better supported while they train.
+        RunReady and their team of physiotherapists are introducing race ready, an 8-week group class for anyone training for a race and looking to feel stronger, more balanced, and better supported along the way.
             </div>
             <div
               className={ppNeueMontreal.className}

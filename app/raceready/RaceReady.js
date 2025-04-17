@@ -230,7 +230,7 @@ export default function RaceReady() {
                   <br/>
                   Dani, Kendra and Sean<br/>
                   <Link
-                      href="/raceready/qna"
+                      href="/raceready/phyios-behind-the-class"
                       className="text-white underline text-sm font-medium "
                     >
                       Read More
@@ -239,7 +239,7 @@ export default function RaceReady() {
                 </div>
                 {/* <div className="absolute left-2 bottom-[-2rem]">
                     <Link
-                      href="/raceready/qna"
+                      href="/raceready/phyios-behind-the-class"
                       className="text-black underline text-sm font-medium hover:text-[#492AFF]"
                     >
                       Get to know your Physios
