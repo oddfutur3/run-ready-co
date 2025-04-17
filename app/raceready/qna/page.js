@@ -100,7 +100,7 @@ export default async function RaceReadyQNA() {
               style={{ fontSize: "18px" }}
             >
               Training for a race can be exciting and overwhelming all at once.
-              Some days feel great. Other days, your body feels off. Something's
+              Some days feel great. Other days, your body feels off. Something&apos;s
               tight, something aches, and you&apos;re not totally sure why. That&apos;s
               where having a foundation matters.
             </div>
@@ -173,7 +173,7 @@ export default async function RaceReadyQNA() {
               As a runner myself, I understand the balance between running,
               proactively preventing injury, and prioritizing long-term health.
               I believe that moving better and getting stronger are key to
-              becoming a more consistent and durable runner, whether you're
+              becoming a more consistent and durable runner, whether you&apos;re
               training for a goal or just running for your health.
             </div>
 
