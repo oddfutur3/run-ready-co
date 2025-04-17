@@ -37,7 +37,7 @@ export default async function RaceReadyQNA() {
                   className="btn-hover-opacity"
                 >
                   <img
-                    src="/images/RunReady_Logo_White.svg"                    
+                    src="/images/RunReady_Logo_White.svg"
                     className="md:h-[3rem] h-[1.5rem] "
                     fill="#1B3A89"
                   />
@@ -54,36 +54,33 @@ export default async function RaceReadyQNA() {
                   />
                 </a>
               </div>
-              <div>
-                {/* <NavClient /> */}
-              </div>
+              <div>{/* <NavClient /> */}</div>
             </nav>
 
             <div
-              className="absolute bottom-[10%] md:bottom-[7rem] left-1/2 -translate-x-1/2  rounded-lg z-20 w-[95%]"
+              className="absolute bottom-[10%] md:bottom-[7rem] left-1/2 -translate-x-1/2  rounded-lg z-20 w-[95%] max-w-[47.0625rem]"
               style={{
                 textAlign: "center",
               }}
             >
               <div
                 className={
-                  
                   "  text-white text-[55px] leading-[1.2] tracking-[-1.26px]"
                 }
               >
-                The Other Side of Running
+                Inside race ready: A conversation with the physios behind the
+                class
               </div>
-              <div
+              <span
                 className={
                   ppNeueMontreal.className +
-                  " font-bold text-white text-[32px] leading-[1.2] tracking-[-1.26px]"
+                  " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2] text-white"
                 }
               >
-                {" "}
-                A conversation with Mauricio Díaz of Aire Libre on running,
-                culture, and pushing beyond the familiar.{" "}
-              </div>
-              <div
+                A conversation with RunReady physiotherapists Dani, Sean, and
+                Kendra on how race ready helps you train smarter.
+              </span>
+              {/* <div
                 className={
                   ppNeueMontreal.className +
                   " text-white font-bold text-center mt-2"
@@ -91,7 +88,7 @@ export default async function RaceReadyQNA() {
                 style={{ fontSize: "18px" }}
               >
                 Interview by: Rob Smith
-              </div>
+              </div> */}
             </div>
           </section>
         </div>
@@ -102,49 +99,28 @@ export default async function RaceReadyQNA() {
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              When it comes to running, some connections feel inevitable. The
-              time we spend on the open road, the people we meet, the places we
-              discover. They all lead to something bigger. That&apos;s why
-              teaming up with Aire Libre for a running retreat in Oaxaca,
-              Mexico, just fits.
+              Training for a race can be exciting and overwhelming all at once.
+              Some days feel great. Other days, your body feels off. Something's
+              tight, something aches, and you&apos;re not totally sure why. That&apos;s
+              where having a foundation matters.
             </div>
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              Aire Libre isn&apos;t your typical running brand. It&apos;s about
-              adventure, community, and rediscovery. Founded by three friends in
-              2016 after an unforgettable run through the Sonoran Desert, Aire
-              Libre grew from a love of movement, culture, and storytelling.
+              RunReady and the physiotherapists behind the RunReady Performance
+              Program are introducing race ready, an 8-week group class built
+              for anyone preparing for a race and wanting to feel stronger, more
+              balanced, and better supported while they train.
             </div>
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              RunAsYouAre and Aire Libre were always going to cross paths. Same
-              energy. Same belief that running is about more than performance.
-              It&apos;s about connection, clarity, and those moments where it
-              all falls into place. Whether you&apos;re new to running or have
-              been at it for years, running has a way of bringing people
-              together. That&apos;s exactly what our upcoming summer experience
-              is all about.
-            </div>
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              Oaxaca is the stage. Trails that challenge you. Experiences that
-              linger. Culture that changes how you see the world. This
-              isn&apos;t about personal bests. It&apos;s about running as a way
-              to explore yourself, the land, and the people around you.
-            </div>
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              We spoke with Mauricio Díaz of Aire Libre to hear about their
-              beginnings, why Oaxaca is the perfect setting, and what makes this
-              journey worth remembering.
+              We caught up with Dani, Sean and Kendra. They&apos;re physiotherapists
+              leading the class. Not a coach. Not a running app. Not a generic
+              training plan. They shared how this class can help you train
+              smarter and feel more ready on race day.
             </div>
           </div>
 
@@ -164,20 +140,74 @@ export default async function RaceReadyQNA() {
               style={{ fontSize: "18px" }}
             >
               <strong>
-                As one of the three founders at Aire Libre, when did it all
-                begin?
+                race ready isn&apos;t just another workout class or run group. It&apos;s
+                an 8-week physio-led group class where you get assessed at the
+                start, guided each week, and re-assessed at the end. Dani,
+                you&apos;ve worked with runners for years. What changes when you
+                bring that into a group class setting?
               </strong>
             </div>
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              Aire Libre was founded, without us knowing it, in December of
-              2016. My co-founders Manuel, Daniel, and I went on an adventure to
-              run across no man&apos;s land in northern Mexico. We ran through
-              the Sonoran Desert on the land of the native Seri people. We
-              covered approximately 90 kilometers, and out of that life-changing
-              experience, Aire Libre was born.
+              <strong>Dani: </strong>
+              The attention to detail from one-on-one sessions is still a
+              priority, but fostering a welcoming environment where participants
+              can feed off of one another&apos;s hard work is part of this class I am
+              most looking forward to. The camaraderie of training together, and
+              building lasting relationships with other runners is important.
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>What made you all want to lead this class?</strong>
+            </div>
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Kendra: </strong>
+              As a runner myself, I understand the balance between running,
+              proactively preventing injury, and prioritizing long-term health.
+              I believe that moving better and getting stronger are key to
+              becoming a more consistent and durable runner, whether you're
+              training for a goal or just running for your health.
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>What makes being trained by a physio different?</strong>
+            </div>
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Dani: </strong>
+              This class is led by physiotherapists and built around how your
+              body actually moves. You get assessed at the start, do the
+              exercises, and get re-assessed at the end. The feedback you get
+              comes from what we see in your movement, and it&apos;s based on our
+              experience working with runners and people who move in lots of
+              different ways. That&apos;s what helps us tell you what to focus on,
+              based on how your body moves.
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Sean: </strong>I couldn&apos;t agree more with what Dani said.
+              What makes this class special is how much experience and insight
+              we bring from both the physio world and the running world. As
+              physiotherapists and runners ourselves, we live and breathe this
+              stuff. That excitement shows up in how we coach and break down
+              your movement in real time to help you move better and stay
+              injury-free.
             </div>
 
             <div
@@ -185,83 +215,26 @@ export default async function RaceReadyQNA() {
               style={{ fontSize: "18px" }}
             >
               <strong>
-                What inspired Aire Libre, and how would you describe what
-                it&apos;s all about?
+                What kinds of things usually show up in a movement assessment
+                that most runners wouldn&apos;t notice on their own?
               </strong>
             </div>
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              The inspiration came from following my passion and that of the
-              other founders. We loved running, adventure, nature, and discovery
-              through movement. Aire Libre grew out of this first adventure.{" "}
-              <br /> <br />
-              What made it unique was that it was more than just a run or
-              adventure. It involved the Seri people, learning from them,
-              gaining permission to run on their sacred land, and much more. We
-              documented the experience in a short film, and when it came time
-              to name the project, Aire Libre was born.
-            </div>
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              The goal back then, which is still relevant today, was to use
-              these adventures, stories, and experiences to inspire as many
-              people as possible to connect with nature and be more active. For
-              us, these are the pillars of a wholesome, centered, and happy
-              life.
-            </div>
-
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              <strong>What is it about running that you love the most?</strong>
-            </div>
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              There are so many things, Rob. What I love the most is the sense
-              of connection I get when I&apos;m running, especially in nature.
-              There&apos;s nothing else that makes me feel as centered,
-              balanced, and joyful.
-              <br />
-              <br />
-              Whether I&apos;m alone or with a group, when I&apos;m running
-              through trails, in the woods, mountains, desert, or jungle,
-              that&apos;s when I feel the most alive and the most connected to
-              myself. It&apos;s the best version of me that comes out during
-              those runs.
-            </div>
-
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              <strong>
-                At RunAsYouAre, we believe running belongs to everyone. Whether
-                you&apos;re new, a long-term runner, or a seasoned vet. How does
-                that fit with what you&apos;re doing at Aire Libre?
-              </strong>
-            </div>
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              We&apos;ve always said that running is the most accessible form of
-              movement. It doesn&apos;t require anything but your body.
-              We&apos;ve designed our experiences to be inclusive, no matter
-              your level. You might have someone who&apos;s only run a couple of
-              10Ks alongside a seasoned ultramarathoner. Because of how we
-              structure things, both can coexist. This combination of diverse
-              levels and experiences makes the journey richer for everyone.
+              <strong>Dani: </strong>
+              There is often an “ah-ha moment” when I am working with runners
+              and taking them through the movement assessment. I get to show
+              them a pattern or imbalance they didn&apos;t know existed. This class
+              holds people accountable to learning their personal strengths and
+              weaknesses when it comes to their movement patterns. Ignorance can
+              be bliss until that bliss turns into injury.
             </div>
 
             <blockquote className="border-l-4 border-black pl-4 italic text-black text-[32px] ">
-              “Running is the most accessible form of movement.”
+              “Most runners don&apos;t realize how much they&apos;re compensating until
+              they see it for the first time” - Dani
             </blockquote>
 
             <div
@@ -269,95 +242,149 @@ export default async function RaceReadyQNA() {
               style={{ fontSize: "18px" }}
             >
               <strong>
-                Our retreat this June takes place in Oaxaca, Mexico. How do the
-                culture and landscape of Oaxaca shape the experience for those
-                who join?
+                The classes focus on Absorb, Bounce, and Stability. That means
+                how well your body handles impact, pushes off the ground, and
+                stays steady while you run. Why do those things matter?
               </strong>
             </div>
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              For us, running is the vehicle. It&apos;s not the end goal. You
-              don&apos;t join an Aire Libre experience just to run. If
-              that&apos;s what you want, you sign up for a marathon.
-              <br />
-              <br />
-              With us, running is how you connect with the land, yourself, and
-              your community on a deeper level.
-              <br />
-              <br />
-              Oaxaca is a magical place. It&apos;s rich in culture, arts, and
-              culinary traditions. This retreat combines all of that.
-              You&apos;ll enjoy incredible food, run some of the best trails,
-              experience Oaxaca City&apos;s history and vibrancy, visit
-              pyramids, and even take part in ancient Temazcal ceremonies.
-              It&apos;s a deeply enriching experience.
+              <strong>Sean: </strong>
+              Think of your body like a rubber band. When you land, you&apos;re
+              stretching that band. That&apos;s your body absorbing energy. When you
+              push off, you release that energy to move forward. The better you
+              are at handling impact and staying steady during that motion, the
+              more efficient and powerful your stride becomes. If something&apos;s
+              off, like limited mobility or poor control, you lose energy and
+              your body has to work harder than it should. Learning how to
+              absorb impact, push off, and stay stable helps you run more
+              efficiently and with less effort.
             </div>
+
+            <blockquote className="border-l-4 border-black pl-4 italic text-black text-[32px] ">
+              “The better you are at handling impact and staying steady during
+              that motion, the more efficient and powerful your stride.” - Sean
+            </blockquote>
 
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              <strong>
-                I like it. A cultural experience with running on the side. When
-                people walk away from an Aire Libre retreat, what do you hope
-                stays with them?
-              </strong>
-            </div>
-            <div
-              className={ppNeueMontreal.className}
-              style={{ fontSize: "18px" }}
-            >
-              A couple of things. First, I hope they stay connected. Connected
-              with each other and with the Aire Libre community. Over the years,
-              thousands of people have joined us and become part of something
-              larger.
-              <br />
-              <br />
-              Second, I hope this experience adds significant value to their
-              lives. Life is a sum of experiences, and if someone commits their
-              time, money, and energy to join Aire Libre, I want it to be
-              something they look back on and think, that was absolutely worth
+              <strong>Dani: </strong>
+              Adding to that, knowing where you should precisely be putting in
+              work to better your mechanics helps dial in, and ideally increase
+              your motivation to better yourself so that you can stop injuries
+              from brewing while you&apos;re training.The class makes it easier to
+              learn what your body needs and gives you time each week to work on
               it.
             </div>
 
-            <blockquote className="border-l-4 border-black pl-4 italic text-black text-[32px] ">
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>What do runners often overlook when training?</strong>
+            </div>
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Kendra: </strong>
+              It&apos;s not just about running. Mobility work, strength, and
+              cross-training like cycling or yoga can improve performance and
+              reduce injury risk. It&apos;s easy to get caught up in doing everything
+              perfectly, but staying consistent over time matters more.
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Sean: </strong>
+              As a runner myself, we often get tunnel vision on our finish time,
+              but forget to check in on how we feel. Hitting a time goal is
+              great, but so is feeling strong, moving well, and actually
+              enjoying the race. Strength, mobility, and mileage all matter just
+              as much as speed. When you train with those in balance, the race
+              becomes something to enjoy, not just endure.
+            </div>
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Dani: </strong>
+              Often I think the easy parts are overlooked. Rest and nutrition
+              become even more important when you&apos;re pushing your body.
+            </div>
+
+            {/* <blockquote className="border-l-4 border-black pl-4 italic text-black text-[32px] ">
               “Life is a sum of experiences. I want (somebody to) look back and
               think, &apos;that was absolutely worth it.&apos;”
-            </blockquote>
+            </blockquote> */}
 
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
               <strong>
-                Aire Libre has created so many unique experiences. What&apos;s
-                next for you?
+                What are some early signs your body isn&apos;t handling training
+                well?
               </strong>
             </div>
             <div
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-              Our slogan is, “discover the world running.” In six or seven
-              years, we&apos;ve operated experiences in about 15 or 16
-              countries. But that&apos;s just scratching the surface. The world
-              is vast and beautiful. I&apos;m excited about the potential new
-              destinations, like Japan and Greece this year, and so many more in
-              the future.
-              <br /> <br />
-              Also, running as a sport is evolving. It&apos;s no longer just
-              about marathons and races. People are seeking something deeper.
-              What we call experiential running. We&apos;ve been pioneers in
-              this space, and I think there&apos;s a great opportunity to
-              innovate and combine running with other elements.
+              <strong>Kendra: </strong>
+              New or lingering aches and pains, feeling low energy or tired, and
+              not feeling motivated or enjoying running are big ones. Also,
+              things like trouble sleeping are signs that your body might not be
+              recovering well. These things aren&apos;t always obvious, so being
+              mindful of your body&apos;s cues and tracking them over time can help
+              you prioritize rest and adjust your training to prevent more
+              serious issues coming up.
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Dani: </strong>
+              I&apos;d love to emphasize the mental aspect that training can have.
+              You&apos;re not going to love every workout or every run, but you
+              should be in a place where that hasn&apos;t become the norm of how
+              you&apos;re feeling about training.
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Who is this class for?</strong>
+            </div>
+
+            <div
+              className={ppNeueMontreal.className}
+              style={{ fontSize: "18px" }}
+            >
+              <strong>Dani: </strong>
+              This class is a good fit if you&apos;re training for a race or just
+              want to run with less discomfort. The fact you&apos;ll get assessed by
+              a physio, do the exercises, and get re-assessed at the end is not
+              a type of class you can easily find and sign up for. The guidance
+              is specific to how your body moves, and you&apos;ll get feedback you
+              can actually use to run better. If you have extended health
+              benefits, you can also claim it under physio coverage, which is
+              always a bonus. By the end, you&apos;ll feel more prepared and
+              confident for whatever kind of race you&apos;re training for.
             </div>
           </div>
           <div className="text-center">
             <a
-                        href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
-                        target="_blank"
+              href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
+              target="_blank"
               className={
                 ppNeueMontreal.className +
                 " text-[20px] font-bold inline-block text-center   min-w-[11.5rem] px-[1.25rem] py-[0.65rem] lg:py-[0.875rem] lg:px-[1.75rem] bg-[#492AFF] text-white  btn-hover-bg-opacity"
@@ -389,8 +416,8 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.5rem]">
           <div className="relative  aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               alt="hero image"
               sizes="(max-width: 1080px) 100vw, 50vw"
               className="object-cover"
@@ -399,8 +426,8 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               sizes="(max-width: 1080px) 100vw, 50vw"
               alt="hero image"
               className="object-cover"
@@ -421,8 +448,8 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[1.5rem]">
           <div className="relative aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               sizes="(max-width: 1080px) 100vw, 33vw"
               alt="hero image"
               className="object-cover"
@@ -431,8 +458,8 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               sizes="(max-width: 1080px) 100vw, 33vw"
               alt="hero image"
               className="object-cover"
@@ -441,8 +468,8 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               alt="hero image"
               sizes="(max-width: 1080px) 100vw, 33vw"
               className="object-cover"
@@ -463,8 +490,8 @@ export default async function RaceReadyQNA() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[1.5rem]">
           <div className="relative aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               sizes="(max-width: 1080px) 100vw, 50vw"
               alt="hero image"
               className="object-cover"
@@ -473,8 +500,8 @@ export default async function RaceReadyQNA() {
 
           <div className="relative aspect-[0.8]">
             <Image
-            src="/images/RacereadyHero.png"
-            fill={true}
+              src="/images/RacereadyHero.png"
+              fill={true}
               sizes="(max-width: 1080px) 100vw, 50vw"
               alt="hero image"
               className="object-cover"
