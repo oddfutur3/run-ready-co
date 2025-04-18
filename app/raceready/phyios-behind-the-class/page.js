@@ -370,8 +370,7 @@ A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how thei
           </div>
           <div className="text-center">
             <a
-              href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
-              target="_blank"
+              href="/raceready"
               className={
                 ppNeueMontreal.className +
                 " btn-yellow-inverse-2 mt-10 inline-block"
