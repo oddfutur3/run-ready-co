@@ -113,7 +113,7 @@ export default function NavClient() {
         </div>
 
 
-        {pathname === "/raceready" ? (
+        {pathname.includes("/raceready") ? (
   <Link
     className="btn-yellow-inverse-2"
     href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"

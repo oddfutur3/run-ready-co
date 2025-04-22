@@ -24,6 +24,7 @@ export default function NavBar() {
     "/FAQ",
     "/experience",
     "/raceready",
+    "/raceready/phyios-behind-the-class"
   ];
 
   const isPathnameLanding = landingPages.includes(pathname);

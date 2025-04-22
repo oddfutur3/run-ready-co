@@ -5,6 +5,8 @@ import NavClient from "@/components/NavBar/NavClient";
 import Footer from "@/components/Footer";
 import { ppNeueMontreal } from "@/app/fonts";
 import Line from "@/components/Line";
+import NavBar from "@/components/NavBar/NavBar";
+import { VScrollProvider } from "@/components/VScrollContext";
 
 export const metadata = {
   title: "RunAsYouAre - raceready Q&A",
@@ -12,7 +14,9 @@ export const metadata = {
 
 export default async function RaceReadyQNA() {
   return (
+    <VScrollProvider>
     <div className="">
+      <NavBar />
       <div className="mx-auto [&>*]:px-[1rem] [&>*]:md:px-[2rem] [&>*]:xl:px-[calc(3rem+0.22*(100vw-1280px))]">
         <div className="relative">
           <div className="absolute inset-0 bg-black opacity-50 z-10 pointer-events-none"></div>
@@ -25,10 +29,10 @@ export default async function RaceReadyQNA() {
           />
           <section
             className={
-              " bg-transparent z-10 bg-cover bg-center h-[100svh] md:h-screen flex items-center justify-center relative  "
+              " bg-transparent z-10 bg-cover bg-center h-[92svh] md:h-screen flex items-center justify-center relative  "
             }
           >
-            <nav className="w-full flex items-center justify-between gap-[1.5rem] sm:gap-[2rem]  py-[2rem] absolute top-0 left-1/2 -translate-x-1/2  z-30">
+            {/* <nav className="w-full flex items-center justify-between gap-[1.5rem] sm:gap-[2rem]  py-[2rem] absolute top-0 left-1/2 -translate-x-1/2  z-30">
               <div className="h-[1.5rem] flex items-center gap-[1rem] min-[590px]:gap-[2rem] min-[690px]:gap-[3rem]">
                 <Link
                   href="/"
@@ -54,8 +58,8 @@ export default async function RaceReadyQNA() {
                   />
                 </a>
               </div>
-              <div>{/* <NavClient /> */}</div>
-            </nav>
+              <NavClient />
+            </nav> */}
 
             <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10 mt-40">
            
@@ -77,8 +81,8 @@ export default async function RaceReadyQNA() {
                   " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
                 }
               >
-A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how their race ready group classes helps you move better and stay injury-free.
-</span>
+              A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how their race ready group classes helps you move better and stay injury-free.
+              </span>
             </div>
           </section>
         </div>
@@ -98,7 +102,7 @@ A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how thei
               className={ppNeueMontreal.className}
               style={{ fontSize: "18px" }}
             >
-        RunReady and their team of physiotherapists are introducing race ready, an 8-week group class for anyone training for a race and looking to feel stronger, more balanced, and better supported along the way.
+              RunReady and their team of physiotherapists are introducing race ready, an 8-week group class for anyone training for a race and looking to feel stronger, more balanced, and better supported along the way.
             </div>
             <div
               className={ppNeueMontreal.className}
@@ -561,5 +565,6 @@ A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how thei
       </div>
       <Footer />
     </div>
+    </VScrollProvider>
   );
 }
