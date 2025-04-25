@@ -109,7 +109,7 @@ In Episode 08, RunReady physiotherapist Sean Sawer explains how foundational res
   ],
   1: [
     {
-      title: "Phyios Behind The Class",
+      title: "Physios Behind The Class",
       img: "/images/RR_WebRes-6.jpg",
       tags: ["Blog"],
       link: "/raceready/physios-behind-the-class",
