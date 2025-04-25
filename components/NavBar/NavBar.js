@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import NavLogo from "./NavLogo";
 import NavClient, { MobileNav, MobileNavButton } from "./NavClient";
@@ -24,13 +24,43 @@ export default function NavBar() {
     "/FAQ",
     "/experience",
     "/raceready",
-    "/raceready/phyios-behind-the-class"
+    "/raceready/physios-behind-the-class"
   ];
 
   const isPathnameLanding = landingPages.includes(pathname);
 
   // State to track scroll position
   const [showGreyBar, setShowGreyBar] = useState(false);
+
+  const [scrollDirection, setScrollDirection] = useState("up");
+  const lastScrollY = useRef(0);
+
+  const NAVBAR_HEIGHT = 90; // or whatever your nav height is in px
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+  
+      // Always show the nav if near top
+      if (currentScrollY <= NAVBAR_HEIGHT) {
+        setScrollDirection("up");
+        lastScrollY.current = currentScrollY;
+        return;
+      }
+  
+      // Only allow hiding if scrolled past navbar height
+      if (currentScrollY > lastScrollY.current && currentScrollY > NAVBAR_HEIGHT) {
+        setScrollDirection("down");
+      } else if (currentScrollY < lastScrollY.current) {
+        setScrollDirection("up");
+      }
+  
+      lastScrollY.current = currentScrollY;
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // useEffect(() => {
   //   if (!isPathnameLanding) return;
@@ -44,8 +74,8 @@ export default function NavBar() {
   // }, [isPathnameLanding]);
 
   return (
-    <MobileNavProvider>
-      <div className="sticky top-0 z-30">
+    <div className={`sticky top-0 z-30 transition-transform duration-300 ease-in-out ${scrollDirection === "down" ? "-translate-y-full" : "translate-y-0"}`}>
+      <MobileNavProvider>
         {/* Smooth Transition for Grey Bar */}
         {isPathnameLanding && (
           <div
@@ -92,7 +122,7 @@ export default function NavBar() {
           </div>
         </nav>
         {!hideMobileNav && <MobileNav />}
-      </div>
-    </MobileNavProvider>
+      </MobileNavProvider>
+    </div>
   );
 }

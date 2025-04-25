@@ -111,7 +111,14 @@ const LandingPageTabs = () => {
   className={` 
     ${card.title === "Coming Soon" ? "" : "flex flex-shrink-0 w-full max-w-[670px] min-w-[670px] h-auto max-h-[380px] object-cover group hover:opacity-80 transition-opacity duration-300 border border-black shadow-md relative"}`}
   style={{ cursor: card.title === "Coming Soon" ? "default" : "pointer" }}
-  onClick={() => card.title !== "Coming Soon" && openModal(card.videoUrl)}
+  onClick={() => {
+    if (card.title === "Coming Soon") return;
+    if (Array.isArray(card.tags) && card.tags.includes("Blog")) {
+      window.open(card.link, "_blank");
+    } else {
+      openModal(card.videoUrl);
+    }
+  }}
 >
       {/* If card is "Coming Soon", show only this */}
       {card.title === "Coming Soon" ? (
@@ -130,9 +137,11 @@ const LandingPageTabs = () => {
             />
 
             {/* Play Icon Overlay (Centered in the Image) */}
-            <div className="absolute inset-0 flex justify-center items-center pt-10">
-              {faPlay("h-[4rem] fill-[#edfd35]")}
-            </div>
+      {Array.isArray(card.tags) && !card.tags.includes("Blog") && (
+        <div className="absolute inset-0 flex justify-center items-center pt-10">
+          {faPlay("h-[4rem] fill-[#edfd35]")}
+        </div>
+      )}
           </div>
 
           {/* Card Details */}

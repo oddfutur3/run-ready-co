@@ -1,3 +1,4 @@
+
 export const cards = {
   0: [
     {
@@ -108,16 +109,14 @@ In Episode 08, RunReady physiotherapist Sean Sawer explains how foundational res
   ],
   1: [
     {
-      title: "Coming Soon",
+      title: "Phyios Behind The Class",
+      img: "/images/RR_WebRes-6.jpg",
+      tags: ["Blog"],
+      link: "/raceready/physios-behind-the-class",
+      description:
+        "A conversation with RunReady physiotherapists Dani, Sean, and Kendra on how their race ready group classes helps you move better and stay injury-free. Training for a race can be exciting and overwhelming all at once. Some days feel great. Other days, your body feels off. Something's tight, something aches, and you're not totally sure why. That's where having a foundation matters.",
     },
-  //   {
-  //     title: "Coral Project 2",
-  //     location: "Maldives",
-  //     img: "https://via.placeholder.com/290x370",
-  //     tags: ["Marine", "Conservation", "Restoration"],
-  //     description:
-  //       "This is a long description of the Coral Project 2. It focuses on reef restoration and the engagement with local communities to protect marine habitats.",
-  //   },
+  
   ],
   2: [
     {

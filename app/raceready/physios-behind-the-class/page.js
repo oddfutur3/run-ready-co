@@ -7,14 +7,13 @@ import { ppNeueMontreal } from "@/app/fonts";
 import Line from "@/components/Line";
 import NavBar from "@/components/NavBar/NavBar";
 import { VScrollProvider } from "@/components/VScrollContext";
-import { redirect } from "next/navigation";
 
 export const metadata = {
   title: "RunAsYouAre - raceready Q&A",
 };
 
+
 export default async function RaceReadyQNA() {
-  redirect("/raceready/physios-behind-the-class");
   return (
     <VScrollProvider>
     <div className="">
