@@ -55,9 +55,7 @@ export default function RaceReady() {
                   " text-[16px] md:text-[20px] leading-[1.4] lg:leading-[1.2]"
                 }
               >
-                8-week small group training led by RunReady physiotherapists.
-                Build strength, mobility, and adaptability—just in time for the
-                Vancouver Half.
+               This round is full. Our 8-week small group training with RunReady physiotherapists helps build strength, mobility, and adaptability—just in time for race season. Stay tuned for the next one.
               </span>
               {/* 
     <div className="mt-10">
@@ -206,13 +204,14 @@ export default function RaceReady() {
                     </li>
                     </ul> */}
                     <div className="mt-10">
-                      <Link
-                        href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
+                      <button
+                        onClick={() =>{}}
                         target="_blank"
-                        className="btn-yellow block w-[fit-content]"
+                        className="btn-yellow block w-[fit-content] cursor-not-allowed opacity-60"
+                        disabled
                       >
-                        Register Now
-                      </Link>
+                       Registration Closed
+                      </button>
                     </div>
                   </div>
                 </div>
