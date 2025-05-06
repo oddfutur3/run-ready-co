@@ -113,15 +113,7 @@ export default function NavClient() {
         </div>
 
 
-        {pathname.includes("/raceready") ? (
-  <Link
-    className="btn-yellow-inverse-2"
-    href="https://checkout.runready.io/b/4gweWp5UK6A63aE9AF"
-    target="_blank"
-  >
-    Register Now
-  </Link>
-) : (
+  
   <Link
     className="btn-yellow-inverse-2"
     href="https://runready.janeapp.com"
@@ -129,7 +121,7 @@ export default function NavClient() {
   >
     Book Now
   </Link>
-)}
+
       </div>
     </div>
   );
