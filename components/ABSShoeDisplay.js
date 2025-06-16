@@ -147,7 +147,7 @@ export default function ABSSShoeDisplay({ shoes, title, threshold }) {
 
       {/* Display Shoes */}
       {filteredShoes.length > 0 ? (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-[repeat(auto-fit,_minmax(18rem,_1fr))] gap-x-[1rem] gap-y-[2rem] ">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-[1rem] gap-y-[2rem] ">
           {filteredShoes.map((shoe) => (
             <ABCollectionsCard
               key={shoe.id}
