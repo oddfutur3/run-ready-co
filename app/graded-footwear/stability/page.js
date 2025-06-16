@@ -10,6 +10,9 @@ import SlantedAccordion from "@/components/SlantedAccordion";
 import { PageHeading } from "@/components/UIComponents";
 import Link from "next/link";
 
+export const metadata = {
+  title: "RunReady - Graded Footwear / Stability",
+};
 export default async function HighAbsorb() {
   //validate auth user
   const cookiesLogin = cookies().get("token");

@@ -9,6 +9,10 @@ import Footer from "@/components/Footer";
 import SlantedAccordion from "@/components/SlantedAccordion";
 
 
+export const metadata = {
+  title: "RunReady - Graded Footwear / Absorb",
+};
+
 export default async function HighAbsorb() {
   //validate auth user
   const cookiesLogin = cookies().get("token");
