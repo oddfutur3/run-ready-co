@@ -9,6 +9,7 @@ if (!firebaseAdmin.apps.length) {
       clientEmail: process.env.firebase_client_email,
       projectId: process.env.firebase_project_id,
     }),
+      storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET, 
   });
 }
 
