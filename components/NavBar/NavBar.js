@@ -24,7 +24,10 @@ export default function NavBar() {
     "/FAQ",
     "/experience",
     "/raceready",
-    "/raceready/physios-behind-the-class"
+    "/raceready/physios-behind-the-class",
+    "/graded-footwear/absorb",
+    "/graded-footwear/bounce",
+    "/graded-footwear/stability",
   ];
 
   const isPathnameLanding = landingPages.includes(pathname);

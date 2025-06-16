@@ -26,7 +26,7 @@ export default function NavClient() {
 
   // const { handleEnter, handleLeave } = useHoverDropdown();
 
-  const [openDropdown, setOpenDropdown] = useState(null); // "group" | "services" | null
+  const [openDropdown, setOpenDropdown] = useState(null); // "group" | "services" | "graded" | null
   const timeoutRef = useRef(null);
   const servicesRef = useRef(null);
   const groupRef = useRef(null);
@@ -82,7 +82,7 @@ export default function NavClient() {
         </div>
       <div className="flex " style={{ alignItems: "center" }}>
                 <div
-          className="relative mr-10 hidden xl:block "
+          className="relative mr-5 hidden xl:block "
           ref={groupRef}
           onMouseEnter={() => handleEnter("group")}
           onMouseLeave={handleLeave}
@@ -108,6 +108,40 @@ export default function NavClient() {
                 >
                   RunAsYouAre
                 </Link> */}
+            </div>
+          )}
+        </div>
+
+        <div
+          className="relative mr-10 hidden xl:block"
+          onMouseEnter={() => handleEnter("graded")}
+          onMouseLeave={handleLeave}
+        >
+          <button className="hidden font-medium text-center xl:flex items-center gap-5 py-3 px-3">
+            <div>Graded Footwear</div>
+            <div>{faChevronDown("h-[1rem]")}</div>
+          </button>
+
+          {openDropdown === "graded" && (
+            <div className="absolute bg-white w-[180px] border border-black mt-2 z-50">
+              <Link
+                href="/graded-footwear/absorb"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                Absorb
+              </Link>
+              <Link
+                href="/graded-footwear/bounce"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                Bounce
+              </Link>
+              <Link
+                href="/graded-footwear/stability"
+                className="block px-3 py-2 hover:bg-gray-100"
+              >
+                Stability
+              </Link>
             </div>
           )}
         </div>

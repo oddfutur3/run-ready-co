@@ -453,3 +453,32 @@ img {
 .text-shadow {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); /* White shadow with slight opacity */
 }
+
+.bounce-section {
+  position: relative;
+  z-index: 1;
+}
+
+.bounce-section::before,
+.bounce-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background: black;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.bounce-section::before {
+  left: 0;
+  transform: skewX(-19.3deg); 
+  transform-origin: bottom left;
+}
+
+.bounce-section::after {
+  right: 0;
+  transform: skewX(-19.3deg); 
+  transform-origin: top right;
+}
