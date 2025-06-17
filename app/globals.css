@@ -70,7 +70,7 @@ body {
 
 
 .hero-gradient {
-  background: radial-gradient(120% 150% at 0% 0%, #e7fc4b 10%, #e7fc4b 16%, #fff 63%, #fff 100%);
+  /* background: radial-gradient(120% 150% at 0% 0%, #e7fc4b 10%, #e7fc4b 16%, #fff 63%, #fff 100%); */
 }
 
 .promo-gradient {

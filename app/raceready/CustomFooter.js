@@ -219,7 +219,7 @@ const CustomFooter = () => {
                   </div>
                   <div className="flex gap-2 items-center">
                     <div className="text-black text-[14px] leading-[1.5] ">
-                      (778) 312-1322
+                      (778) 312-3343
                     </div>
                   </div>
                   <div className="flex gap-2 items-center">

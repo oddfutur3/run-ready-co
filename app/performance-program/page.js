@@ -470,7 +470,7 @@ export default function RunReady() {
                       className="flex items-center lg:text-[16px] text-[14px] hover:underline"
                     >
                       {faShareNodes("h-[1rem] fill-black mr-2")}
-                      <span>(778) 312-1322</span>
+                      <span>(778) 312-3343</span>
                     </a>
 
                     {/* Address */}

@@ -90,7 +90,7 @@ const Footer = () => {
   return (
     <section
       style={{ margin: "0 auto" }}
-      className=" w-full bg-transparent text-black  "
+      className=" w-full bg-black text-  "
     >
       <div
         className={
@@ -104,7 +104,7 @@ const Footer = () => {
               <form className="flex flex-col w-full lg:max-w-[440px]">
                 <label
                   htmlFor="email"
-                  className="text-label2 lg:text-label1 font-medium text-black lg:w-3/4 text-center lg:text-left"
+                  className="text-label2 lg:text-label1 font-medium text-white lg:w-3/4 text-center lg:text-left"
                 >
                   Stay updated on RunReady
                 </label>
@@ -126,7 +126,7 @@ const Footer = () => {
                 />
 
                 <div
-                  className={`text-black flex gap-2 items-center mt-5 text-xs ${
+                  className={`text-white flex gap-2 items-center mt-5 text-xs ${
                     submitted ? "invisible" : ""
                   }`}
                 >
@@ -148,7 +148,7 @@ const Footer = () => {
                       if (error) setError(""); // Clear error if user checks
                     }}
                   />
-                  <div className="text-xs text-black">
+                  <div className="text-xs text-white">
                     I agree to receive your newsletters and accept the data
                     privacy statement.
                   </div>
@@ -158,7 +158,7 @@ const Footer = () => {
                   <LoadingButton
                     action={handleSub}
                     wrapperClass="  w-min mt-8"
-                    buttonClass="hover:text-black hover:bg-white  border border-black transition bg-black !font-secondary caption text-white-100 px-[1.5rem] py-[0.75rem]"
+                    buttonClass="hover:text-black hover:bg-brand-yellow  border border-white transition bg-white !font-secondary caption text-black px-[1.5rem] py-[0.75rem]"
                     disabled={
                       submitted ||
                       !inputEmail ||
@@ -180,7 +180,7 @@ const Footer = () => {
      
 
               <div className="lg:ml-10">
-                <p className="mb-7 lg:mr-10    text-black text-[14px] leading-[1.15] font-semibold">
+                <p className="mb-7 lg:mr-10    text-white text-[14px] leading-[1.15] font-semibold">
                   Learn More
                 </p>
 
@@ -188,7 +188,7 @@ const Footer = () => {
                   <div className="flex gap-2 items-center">
                     <Link
                       href="/careers"
-                      className="text-black text-[14px] leading-[1.5] hover:underline"
+                      className="text-white text-[14px] leading-[1.5] hover:underline"
                     >
                       Careers
                     </Link>
@@ -196,7 +196,7 @@ const Footer = () => {
                   <div className="flex gap-2 items-center">
                     <Link
                       href="/FAQ"
-                      className="text-black text-[14px] leading-[1.5] hover:underline"
+                      className="text-white text-[14px] leading-[1.5] hover:underline"
                     >
                       FAQ
                     </Link>
@@ -204,7 +204,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="">
-                <p className="mb-7 mr-10    text-black text-[14px] leading-[1.15] font-semibold">
+                <p className="mb-7 mr-10    text-white text-[14px] leading-[1.15] font-semibold">
                   Flagship Studio
                 </p>
 
@@ -213,19 +213,19 @@ const Footer = () => {
                     <Link
                       href="https://maps.app.goo.gl/2MGWsqy1g2MWNYdd7"
                       target="_blank"
-                      className="text-black text-[14px] leading-[1.5] "
+                      className="text-white text-[14px] leading-[1.5] "
                     >
                       2033 W 4th Ave,
                       <br /> Vancouver, BC V6J 1N3
                     </Link>
                   </div>
                   <div className="flex gap-2 items-center">
-                    <div className="text-black text-[14px] leading-[1.5] ">
-                      (778) 312-1322
+                    <div className="text-white text-[14px] leading-[1.5] ">
+                      (778) 312-3343
                     </div>
                   </div>
                   <div className="flex gap-2 items-center">
-                    <div className="text-black text-[14px] leading-[1.5]">
+                    <div className="text-white text-[14px] leading-[1.5]">
                       info@runready.co
                     </div>
                   </div>
@@ -242,7 +242,7 @@ const Footer = () => {
             >
               <FontAwesomeIcon
                 icon={faInstagram}
-                className="text-[1.375rem] text-black"
+                className="text-[1.375rem] text-white"
               />
             </a>
             <a
@@ -253,7 +253,7 @@ const Footer = () => {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
-                className="text-[1.375rem] text-black"
+                className="text-[1.375rem] text-white"
               />
             </a>
             <a
@@ -264,12 +264,12 @@ const Footer = () => {
             >
               <FontAwesomeIcon
                 icon={faFacebook}
-                className="text-[1.375rem] text-black"
+                className="text-[1.375rem] text-white"
               />
             </a>
           </div>
-          <div className="border-solid border-0 border-t border-black py-10 text-center lg:text-left flex flex-col lg:flex-row justify-center lg:justify-between">
-            <div className="flex gap-x-4 text-xs font-medium text-black flex-col lg:flex-row mb-9 lg:mb-0 items-center">
+          <div className="border-solid border-0 border-t border-white py-10 text-center lg:text-left flex flex-col lg:flex-row justify-center lg:justify-between">
+            <div className="flex gap-x-4 text-xs font-medium text-white flex-col lg:flex-row mb-9 lg:mb-0 items-center">
               <span className="mb-4 lg:mb-0">
                 ©2025 RunReady. All rights reserved.
               </span>
@@ -286,12 +286,12 @@ const Footer = () => {
               <Link
                 href="https://www.runasyouare.co/"
                 target="_blank"
-                className="text-black text-xs lg:w-2/5 hover:underline text-right"
+                className="text-white text-xs lg:w-2/5 hover:underline text-right"
               >
                 <Image
                   width={150}
                   height={100}
-                  src="/images/runready-by-runasyouare-black.png"
+                  src="/images/runready-by-runasyouare.png"
                   alt="logo"
                 />
               </Link>

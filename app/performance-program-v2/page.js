@@ -602,7 +602,7 @@ export default function PerformanceProgram() {
                         style={{ alignItems: "center" }}
                       >
                         {faShareNodes("h-[1rem] fill-black mr-5")}
-                        <div>(778) 312-1322</div>
+                        <div>(778) 312-3343</div>
                       </div>
 
                       <div className="flex  " style={{ alignItems: "center" }}>
