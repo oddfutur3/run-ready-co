@@ -13,6 +13,9 @@ export default function ABCollectionsCard({ node }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const router = useRouter();
 
+  console.log("node", node);
+  
+
   const handleCardClick = (e) => {
     e.stopPropagation();
     router.push(`/products/${node?.handle}`);

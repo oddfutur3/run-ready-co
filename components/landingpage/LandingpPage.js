@@ -8,6 +8,7 @@ import Footer from "../Footer";
 import ThreeTab from "./ThreeTab";
 import NavBar from "../NavBar/NavBar";
 import { ppNeueMontreal } from "@/app/fonts";
+import MatchMarquee from "../MatchMarquee";
 
 export default function LandingPage() {
   return (
@@ -263,48 +264,7 @@ export default function LandingPage() {
         {/* SECTION 4 */}
         <ThreeTab />
 
-        <section
-          className={
-            ppNeueMontreal.className +
-            " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[150px] "
-          }
-        >
-          <div className="md:grid grid-cols-2 w-full  md:gap-x-4 wrapper-content">
-            <div className=" lg:mt-[50px]  lg:w-[560px] mb-14 lg:mb-0 text-center lg:text-left">
-              <span className="font-medium text-[18px] leading-[1.15] text-black">
-                One seamless system
-              </span>
-              <div
-                className={
-                  ppNeueMontreal.className +
-                  " text-2xl lg:text-5xl lg:leading-[1.15] font-medium mb-6"
-                }
-              >
-                Assess, Match, and Prescribe—all in one place
-              </div>
-              <div>
-                The RunReady Platform makes it easy for practitioners to deliver
-                RunReady Performance Program. Automated assessments, guided
-                footwear matching, and access to 1000s of personalized exercise
-                programs keep client care efficient and effective.
-              </div>
-
-              {/* <Link href="#" className="relative inline-flex btn-black mt-6">
-                <span className="mx-auto inline-flex items-center gap-2 self-center">
-                  See Platform
-                </span>
-              </Link> */}
-            </div>
-            <div className="flex justify-end">
-              <div className="img-container relative border border-1 border-black">
-                <img
-                  src="/images/RRWebsite-20.jpg"
-                  className="w-full h-[444px] object-contain object-center"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+<MatchMarquee />
 
         <section  className="wrapper mb-[150px]    ">
           <div className="wrapper-content flex flex-col items-center justify-center">

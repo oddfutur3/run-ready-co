@@ -5,13 +5,19 @@ import HomeHero from "./landing-page/HomeHero";
 import NavBar from "@/components/NavBar/NavBar";
 import { VScrollProvider } from "@/components/VScrollContext";
 import Link from "next/link";
+import { getHighAbsorbShoes } from "@/serverActions/fetchShoesByABS";
 
 
 export const metadata = {
   title: "RunReady - All things running healthy",
 };
 
-export default function Home() {
+export default async function Home() {
+
+    const shoes = await getHighAbsorbShoes();
+    console.log("shoes", shoes);
+    
+  
   // State to track whether to show the floating button
   // const [showFloatingButton, setShowFloatingButton] = useState(false);
 
@@ -52,7 +58,7 @@ export default function Home() {
 
       {/* Page Content */}
       <main className="relative">
-        <HomeHero />
+          <HomeHero items={shoes} />
       </main>
       <div className="footer-gradient">
         <Footer />

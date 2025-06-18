@@ -6,14 +6,20 @@ import { redirect } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import HomeHero from "./HomeHero";
-
+import { getHighAbsorbShoes } from "@/serverActions/fetchShoesByABS";
 
 
 export default async function Home() {
+
+
+  const shoes = await getHighAbsorbShoes();
+  console.log("shoes", shoes);
+  
+
   return (
     <VScrollProvider>
         <main>
-          <HomeHero />
+          <HomeHero items={shoes} />
         </main>
         <div className="footer-gradient">
 
