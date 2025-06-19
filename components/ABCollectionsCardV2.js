@@ -51,7 +51,7 @@ export default function ABCollectionsCardV2({ node }) {
   return (
     <>
       <div
-                className="group lg:w-[15rem] flex flex-col gap-[1rem] cursor-pointer border border-grey-400 hover:border-black  p-[1rem] mr-5"
+                className="group lg:w-[15rem] flex flex-col gap-[1rem]  border border-grey-400 hover:border-black  p-[1rem] mr-5"
         ref={cardRef}
       >
         <div className="h-[225px] relative">
