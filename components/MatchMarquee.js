@@ -13,7 +13,7 @@ const MatchMarquee = (items) => {
       }
     >
       <div className="flex flex-col lg:flex-row w-full md:gap-x-4 wrapper-content">
-        <div className="lg:w-1/2 xl:mt-[90px] mb-14 lg:mb-0 text-center lg:text-left">
+        <div className="lg:w-1/2 xl:mt-[40px] mb-14 lg:mb-0 text-center lg:text-left">
               <p className="text-xs font-medium uppercase tracking-widest text-black ">
             SHOP, GRADE & EARN
           </p>
@@ -24,13 +24,13 @@ const MatchMarquee = (items) => {
           You&apos;ll earn RunAsYouAre credit for every shoe you test and grade, starting at $25, and up to $60 if you keep going. No application needed. Just follow the steps in your confirmation email to get started.
 
           </div>
-                <div className="mt-10 lg:text-left text-center">
+                <div className="mt-8 lg:text-left text-center">
                 <Link
                   href="https://runasyouare.co/footwear"
                   target="_blank"
                   className="btn-yellow block w-[fit-content] cursor-pointer hover:opacity-80"
                 >
-                  Browse our footwear
+                  Browse footwear
                 </Link>
               </div>
         </div>

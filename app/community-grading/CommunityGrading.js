@@ -167,10 +167,10 @@ export default function CommunityGrading(items) {
 Earn $35 in RunAsYouAre Dollars per session.<br />
                      
  <span className="font-normal italic">
-                        It&apos;s not cash. It&apos;s a credit added to your account within 30 days.
+                       It&apos;s not cash. It&apos;s a credit added to your RunAsYouAre account within 30 days.
                       </span>
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-6">
                       <Link
                         href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
                         target="_blank"
@@ -186,7 +186,7 @@ Earn $35 in RunAsYouAre Dollars per session.<br />
                 <div className="img-container relative ">
                   <img
                     src="/images/DSC_0863.JPG"
-                    className="w-[500px] h-[500px]  border border-black object-cover"
+                    className="w-[600px] h-[600px]  border border-black object-cover"
                   />
                   {/* <div className="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white text-sm px-3 py-1 rounded">
                     <span className="font-semibold">
@@ -337,8 +337,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                 The brands you&apos;ll help grade
               </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2]">
-                Every shoe you grade comes straight from the RunAsYouAre lineup,
-                the same ones you&apos;ll see on their shelves.
+                Every shoe you grade comes straight from the RunAsYouAre speciality shop, the same ones you&apos;ll see on their shelves.
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-black">
@@ -433,7 +432,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
                Be part of our next Footwear Grading Event on July 2 or 3 at RunAsYouAre. You&apos;ll run, grade, and earn credit to your RunAsYouAre account.
               </div>
-                <div className="mt-10 lg:text-left text-center">
+                <div className="mt-6 lg:text-left text-center">
                       <Link
                         href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
                         target="_blank"

@@ -201,6 +201,14 @@ const Footer = () => {
                       FAQ
                     </Link>
                   </div>
+                         <div className="flex gap-2 items-center">
+                    <Link
+                      href="/community-grading"
+                      className="text-white text-[14px] leading-[1.5] hover:underline"
+                    >
+                      Community Grading
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="">
