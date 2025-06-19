@@ -184,10 +184,10 @@ export default function CommunityGrading(items) {
               <div className="flex justify-center flex-1 relative items-center">
                 <div className="img-container relative ">
                   <img
-                    src="/images/RR_WebRes-6.jpg"
+                    src="/images/DSC_0954.JPG"
                     className="w-[500px] h-[500px]  border border-black object-cover"
                   />
-                  <div className="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white text-sm px-3 py-1 rounded">
+                  {/* <div className="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white text-sm px-3 py-1 rounded">
                     <span className="font-semibold">
                       Physio Group Class Leaders
                     </span>
@@ -200,7 +200,7 @@ export default function CommunityGrading(items) {
                     >
                       Read More
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
                 {/* <div className="absolute left-2 bottom-[-2rem]">
                     <Link
