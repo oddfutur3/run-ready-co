@@ -2,6 +2,7 @@ import React from "react";
 import { ppNeueMontreal } from "@/app/fonts";
 import Marquee from "react-fast-marquee";
 import { SectionNewArrivalsV2Marquee } from "./SectionNewArrivalsV2";
+import Link from "next/link";
 
 const MatchMarquee = (items) => {
   return (
@@ -22,6 +23,15 @@ const MatchMarquee = (items) => {
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5">
            You&apos;ll get $25 off each shoe you review, redeemable at RunAsYouAre. No application needed. Just follow the steps in your order confirmation to get started.
           </div>
+                <div className="mt-10 lg:text-left text-center">
+                <Link
+                  href="https://runasyouare.co/footwear"
+                  target="_blank"
+                  className="btn-yellow block w-[fit-content] cursor-pointer hover:opacity-80"
+                >
+                  Browse our footwear
+                </Link>
+              </div>
         </div>
         <div className="lg:w-2/3 flex justify-end min-h-[265px] relative overflow-hidden border border-solid border-black">
           <SectionNewArrivalsV2Marquee

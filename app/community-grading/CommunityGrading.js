@@ -164,8 +164,11 @@ export default function CommunityGrading(items) {
                       </li>
                     </ul>
                     <div className="text-black font-semibold text-[16px] lg:text-[18px]">
-                      Graders are compensated for every completed session.
-
+Earn $35 in RunAsYouAre Dollars per session.<br />
+                     
+ <span className="font-normal italic">
+                        It&apos;s not cash. It&apos;s a credit added to your account within 30 days.
+                      </span>
                     </div>
                     <div className="mt-10">
                       <Link
