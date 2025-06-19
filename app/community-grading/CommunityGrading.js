@@ -446,7 +446,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
             <div className="flex justify-end">
               <div className="img-container relative ">
                 <img
-                  src="/images/RRWebsite-20.jpg"
+                  src="/images/Untitled-design-48.png"
                   className="w-full xl:h-[444px] border border-1 border-black  object-cover object-center"
                 />
               </div>
