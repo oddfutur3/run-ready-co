@@ -10,16 +10,12 @@ import { getHighAbsorbShoes } from "@/serverActions/fetchShoesByABS";
 
 
 export default async function Home() {
-
-
-  const shoes = await getHighAbsorbShoes();
-  console.log("shoes", shoes);
   
 
   return (
     <VScrollProvider>
         <main>
-          <HomeHero items={shoes} />
+          <HomeHero />
         </main>
         <div className="footer-gradient">
 

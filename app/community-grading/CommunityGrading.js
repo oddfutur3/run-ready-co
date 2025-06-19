@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import CustomFooter from "./CustomFooter";
 import MatchMarquee from "@/components/MatchMarquee";
 
 import NavBar from "@/components/NavBar/NavBar";
@@ -21,18 +20,30 @@ export default function CommunityGrading(items) {
     <div className="flex flex-col">
       <div className="">
         <NavBar />
-        <div className="relative">
-          <div className="absolute inset-0 bg-black bg-opacity-40 z-5"></div>
+       <div
+          style={{
+            alignItems: "center",
+            backgroundImage: "url('/images/WebsiteHero.svg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+          className="relative"
+        >
+             <img
+                src="/images/Lockup.svg"
+                className="h-[75px] absolute top-10 left-[4rem]  z-10"
+              />
+          <div className="absolute inset-0 bg-black bg-opacity-20  z-5"></div>
 
           <section className="wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-[92vh] max-w-[1657px] mx-auto text-center">
             <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10">
-              <p className="text-xs uppercase font-medium  tracking-widest text-white ">
-                Community Grading
-              </p>{" "}
+                     <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">Community Grading Program</span>
+            
               <div
                 className={
                   ppNeueMontreal.className +
-                  "  text-[38px] lg:text-5xl leading-none font-medium mb-6 lg:mb-6 text-white  "
+                  "  text-[38px] lg:text-3xl leading-none font-medium mb-6 lg:mb-6 text-white  "
                 }
               >
                 <span className="   ">

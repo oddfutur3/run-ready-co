@@ -9,9 +9,8 @@ import ThreeTab from "@/components/landingpage/ThreeTab";
 import NavBar from "@/components/NavBar/NavBar";
 import Image from "next/image";
 import NavClient from "@/components/NavBar/NavClient";
-import MatchMarquee from "@/components/MatchMarquee";
 
-export default function HomeHero(items) {
+export default function HomeHero() {
 
   
   return (
@@ -62,7 +61,43 @@ export default function HomeHero(items) {
           <ThreeTab />
         </div>
 
-<MatchMarquee items={items}/>
+                <section
+          className={
+            ppNeueMontreal.className +
+            " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[150px] "
+          }
+        >
+          <div className="lg:grid grid-cols-2 w-full  md:gap-x-4 wrapper-content">
+            <div className=" xl:mt-[90px]   xl:w-[560px] mb-14 lg:mb-0 text-center lg:text-left">
+              <span className="font-medium  text-[16px]  lg:text-[18px] leading-[1.15] text-black">
+                One seamless system
+              </span>
+              <div
+                className={
+                  ppNeueMontreal.className +
+                  " text-[1.5rem] lg:text-[2.5rem] lg:leading-[1.15] font-medium mb-6"
+                }
+              >
+                Assess, Match, and Prescribe—all in one place
+              </div>
+              <div className="  text-[14px] lg:text-[16px] lg:pr-5 ">
+                The RunReady Platform makes it easy for practitioners to deliver
+                RunReady Performance Program. Automated assessments, guided
+                footwear matching, and access to 1000s of personalized exercise
+                programs keep client care efficient and effective.
+              </div>
+            </div>
+            <div className="flex justify-end">
+              <div className="img-container relative ">
+                <img
+                  src="/images/RRWebsite-20.jpg"
+                  className="w-full xl:h-[444px] border border-1 border-black  object-cover object-center"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
 
         <section className="wrapper mb-[150px]    ">
           <div className="wrapper-content flex flex-col items-center justify-center">
