@@ -407,8 +407,55 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
             ></div>
           </div>
         </section>
+
+                       <section
+          className={
+            ppNeueMontreal.className +
+            " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[100px] "
+          }
+        >
+          <div className="lg:grid grid-cols-2 w-full  md:gap-x-4 wrapper-content">
+            <div className=" xl:mt-[90px]   xl:w-[560px] mb-14 lg:mb-0 text-center lg:text-left">
+                <p className="text-xs uppercase font-medium  tracking-widest text-black ">
+                Join Us
+              </p>
+              <div
+                className={
+                  ppNeueMontreal.className +
+                  " text-[1.5rem] lg:text-[2.5rem] lg:leading-[1.15] font-medium mb-6"
+                }
+              >
+                Ready to grade?
+              </div>
+              <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
+                Once you&apos;re in the grader pool, we&apos;ll contact you each month
+                  with available times. Choose a slot, come to the RunReady
+                  Studio (inside RunAsYouAre), test multiple pairs, and submit
+                  your grades. Each session takes about an hour and is paid
+                  (amount TBD).
+              </div>
+                <div className="mt-10 lg:text-left text-center">
+                      <Link
+                        href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
+                        target="_blank"
+                        className="btn-yellow inline-block w-[fit-content] cursor-pointer hover:opacity-80"
+                      >
+                        Apply Now
+                      </Link>
+                    </div>
+            </div>
+            <div className="flex justify-end">
+              <div className="img-container relative ">
+                <img
+                  src="/images/RRWebsite-20.jpg"
+                  className="w-full xl:h-[444px] border border-1 border-black  object-cover object-center"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
         {/* <div className="mb-40"></div> */}
-        <div className=" px-[2.5em] max-w-[1657px] wrapper  !mx-auto w-[100%]  relative z-[2]  ">
+        {/* <div className=" px-[2.5em] max-w-[1657px] wrapper  !mx-auto w-[100%]  relative z-[2]  ">
           <div className="flex flex-col lg:flex-row bg-black  justify-between items-center p-6 sm:p-[2em] gap-4 lg:gap-8">
             <div className="flex justify-center">
               <div className=" ">
@@ -441,7 +488,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
               Apply Now
             </Link>
           </div>
-        </div>
+        </div> */}
 
         <div
           className=" pt-[100px] footer-gradient "
