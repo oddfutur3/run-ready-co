@@ -7,13 +7,12 @@ import CommunityGrading from "./CommunityGrading";
 import { getHighAbsorbShoes } from "@/serverActions/fetchShoesByABS";
 
 export const metadata = {
-  title: "RunReady - RaceReady",
+  title: "RunReady - Community Grading",
 };
 
 export default async function CommunityGradingPage() {
 
      const shoes = await getHighAbsorbShoes();
-    console.log("shoes", shoes);
 
   return (
     <VScrollProvider>

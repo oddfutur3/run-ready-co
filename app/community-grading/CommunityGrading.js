@@ -100,62 +100,53 @@ export default function CommunityGrading(items) {
                   <div className="">
                     <ul>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                        <div className="">1.</div>
+                        <div className="flex items-center justify-center w-8 h-8 border-2 border-black rounded-full text-black">
+                          1
+                        </div>
                         <div>
                           <span className="font-medium  text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             Apply to join one of our in-person grading events.
-                          </span>
-                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
-                            This service focuses on your unique movement
-                            patterns and needs. This complete care approach
-                            ensures that every solution—from footwear to
-                            exercises—fits you perfectly.
-                            </div> */}
+                          </span>          
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                        <div className="">2.</div>
+                        <div className="flex items-center justify-center w-8 h-8 border-2 border-black rounded-full text-black">
+                          2
+                        </div>
                         <div>
                           <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             If accepted, we&apos;ll onboard you as a grader.
                           </span>
-                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
-                            Get a movement assessment, footwear match, and
-                            exercise program in one session. Conveniently
-                            available at RunAsYouAre and through your account
-                            dashboard.
-                            </div> */}
+
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                        <div className="">3.</div>
+                        <div className="flex items-center justify-center w-8 h-8 border-2 border-black rounded-full text-black">
+                          3
+                        </div>
                         <div>
                           <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             Your name is part of our grader pool.
                           </span>
-                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
-                            With physiotherapy expertise and running science,
-                            this service provides personalized solutions based
-                            on your movement and performance needs.
-                            </div> */}
+
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                        <div className="">4.</div>
+                        <div className="flex items-center justify-center w-8 h-8 border-2 border-black rounded-full text-black">
+                          4
+                        </div>
                         <div>
                           <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             Every month, we&apos;ll reach out with available
                             timeslots.
                           </span>
-                          {/* <div className="  text-[17px] leading-[2] md:leading-[1.3]">
-                            With physiotherapy expertise and running science,
-                            this service provides personalized solutions based
-                            on your movement and performance needs.
-                            </div> */}
+
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
-                        <div className="">5.</div>
+                        <div className="flex items-center justify-center w-8 h-8 border-2 border-black rounded-full text-black">
+                          5
+                        </div>
                         <div>
                           <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             Book a time, test shoes, and submit your grades.
@@ -165,26 +156,8 @@ export default function CommunityGrading(items) {
                     </ul>
                     <div className="text-black font-semibold text-[16px] lg:text-[18px]">
                       Graders are compensated for every completed session.
-                      {/* <span className="font-normal italic">
-                        Free starter kit included
-                      </span> */}
+
                     </div>
-                    {/* <ul className="text-black list-disc pl-2 mt-2 text-[14px] lg:text-[16px] leading-[1.6]">
-                    <li className="pl-2">
-                    8 Weekly Small Group Training Sessions (Tuesdays, April 29
-                    – June 17, 2025)
-                    </li>
-                    <li className="pl-2">
-                    Strength & Mobility work to prevent injuries and boost
-                    efficiency
-                    </li>
-                    <li className="pl-2">
-                    Footwear Demo Runs with top tier running brands
-                    </li>
-                    <li className="pl-2">
-                    Exclusive Perks (Post-run drinks, surprise activations)
-                    </li>
-                    </ul> */}
                     <div className="mt-10">
                       <Link
                         href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
@@ -282,7 +255,7 @@ export default function CommunityGrading(items) {
                     " text-[0.875rem] leading-[1.4] text-dark-200 max-w-[20rem]"
                   }
                 >
-How cushioned it feels (1 = firm, 10 = soft)                </div>
+How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
               </div>
               {/* BOUNCE */}
               <div className="flex flex-col items-center text-center space-y-[0.5rem]  ">
@@ -305,7 +278,7 @@ How cushioned it feels (1 = firm, 10 = soft)                </div>
                     " text-[0.875rem] leading-[1.4] text-dark-200 max-w-[20rem]"
                   }
                 >
-                  How much it helps you push forward (1 = flat, 10 = springy)
+                  How much it helps you push forward  <br/>  (1 = flat, 10 = springy)
                 </div>
               </div>
               {/* STABILITY */}
@@ -329,7 +302,7 @@ How cushioned it feels (1 = firm, 10 = soft)                </div>
                     " text-[0.875rem] leading-[1.4] text-dark-200 max-w-[20rem]"
                   }
                 >
-                 How steady and supported it feels (1 = wobbly, 10 = very stable)
+                 How steady and supported it feels <br/> (1 = wobbly, 10 = very stable)
                 </div>
               </div>
             </section>
@@ -429,7 +402,7 @@ How cushioned it feels (1 = firm, 10 = soft)                </div>
         <div className=" px-[2.5em] max-w-[1657px] wrapper  !mx-auto w-[100%]  relative z-[2]  ">
           <div className="flex flex-col lg:flex-row bg-black  justify-between items-center p-6 sm:p-[2em] gap-4 lg:gap-8">
             <div className="flex justify-center">
-              <div className="lg:w-[920px] ">
+              <div className=" ">
                 <p className="text-xs uppercase font-medium  tracking-widest text-white ">
                   Join Us
                 </p>
@@ -452,7 +425,7 @@ How cushioned it feels (1 = firm, 10 = soft)                </div>
               </div>
             </div>
             <Link
-              className="btn-yellow-inverse border border-brand-yellow p-5 font-semibold text-center "
+              className="btn-yellow-inverse border border-brand-yellow font-semibold text-center w-[200px]"
                         href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
               target="_blank"
             >
@@ -524,14 +497,6 @@ How cushioned it feels (1 = firm, 10 = soft)                </div>
                   </details>
                 </div>
               ))}
-
-  
-
-
-
-
-
-         
             </div>
           </div>
           {/* <div className="mb-40"></div> */}
