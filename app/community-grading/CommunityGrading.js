@@ -515,7 +515,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                 {
                   question: "How long is each grading session?",
                   answer:
-                    "One hour, including trying the shoes on and doing a short test run inside the store, plus time to submit your grades.",
+                    "Each grading session is one hour total. That includes trying on shoes, doing a short test run in-store, and submitting your grades before you leave.",
                 },
                 {
                   question: "Do I get to keep the shoes I grade?",
@@ -523,9 +523,9 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                     "No. You’re testing pairs from our footwear lineup to help refine the grades for others.",
                 },
                 {
-                  question: "How do I receive my compensation?",
+                  question: "What do I receive in exchange for my participation?",
                   answer:
-                    "You’ll be paid electronically 48-hours after your session. Details are shared during onboarding.",
+                    "Your $35 for each completed session will be added to your RunAsYouAre account within 30 days. Details are shared during onboarding.",
                 },
                 {
                   question: "Can I apply again if I’m not selected?",
