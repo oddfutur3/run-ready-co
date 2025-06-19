@@ -20,23 +20,21 @@ export default function CommunityGrading(items) {
     <div className="flex flex-col">
       <div className="">
         <NavBar />
-       <div
-          style={{
-            alignItems: "center",
-            backgroundImage: "url('/images/WebsiteHero.svg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-          className="relative"
-        >
-             <img
-                src="/images/Lockup.svg"
-                className="h-[75px] absolute top-10 left-[4rem]  z-10"
-              />
-          <div className="absolute inset-0 bg-black bg-opacity-20  z-5"></div>
-
-          <section className="wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-[92vh] max-w-[1657px] mx-auto text-center">
+      <div className="relative w-full h-[92vh] flex items-center justify-center">
+        <Image
+          src="/images/WebsiteHero.svg"
+          alt="Community Grading Hero"
+          fill
+          sizes="100vw"
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-20 z-10" />
+        <img
+          src="/images/Lockup.svg"
+          className=" h-[50px]  md:h-[75px] absolute top-10 left-[1rem]  md:left-[4rem]  z-10"
+        />
+        <section className="relative z-20 wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-full max-w-[1657px] mx-auto text-center">
             <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10">
                      <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">Community Grading Program</span>
             
@@ -73,8 +71,8 @@ export default function CommunityGrading(items) {
     </div> 
     */}
             </div>
-          </section>
-        </div>
+        </section>
+      </div>
         <div>
           <section className=" mb-10 font-secondary pt-[100px]">
             <div className="flex justify-center">
