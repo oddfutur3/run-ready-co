@@ -432,7 +432,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
                Be part of our next Footwear Grading Event on July 2 or 3 at RunAsYouAre. You&apos;ll run, grade, and earn credit to your RunAsYouAre account.
               </div>
-                <div className="mt-6 lg:text-left text-center">
+                <div className="mt-7 lg:text-left text-center">
                       <Link
                         href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
                         target="_blank"
