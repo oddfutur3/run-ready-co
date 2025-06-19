@@ -47,7 +47,7 @@ const LandingPageTabs = () => {
   return (
     <div className="wrapper overflow-x-hidden mb-[50px] ">
       <div className="wrapper-content">
-        <div className=" text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] font-medium lg:w-[665px] mb-16">
+        <div className=" text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25]  lg:w-[665px] mb-16">
         Explore our curated resources designed to deepen your knowledge of RunReady.
         </div>
         <div className="w-full h-[2rem] relative overflow-x-auto mb-6">

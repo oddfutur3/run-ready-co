@@ -28,6 +28,7 @@ export default function NavBar() {
     "/graded-footwear/absorb",
     "/graded-footwear/bounce",
     "/graded-footwear/stability",
+    "/community-grading",
   ];
 
   const isPathnameLanding = landingPages.includes(pathname);

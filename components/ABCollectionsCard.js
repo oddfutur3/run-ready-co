@@ -58,7 +58,7 @@ export default function ABCollectionsCard({ node }) {
     <>
       <div
 
-        className="group lg:w-auto min-w-[145px] flex flex-col gap-[1rem] cursor-pointer border border-grey-400 hover:border-brand-green  p-[1rem] transition-colors duration-300 "
+        className="group lg:w-auto min-w-[145px] flex flex-col gap-[1rem] cursor-pointer border border-grey-400 hover:border-black  p-[1rem] transition-colors duration-300 "
         ref={cardRef}
       >
         <div className="aspect-[0.777] relative">

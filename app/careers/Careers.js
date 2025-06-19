@@ -22,45 +22,44 @@ export default function Careers() {
           className=" wrapper flex flex-col-reverse lg:flex-row lg:h-[87vh] max-w-[1657px] mx-auto"
           style={{ alignItems: "center" }}
         >
-                    <div className="text-black flex flex-col w-full lg:w-4/5 justify-center text-center lg:text-left  pr-5">
-                    <div
-                className={
-                  ppNeueMontreal.className +
-                  " text-[38px] xl:text-7xl xl:leading-none font-medium mb-6 lg:mb-6  lg:pr-[9rem] pr-0"
-                }
-              >
-                Move Running Forward
-              </div>
-              <span
-                className={
-                  ppNeueMontreal.className +
-                  " text-[16px] md:text-[20px]  leading-[1.3]  w-full md:w-[80%] lg:leading-[1.2]"
-                }
-              >
-                RunReady is redefining running health through research,
-                innovation, and real-world testing. Join us in shaping the
-                future of how people run.
-              </span>
-              <div className="mt-10">
-                <Link
-                  className="btn-black"
-                  href="https://secure.collage.co/jobs/runasyouare"
-                  target="_blank"
-                >
-                  Open Roles
-                </Link>
-              </div>
+          <div className="text-black flex flex-col w-full lg:w-4/5 justify-center text-center lg:text-left  pr-5">
+            <div
+              className={
+                ppNeueMontreal.className +
+                " text-[38px] xl:text-7xl xl:leading-none font-medium mb-6 lg:mb-6  lg:pr-[9rem] pr-0"
+              }
+            >
+              Move Running Forward
             </div>
-            <div className="flex justify-center lg:justify-end my-10 lg:my-0 w-full lg:w-auto">
+            <span
+              className={
+                ppNeueMontreal.className +
+                " text-[16px] md:text-[20px]  leading-[1.3]  w-full md:w-[80%] lg:leading-[1.2]"
+              }
+            >
+              RunReady is redefining running health through research,
+              innovation, and real-world testing. Join us in shaping the future
+              of how people run.
+            </span>
+            <div className="mt-10">
+              <Link
+                className="btn-black"
+                href="https://secure.collage.co/jobs/runasyouare"
+                target="_blank"
+              >
+                Open Roles
+              </Link>
+            </div>
+          </div>
+          <div className="flex justify-center lg:justify-end my-10 lg:my-0 w-full lg:w-auto">
             <div className="relative xl:w-[663px]  max-w-md md:max-w-none">
-                <img
-                  src="/images/RRWebsite-13.jpg"
-                  className="w-full h-auto md:h-[75vh] border border-black object-cover"
-                  alt="Run Ready Hero"
-                />
-              </div>
+              <img
+                src="/images/RRWebsite-13.jpg"
+                className="w-full h-auto md:h-[75vh] border border-black object-cover"
+                alt="Run Ready Hero"
+              />
             </div>
-         
+          </div>
         </section>
 
         {/* 3 COL SECTION */}
@@ -169,7 +168,7 @@ export default function Careers() {
 
         <section
           className={ppNeueMontreal.className + "   "}
-          style={{ marginBottom: "150px", marginTop:"100px" }}
+          style={{ marginBottom: "150px", marginTop: "100px" }}
         >
           <div className="w-full lg:w-[1022px] mx-auto flex flex-col text-center items-center">
             <div className="w-3/4 lg:w-full text-gray-800 text-[1.5rem] leading-[1.28] lg:text-[2.5rem] lg:leading-[1.25] font-medium">
@@ -183,36 +182,38 @@ export default function Careers() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-[1.1rem] gap-y-[2rem] auto-cols-fr justify-between pb-0 wrapper max-w-[1657px] mx-auto">
-  {[
-    {
-      title: "Research & Development",
-      description:
-        "We study how people run, build the RunReady Performance Program, design exercise programs, work with the tech team and grade footwear to help runners move better.",
-    },
-    {
-      title: "RunReady Studio",
-      description:
-        "RunReady Therapists deliver the RunReady Performance Program, providing expert assessments, precise footwear matching, and tailored exercise programs to improve running health.",
-    },
-    {
-      title: "Business Development",
-      description:
-        "We connect with clinics, therapists, and industry partners to expand access to RunReady Performance Program—helping people run comfortably and perform better.",
-    },
-  ].map((block, index) => (
-    <div key={index} className="text-no-underline w-full">
-      <div className="box-border bg-white border border-black p-8 h-full flex flex-col justify-center items-center text-center">
-        <div className="mb-6">
-          <h3 className="text-black text-[1.4rem] lg:text-[1.625rem] leading-[1.3] font-bold">
-            {block.title}
-          </h3>
-        </div>
-        <div className="flex justify-center items-center">
-          <p className="text-black  text-[14px] lg:text-[16px]">{block.description}</p>
-        </div>
-      </div>
-    </div>
-  ))}
+            {[
+              {
+                title: "Research & Development",
+                description:
+                  "We study how people run, build the RunReady Performance Program, design exercise programs, work with the tech team and grade footwear to help runners move better.",
+              },
+              {
+                title: "RunReady Studio",
+                description:
+                  "RunReady Therapists deliver the RunReady Performance Program, providing expert assessments, precise footwear matching, and tailored exercise programs to improve running health.",
+              },
+              {
+                title: "Business Development",
+                description:
+                  "We connect with clinics, therapists, and industry partners to expand access to RunReady Performance Program—helping people run comfortably and perform better.",
+              },
+            ].map((block, index) => (
+              <div key={index} className="text-no-underline w-full">
+                <div className="box-border bg-white border border-black p-8 h-full flex flex-col justify-center items-center text-center">
+                  <div className="mb-6">
+                    <h3 className="text-black text-[1.4rem] lg:text-[1.625rem] leading-[1.3] font-bold">
+                      {block.title}
+                    </h3>
+                  </div>
+                  <div className="flex justify-center items-center">
+                    <p className="text-black  text-[14px] lg:text-[16px]">
+                      {block.description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
             {/* <div className="text-no-underline w-inline-block">
               <div class="box-border bg-white border border-1 border-black  p-8 overflow-hidden  lg:h-[474px] ">
               <div class=" gap-y-[11px] justify-end flex flex-col items-start xl:h-48 mb-6 ml-0 pl-0">
@@ -235,8 +236,7 @@ export default function Careers() {
                 </div>
               </div>
             </div> */}
-</div>
-
+          </div>
         </section>
         {/* <section
         style={{ margin: "0 auto" }}
@@ -314,7 +314,7 @@ export default function Careers() {
                     <div className="text-[1.4rem] lg:text-[1.625rem] lg:leading-[1.15] font-medium mt-6">
                       Be Part of Something Bigger
                     </div>
-                    <div className="text-[14px] lg:text-[16px]" >
+                    <div className="text-[14px] lg:text-[16px]">
                       Be part of something that moves running forward. Explore
                       open roles:
                     </div>
@@ -473,29 +473,27 @@ export default function Careers() {
         <div className="footer-gradient transparent">
           {/* <div className="mb-40"></div> */}
           <div className=" px-[2.5em] max-w-[1657px] wrapper  !mx-auto w-[100%]  relative z-[2]  mb-[-5em] ]">
-                <div className="flex flex-col lg:flex-row bg-black  justify-between items-center p-6 sm:p-[4em] gap-4 lg:gap-8">
-                  <div
-                    className={
-                      ppNeueMontreal.className +
-                      " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] ' text-white text-center lg:text-left "
-                    }
-                  >
-                Join our movement as we re-shape  the industry <br/> and help runners
-                run healthy across the globe
+            <div className="flex flex-col lg:flex-row bg-black  justify-between items-center p-6 sm:p-[4em] gap-4 lg:gap-8">
+              <div
+                className={
+                  ppNeueMontreal.className +
+                  " text-[1.5rem] lg:text-[2.5rem] leading-[1.2] ' text-white text-center lg:text-left "
+                }
+              >
+                Join our movement as we re-shape the industry <br /> and help
+                runners run healthy across the globe
               </div>
               <Link
                 className="btn-yellow-inverse border border-brand-yellow p-5 font-semibold text-center "
-                href="https://secure.collage.co/jobs/runasyouare
-"
+                href="https://secure.collage.co/jobs/runasyouare"
                 target="_blank"
               >
                 Open Roles
               </Link>
-              </div>
-              </div>
-              <div className="mb-[150px] "></div>
+            </div>
+          </div>
+          <div className="mb-[150px] "></div>
 
-        
           <Footer />
         </div>
       </div>

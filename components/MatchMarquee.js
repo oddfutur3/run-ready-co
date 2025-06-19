@@ -8,27 +8,19 @@ const MatchMarquee = (items) => {
     <section
       className={
         ppNeueMontreal.className +
-        " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[150px] "
+        " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[100px] "
       }
     >
       <div className="flex flex-col lg:flex-row w-full md:gap-x-4 wrapper-content">
         <div className="lg:w-1/2 xl:mt-[90px] mb-14 lg:mb-0 text-center lg:text-left">
-          <span className="font-medium  text-[16px]  lg:text-[18px] leading-[1.15] text-black">
-            One seamless system
-          </span>
-          <div
-            className={
-              ppNeueMontreal.className +
-              " text-[1.5rem] lg:text-[2.5rem] lg:leading-[1.15] font-medium mb-6"
-            }
-          >
-            Assess, Match, and Prescribe—all in one place
+              <p className="text-xs font-medium uppercase tracking-widest text-black ">
+            SHOP, GRADE & EARN
+          </p>
+          <div className="text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] mb-6">
+           Bought a pair from RunAsYouAre or thinking about it? You can grade it.
           </div>
-          <div className="  text-[14px] lg:text-[16px] lg:pr-5 ">
-            The RunReady Platform makes it easy for practitioners to deliver
-            RunReady Performance Program. Automated assessments, guided footwear
-            matching, and access to 1000s of personalized exercise programs keep
-            client care efficient and effective.
+              <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5">
+           You&apos;ll get $25 off each shoe you review, redeemable at RunAsYouAre. No application needed. Just follow the steps in your order confirmation to get started.
           </div>
         </div>
         <div className="lg:w-2/3 flex justify-end min-h-[265px] relative overflow-hidden border border-solid border-black">

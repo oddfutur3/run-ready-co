@@ -71,7 +71,7 @@ export default function HomeHero(items) {
                 ppNeueMontreal.className + " lg:w-[1022px] text-center mb-10"
               }
             >
-              <div className="text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] font-medium mb-10 lg:mb-6">
+              <div className="text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25]  mb-10 lg:mb-6">
                 Matched with top footwear brands
               </div>
               <div className="text-[16px] md:text-[20px]">
