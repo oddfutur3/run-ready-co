@@ -217,7 +217,7 @@ Earn $35 in RunAsYouAre Dollars per session.<br />
 
           <section
             className={
-              ppNeueMontreal.className + " wrapper  lg:w-[1222px] mx-auto "
+              ppNeueMontreal.className + " wrapper  lg:max-w-[1222px] mx-auto "
             }
             style={{ paddingBottom: "100px" }}
           >
@@ -269,7 +269,6 @@ Earn $35 in RunAsYouAre Dollars per session.<br />
                 >
 How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
               </div>
-              {/* BOUNCE */}
               <div className="flex flex-col items-center text-center space-y-[0.5rem]  ">
                 <div className="flex items-center gap-[0.5rem]">
                   <div className="text-brand-green">
@@ -442,7 +441,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                       </Link>
                     </div>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-center lg:justify-end">
               <div className="img-container relative ">
                 <img
                   src="/images/Untitled-design-48.png"
@@ -498,7 +497,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
             </div>
           </div>
           <div className="wrapper">
-            <div className="bg-white border border-black lg:w-[1022px] mx-auto p-6">
+            <div className="bg-white border border-black lg:max-w-[1022px] mx-auto p-6">
               {/* Section: General */}
               {[
                 {
