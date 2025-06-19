@@ -431,11 +431,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                 Ready to grade?
               </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
-                Once you&apos;re in the grader pool, we&apos;ll contact you each month
-                  with available times. Choose a slot, come to the RunReady
-                  Studio (inside RunAsYouAre), test multiple pairs, and submit
-                  your grades. Each session takes about an hour and is paid
-                  (amount TBD).
+               Be part of our next Footwear Grading Event on July 2 or 3 at RunAsYouAre. You&apos;ll run, grade, and earn credit to your RunAsYouAre account.
               </div>
                 <div className="mt-10 lg:text-left text-center">
                       <Link
