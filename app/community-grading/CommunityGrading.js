@@ -87,7 +87,7 @@ export default function CommunityGrading(items) {
                   }
                   style={{ lineHeight: "normal" }}
                 >
-                  How it works
+                  How to get in, test shoes, and earn credit
                 </div>
               </div>
             </div>
@@ -185,7 +185,7 @@ Earn $35 in RunAsYouAre Dollars per session.<br />
               <div className="flex justify-center flex-1 relative items-center">
                 <div className="img-container relative ">
                   <img
-                    src="/images/DSC_0954.JPG"
+                    src="/images/DSC_0863.JPG"
                     className="w-[500px] h-[500px]  border border-black object-cover"
                   />
                   {/* <div className="absolute bottom-2 left-2 bg-black bg-opacity-60 text-white text-sm px-3 py-1 rounded">

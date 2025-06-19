@@ -21,7 +21,8 @@ const MatchMarquee = (items) => {
            Bought a pair from RunAsYouAre or thinking about it? You can grade it.
           </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5">
-           You&apos;ll get $25 off each shoe you review, redeemable at RunAsYouAre. No application needed. Just follow the steps in your order confirmation to get started.
+          You&apos;ll earn RunAsYouAre credit for every shoe you test and grade, starting at $25, and up to $60 if you keep going. No application needed. Just follow the steps in your confirmation email to get started.
+
           </div>
                 <div className="mt-10 lg:text-left text-center">
                 <Link
