@@ -36,7 +36,7 @@ export default function CommunityGrading(items) {
         />
         <section className="relative z-20 wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-full max-w-[1657px] mx-auto text-center">
             <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10">
-                     <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">Community Grading Program</span>
+                     <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">BECOME A COMMUNITY GRADER</span>
             
               <div
                 className={
