@@ -377,7 +377,7 @@ export default function CommunityGrading(items) {
               </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2]">
                 Every shoe you grade comes straight from the RunAsYouAre
-                speciality shop, the same ones you'll see on their shelves.
+                speciality shop, the same ones you&apos;ll see on their shelves.
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-black select-none">
