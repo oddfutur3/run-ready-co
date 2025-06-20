@@ -533,7 +533,7 @@ export default function CommunityGrading(items) {
                   question:
                     "What do I receive in exchange for my participation?",
                   answer:
-                    "Your $35 for each completed session will be added to your RunAsYouAre account within 30 days. Details are shared during onboarding.",
+                    "You’ll earn $35 in RunAsYouAre Dollars for each completed session. This isn’t cash, it’s store credit you can use toward a future purchase at RunAsYouAre. Credit will be added to your account within 30 days. Full details are shared during onboarding.",
                 },
                 {
                   question: "Can I apply again if I’m not selected?",
