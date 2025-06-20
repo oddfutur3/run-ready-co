@@ -54,7 +54,7 @@ export default function ABCollectionsCardV2({ node }) {
                 className="group lg:w-[15rem] flex flex-col gap-[1rem]  border border-grey-400 hover:border-black  p-[1rem] mr-5"
         ref={cardRef}
       >
-        <div className="h-[225px] relative">
+        <div className="h-[225px] relative ">
           {/* Main product image */}
           <Image
             src={node?.featuredImage?.url}
@@ -63,7 +63,7 @@ export default function ABCollectionsCardV2({ node }) {
             sizes="120px"
             alt="Image of Shoe"
             className={
-              "object-contain transition-opacity duration-500 " +
+              "object-contain transition-opacity duration-500 select-none " +
               (secondImage ? "group-hover:opacity-0 " : "")
             }
           />
@@ -76,7 +76,7 @@ export default function ABCollectionsCardV2({ node }) {
               priority={true}
               alt="Image of Shoe"
               sizes="120px"
-                    className={"opacity-0 group-hover:opacity-100 transition-opacity duration-500 object-contain " 
+                    className={"opacity-0 group-hover:opacity-100 transition-opacity duration-500 object-contain select-none " 
            + (!showComingSoonTag && node.availableForSale ? "  " : "")}
             />
           )}
@@ -86,7 +86,7 @@ export default function ABCollectionsCardV2({ node }) {
 
           {/* 📏 Dynamic ABS/Short Form */}
         </div>
-        <div className="space-y-[0.25rem] body-text [&>*]:line-clamp-1">
+        <div className="space-y-[0.25rem] body-text [&>*]:line-clamp-1 select-none">
           <div className="text-[#000000]">{node?.title}</div>
           <span className="flex text-dark-200 w-[fit-content] text-xs ">
             {node?.vendor}
@@ -94,7 +94,7 @@ export default function ABCollectionsCardV2({ node }) {
         </div>
         <div className="w-full space-y-[0.5rem]">
           {/* ABSORB Row */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 select-none">
             <span className="text-xs w-[80px]">Absorb</span>
             <div className="flex-1 h-1 bg-grey-200   overflow-hidden">
               <div
@@ -104,7 +104,7 @@ export default function ABCollectionsCardV2({ node }) {
             </div>
           </div>
           {/* BOUNCE Row */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 select-none">
             <span className="text-xs w-[80px]">Bounce</span>
             <div className="flex-1 h-1 bg-grey-200   overflow-hidden">
               <div
@@ -114,7 +114,7 @@ export default function ABCollectionsCardV2({ node }) {
             </div>
           </div>
           {/* STABILITY Row */}
-          <div className="flex items-center space-x-2">
+          <div className="flex items-center space-x-2 select-none">
             <span className="text-xs w-[80px]">Stability</span>
             <div className="flex-1 h-1 bg-grey-200   overflow-hidden">
               <div

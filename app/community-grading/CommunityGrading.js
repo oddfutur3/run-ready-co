@@ -20,24 +20,26 @@ export default function CommunityGrading(items) {
     <div className="flex flex-col">
       <div className="">
         <NavBar />
-      <div className="relative w-full h-[92vh] flex items-center justify-center">
-        <Image
-          src="/images/WebsiteHero.svg"
-          alt="Community Grading Hero"
-          fill
-          sizes="100vw"
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-20 z-10" />
-        <img
-          src="/images/Lockup.svg"
-          className=" h-[50px]  md:h-[75px] absolute top-10 left-[1rem]  md:left-[4rem]  z-10"
-        />
-        <section className="relative z-20 wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-full max-w-[1657px] mx-auto text-center">
+        <div className="relative w-full h-[92vh] flex items-center justify-center">
+          <Image
+            src="/images/WebsiteHero.svg"
+            alt="Community Grading Hero"
+            fill
+            sizes="100vw"
+            priority
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-black bg-opacity-20 z-10" />
+          <img
+            src="/images/Lockup.svg"
+            className=" h-[50px]  md:h-[75px] absolute top-10 left-[1rem]  md:left-[4rem]  z-10"
+          />
+          <section className="relative z-20 wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-full max-w-[1657px] mx-auto text-center">
             <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10">
-                     <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">BECOME A COMMUNITY GRADER</span>
-            
+              <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">
+                BECOME A COMMUNITY GRADER
+              </span>
+
               <div
                 className={
                   ppNeueMontreal.className +
@@ -71,8 +73,8 @@ export default function CommunityGrading(items) {
     </div> 
     */}
             </div>
-        </section>
-      </div>
+          </section>
+        </div>
         <div>
           <section className=" mb-10 font-secondary pt-[100px]">
             <div className="flex justify-center">
@@ -115,7 +117,7 @@ export default function CommunityGrading(items) {
                         <div>
                           <span className="font-medium  text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             Apply to join one of our in-person grading events.
-                          </span>          
+                          </span>
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
@@ -126,7 +128,6 @@ export default function CommunityGrading(items) {
                           <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             If accepted, we&apos;ll onboard you as a grader.
                           </span>
-
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
@@ -137,7 +138,6 @@ export default function CommunityGrading(items) {
                           <span className="font-medium text-[16px] lg:text-[18px] leading-[1.15] text-black">
                             Your name is part of our grader pool.
                           </span>
-
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
@@ -149,7 +149,6 @@ export default function CommunityGrading(items) {
                             Every month, we&apos;ll reach out with available
                             timeslots.
                           </span>
-
                         </div>
                       </li>
                       <li className="text-subtitle2 flex py-6 gap-4 items-center border-b border-black last:border-0">
@@ -164,15 +163,16 @@ export default function CommunityGrading(items) {
                       </li>
                     </ul>
                     <div className="text-black font-semibold text-[16px] lg:text-[18px]">
-Earn $35 in RunAsYouAre Dollars per session.<br />
-                     
- <span className="font-normal italic">
-                       It&apos;s not cash. It&apos;s a credit added to your RunAsYouAre account within 30 days.
+                      Earn $35 in RunAsYouAre Dollars per session.
+                      <br />
+                      <span className="font-normal italic">
+                        It&apos;s not cash. It&apos;s a credit added to your
+                        RunAsYouAre account within 30 days.
                       </span>
                     </div>
                     <div className="mt-6">
                       <Link
-                        href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
+                        href="https://runasyouare.typeform.com/to/e06LjsNo"
                         target="_blank"
                         className="btn-yellow block w-[fit-content] cursor-pointer hover:opacity-80"
                       >
@@ -267,7 +267,8 @@ Earn $35 in RunAsYouAre Dollars per session.<br />
                     " text-[0.875rem] leading-[1.4] text-dark-200 max-w-[20rem]"
                   }
                 >
-How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
+                  How cushioned it feels <br /> (1 = firm, 10 = soft){" "}
+                </div>
               </div>
               <div className="flex flex-col items-center text-center space-y-[0.5rem]  ">
                 <div className="flex items-center gap-[0.5rem]">
@@ -289,7 +290,8 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                     " text-[0.875rem] leading-[1.4] text-dark-200 max-w-[20rem]"
                   }
                 >
-                  How much it helps you push forward  <br/>  (1 = flat, 10 = springy)
+                  How much it helps you push forward <br /> (1 = flat, 10 =
+                  springy)
                 </div>
               </div>
               {/* STABILITY */}
@@ -313,7 +315,8 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                     " text-[0.875rem] leading-[1.4] text-dark-200 max-w-[20rem]"
                   }
                 >
-                 How steady and supported it feels <br/> (1 = wobbly, 10 = very stable)
+                  How steady and supported it feels <br /> (1 = wobbly, 10 =
+                  very stable)
                 </div>
               </div>
             </section>
@@ -336,10 +339,11 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                 The brands you&apos;ll help grade
               </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2]">
-                Every shoe you grade comes straight from the RunAsYouAre speciality shop, the same ones you&apos;ll see on their shelves.
+                Every shoe you grade comes straight from the RunAsYouAre
+                speciality shop, the same ones you&apos;ll see on their shelves.
               </div>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-black">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-black select-none">
               <div className="flex justify-center">
                 <img
                   src="/images/partner-logos/adidas_mountain_logo.svg"
@@ -409,7 +413,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
           </div>
         </section>
 
-                       <section
+        <section
           className={
             ppNeueMontreal.className +
             " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[100px] "
@@ -417,7 +421,7 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
         >
           <div className="lg:grid grid-cols-2 w-full  md:gap-x-4 wrapper-content">
             <div className=" xl:mt-[90px]   xl:w-[560px] mb-14 lg:mb-0 text-center lg:text-left">
-                <p className="text-xs uppercase font-medium  tracking-widest text-black ">
+              <p className="text-xs uppercase font-medium  tracking-widest text-black ">
                 Join Us
               </p>
               <div
@@ -429,17 +433,19 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                 Ready to grade?
               </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
-               Be part of our next Footwear Grading Event on July 2 or 3 at RunAsYouAre. You&apos;ll run, grade, and earn credit to your RunAsYouAre account.
+                Be part of our next Footwear Grading Event on July 2 or 3 at
+                RunAsYouAre. You&apos;ll run, grade, and earn credit to your
+                RunAsYouAre account.
               </div>
-                <div className="mt-7 lg:text-left text-center">
-                      <Link
-                        href="https://runasyouare.typeform.com/to/e06LjsNo?typeform-source=www.google.com"
-                        target="_blank"
-                        className="btn-yellow inline-block w-[fit-content] cursor-pointer hover:opacity-80"
-                      >
-                        Apply Now
-                      </Link>
-                    </div>
+              <div className="mt-7 lg:text-left text-center">
+                <Link
+                  href="https://runasyouare.typeform.com/to/e06LjsNo"
+                  target="_blank"
+                  className="btn-yellow inline-block w-[fit-content] cursor-pointer hover:opacity-80"
+                >
+                  Apply Now
+                </Link>
+              </div>
             </div>
             <div className="flex justify-center lg:justify-end">
               <div className="img-container relative ">
@@ -487,12 +493,9 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
           </div>
         </div> */}
 
-        <div
-          className=" pt-[100px] footer-gradient "
-      
-        >
+        <div className=" pt-[100px] footer-gradient ">
           <div id="faq" className="text-center mb-8">
-          <div className="text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] mb-10 lg:mb-6">
+            <div className="text-[1.5rem] lg:text-[2.5rem] leading-[1.28]  lg:leading-[1.25] mb-10 lg:mb-6">
               Frequently Asked Questions
             </div>
           </div>
@@ -521,7 +524,8 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                     "No. You’re testing pairs from our footwear lineup to help refine the grades for others.",
                 },
                 {
-                  question: "What do I receive in exchange for my participation?",
+                  question:
+                    "What do I receive in exchange for my participation?",
                   answer:
                     "Your $35 for each completed session will be added to your RunAsYouAre account within 30 days. Details are shared during onboarding.",
                 },
@@ -530,7 +534,6 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
                   answer:
                     "Yes. RunReady opens applications before each new round, and you’re always welcome to reapply.",
                 },
-               
               ].map((faq, index) => (
                 <div
                   key={index}
@@ -554,7 +557,6 @@ How cushioned it feels  <br/>  (1 = firm, 10 = soft)                </div>
           </div>
           {/* <div className="mb-40"></div> */}
           <div className="mb-[100px] "></div>
-
           <Footer />
         </div>
       </div>
