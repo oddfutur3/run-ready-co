@@ -35,7 +35,7 @@ export default function CommunityGrading(items) {
             className=" h-[50px]  md:h-[75px] absolute top-10 left-[1rem]  md:left-[4rem]  z-10"
           />
           <section className="relative z-20 wrapper flex flex-col-reverse lg:flex-row items-center justify-center h-full max-w-[1657px] mx-auto text-center">
-            <div className="text-white flex flex-col w-full lg:w-[800px] h-full justify-center text-center z-10">
+            <div className="text-white flex flex-col w-full lg:w-[850px] h-full justify-center text-center z-10">
               <span className=" text-[38px] lg:text-5xl   text-[transparent]  [-webkit-text-stroke:3px_#EDFC34] uppercase font-semibold ">
                 BECOME A COMMUNITY GRADER
               </span>
@@ -57,21 +57,11 @@ export default function CommunityGrading(items) {
                   " text-[16px] md:text-[20px]  leading-[1.4] lg:leading-[1.2] text-white"
                 }
               >
-                We grade every shoe at RunAsYouAre. As a community grader,
-                you&apos;ll help us refine those grades so more people can find
-                shoes that match how their body moves.
+                We grade every shoe at RunAsYouAre, a run specialty shop in
+                Vancouver. As a community grader, you&apos;ll help fine-tune
+                those grades so more people can find shoes that match how they
+                move.
               </span>
-              {/* 
-    <div className="mt-10">
-      <Link
-        href="https://runready.janeapp.com/"
-        target="_blank"
-        className="btn-black"
-      >
-        Get started today
-      </Link>
-    </div> 
-    */}
             </div>
           </section>
         </div>
@@ -240,12 +230,16 @@ export default function CommunityGrading(items) {
                   " mt-10 wrapper  text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2]"
                 }
               >
-                We review all feedback before grades go live. Submitted grades
-                are weighted based on your running and activity level to keep
-                results consistent, accurate, and fair.
+                Every footwear is graded for Absorb, Bounce, and Stability.
+                Submitted grades are weighted based on your running and activity
+                level to keep results consistent, accurate, and fair.
+              </p>
+              <br/>
+              <p className="italic">
+                We review all submissions before grades go live. 
               </p>
             </div>
-            <section className="!mt-[1rem] sm:!mt-[1.5rem] md:!mt-[2rem] xl:!mt-[3rem] grid grid-cols-1 gap-[1rem] md:grid-cols-3 md:gap-[2rem] bg-grey-100 w-full h-auto md:h-[15.0625rem]  items-center justify-items-center p-[1rem] sm:p-[1.5rem] md:p-[2rem] xl:p-[2.5rem]">
+            <section className="!mt-[2rem]  grid grid-cols-1 gap-[1rem] md:grid-cols-3 md:gap-[2rem] bg-grey-100 w-full h-auto md:h-[15.0625rem]  items-center justify-items-center p-[1rem] sm:p-[1.5rem] md:p-[2rem] xl:p-[2.5rem]">
               {/* ABSORB */}
               <div className="flex flex-col items-center text-center space-y-[0.5rem]  ">
                 <div className="flex items-center gap-[0.5rem]">
@@ -322,10 +316,53 @@ export default function CommunityGrading(items) {
             </section>
           </section>
         </div>
-
+        {/* <section
+          className={
+            ppNeueMontreal.className +
+            " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[100px] "
+          }
+        >
+          <div className="lg:grid grid-cols-2 w-full  md:gap-x-4 wrapper-content">
+            <div className=" xl:mt-[90px]   xl:w-[560px] mb-14 lg:mb-0 text-center lg:text-left">
+              <p className="text-xs uppercase font-medium  tracking-widest text-black ">
+                Join Us
+              </p>
+              <div
+                className={
+                  ppNeueMontreal.className +
+                  " text-[1.5rem] lg:text-[2.5rem] lg:leading-[1.15] font-medium mb-6"
+                }
+              >
+                Ready to grade?
+              </div>
+              <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
+                Be part of our next Footwear Grading Event on July 2 or 3 at
+                RunAsYouAre. You&apos;ll run, grade, and earn credit to your
+                RunAsYouAre account.
+              </div>
+              <div className="mt-7 lg:text-left text-center">
+                <Link
+                  href="https://runasyouare.typeform.com/to/e06LjsNo"
+                  target="_blank"
+                  className="btn-yellow inline-block w-[fit-content] cursor-pointer hover:opacity-80"
+                >
+                  Apply Now
+                </Link>
+              </div>
+            </div>
+            <div className="flex justify-center lg:justify-end">
+              <div className="img-container relative ">
+                <img
+                  src="/images/Untitled-design-48.png"
+                  className="w-full xl:h-[444px] border border-1 border-black  object-cover object-center"
+                />
+              </div>
+            </div>
+          </div>
+        </section> */}
         <MatchMarquee items={items} />
 
-        <section className="wrapper mb-[100px]    ">
+        <section className="wrapper     ">
           <div className="wrapper-content flex flex-col items-center justify-center">
             <div
               className={
@@ -340,7 +377,7 @@ export default function CommunityGrading(items) {
               </div>
               <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2]">
                 Every shoe you grade comes straight from the RunAsYouAre
-                speciality shop, the same ones you&apos;ll see on their shelves.
+                speciality shop, the same ones you'll see on their shelves.
               </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-between gap-y-10 px-1 py-6 lg:py-12 lg:gap-y-20 lg:px-24 w-full lg:gap-x-20 border-t border-b border-solid border-0 border-black select-none">
@@ -407,56 +444,12 @@ export default function CommunityGrading(items) {
             </div>
             <div
               className={
-                ppNeueMontreal.className + " lg:w-[920px] lg:text-center mt-10"
+                ppNeueMontreal.className + " lg:w-[920px] lg:text-center "
               }
             ></div>
           </div>
         </section>
 
-        <section
-          className={
-            ppNeueMontreal.className +
-            " wrapper max-w-[1657px] flex flex-col  justify-start lg:justify-center relative  mx-auto mb-[100px] "
-          }
-        >
-          <div className="lg:grid grid-cols-2 w-full  md:gap-x-4 wrapper-content">
-            <div className=" xl:mt-[90px]   xl:w-[560px] mb-14 lg:mb-0 text-center lg:text-left">
-              <p className="text-xs uppercase font-medium  tracking-widest text-black ">
-                Join Us
-              </p>
-              <div
-                className={
-                  ppNeueMontreal.className +
-                  " text-[1.5rem] lg:text-[2.5rem] lg:leading-[1.15] font-medium mb-6"
-                }
-              >
-                Ready to grade?
-              </div>
-              <div className="text-[16px] md:text-[20px]  leading-[1.4]  lg:leading-[1.2] lg:pr-5 ">
-                Be part of our next Footwear Grading Event on July 2 or 3 at
-                RunAsYouAre. You&apos;ll run, grade, and earn credit to your
-                RunAsYouAre account.
-              </div>
-              <div className="mt-7 lg:text-left text-center">
-                <Link
-                  href="https://runasyouare.typeform.com/to/e06LjsNo"
-                  target="_blank"
-                  className="btn-yellow inline-block w-[fit-content] cursor-pointer hover:opacity-80"
-                >
-                  Apply Now
-                </Link>
-              </div>
-            </div>
-            <div className="flex justify-center lg:justify-end">
-              <div className="img-container relative ">
-                <img
-                  src="/images/Untitled-design-48.png"
-                  className="w-full xl:h-[444px] border border-1 border-black  object-cover object-center"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
         {/* <div className="mb-40"></div> */}
         {/* <div className=" px-[2.5em] max-w-[1657px] wrapper  !mx-auto w-[100%]  relative z-[2]  ">
           <div className="flex flex-col lg:flex-row bg-black  justify-between items-center p-6 sm:p-[2em] gap-4 lg:gap-8">
@@ -507,6 +500,19 @@ export default function CommunityGrading(items) {
                   question: "Do I need to be a seasoned runner?",
                   answer:
                     "No. This is open to walkers, joggers, new runners, seasoned runners, and anyone who moves regularly. A mix of movement styles gives our team deeper insight.",
+                },
+                  {
+                  question: "Is onboarding the same as grading?",
+                  answer:
+                    "Onboarding is a one-time, two-part training. On day one, you’ll learn how the grading process works. On day two, you’ll do your first round of grading as part of the training."
+                },  {
+                  question: "What happens after onboarding?",
+                  answer:
+                    "Once you complete it, you’ll be added to the grader pool. From there, we’ll invite you to future grading sessions where you can start testing shoes and earning credit.",
+                },  {
+                  question: "Do I get credit for attending onboarding?",
+                  answer:
+                    "Once you complete both sessions, you’ll be added to the grader pool. From there, we’ll invite you to official grading sessions, these are the ones where you’ll earn RunAsYouAre credit. You won’t earn credit during onboarding, even though you’ll practice grading on day two.",
                 },
                 {
                   question: "Where do I grade the shoes?",
